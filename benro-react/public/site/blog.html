@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Blog &amp; Events — Benro Industries · HVAC Insights</title>
+<meta name="description" content="BENRO INDUSTRIES blog — technical guides, product spotlights and event recaps from Algeria's leading HVAC components manufacturer." />
+<!-- Social SEO -->
+<meta property="og:title" content="Benro Industries Blog — HVAC&amp;R Insights, Products &amp; Events" />
+<meta property="og:description" content="BENRO INDUSTRIES blog — technical guides, product spotlights and event recaps from Algeria&#x27;s leading HVAC components manufacturer." />
+<meta property="og:image" content="https://www.benroindustries.com/assets/images/benro-logo.png" />
+<meta property="og:url" content="https://www.benroindustries.com/blog.html" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Benro Industries Blog — HVAC&amp;R Insights, Products &amp; Events" />
+<meta name="twitter:description" content="BENRO INDUSTRIES blog — technical guides, product spotlights and event recaps from Algeria&#x27;s leading HVAC components manufacturer." />
+<meta name="twitter:image" content="https://www.benroindustries.com/assets/images/benro-logo.png" />
+<link rel="canonical" href="https://www.benroindustries.com/blog.html" />
+<!-- /Social SEO -->
+<link rel="icon" type="image/png" href="assets/images/benro-logo.png" />
+<link rel="stylesheet" href="assets/css/shared.css" />
+<style>
+:root{
+    --brand:#E45911; --brand-600:#c84a09; --brand-50:#FFF1E9;
+    --ink:#1F2937; --ink-2:#3D4F5F; --muted:#5A6577;
+    --line:#E7EBEE; --surface:#FBFBFC; --surface-2:#F3F5F7;
+    --white:#ffffff;
+    --shadow-sm:0 1px 2px rgba(17,24,39,.04), 0 1px 3px rgba(17,24,39,.06);
+    --shadow-md:0 8px 24px -8px rgba(17,24,39,.12), 0 4px 8px -4px rgba(17,24,39,.08);
+    --shadow-lg:0 24px 48px -16px rgba(17,24,39,.18);
+    --container:1240px;
+    --font:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+
+.bhero{
+    padding:72px 0 80px;
+    background:
+      radial-gradient(1100px 580px at 90% -10%, rgba(228,89,17,.10), transparent 60%),
+      radial-gradient(800px 460px at -10% 110%, rgba(11,61,145,.08), transparent 60%),
+      linear-gradient(180deg,#fff 0%, var(--surface) 100%);
+  }
+
+.bhero__wrap{text-align:center;max-width:760px;margin:0 auto}
+
+.bhero h1{margin-top:18px}
+
+.bhero h1 .accent{background:linear-gradient(90deg,var(--brand) 0%, #f4a045 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.bhero p{margin-top:18px;font-size:17.5px;color:var(--ink-2)}
+
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 32px}
+
+.toolbar__filters{display:flex;flex-wrap:wrap;gap:8px}
+
+.chip{
+    display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;
+    background:#fff;border:1.5px solid var(--line);color:var(--ink-2);font-weight:600;font-size:13.5px;cursor:pointer;
+    transition:.15s;user-select:none;font:inherit;
+  }
+
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+
+.chip.is-active{background:var(--brand);color:#fff;border-color:var(--brand);box-shadow:0 6px 16px -6px rgba(228,89,17,.5)}
+
+.search{position:relative;min-width:260px;flex:1;max-width:380px}
+
+.search input{
+    width:100%;padding:11px 14px 11px 40px;font:inherit;font-size:14.5px;
+    border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);
+    transition:.15s;
+  }
+
+html[dir="rtl"] .search input{padding:11px 40px 11px 14px}
+
+.search input:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 4px rgba(228,89,17,.12)}
+
+.search svg{position:absolute;top:50%;left:14px;transform:translateY(-50%);width:16px;height:16px;color:var(--muted);pointer-events:none}
+
+html[dir="rtl"] .search svg{left:auto;right:14px}
+
+@media (max-width:520px){.search{min-width:0;max-width:none;width:100%}}
+
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+@media (max-width:980px){.pgrid{grid-template-columns:repeat(2,1fr)}}
+
+@media (max-width:640px){.pgrid{grid-template-columns:1fr}}
+
+.pcard{
+    background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    transition:transform .25s,box-shadow .25s,border-color .25s;
+    display:flex;flex-direction:column;
+  }
+
+.pcard:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:#dbe2ea}
+
+.pcard__media{aspect-ratio:16/10;background:var(--surface-2);overflow:hidden;position:relative}
+
+.pcard__media img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+
+.pcard:hover .pcard__media img{transform:scale(1.04)}
+
+.pcard__cat{
+    position:absolute;top:12px;left:12px;
+    background:rgba(255,255,255,.95);backdrop-filter:blur(6px);
+    color:var(--brand);font-size:11.5px;font-weight:800;letter-spacing:.08em;
+    text-transform:uppercase;padding:5px 10px;border-radius:999px;
+  }
+
+html[dir="rtl"] .pcard__cat{left:auto;right:12px}
+
+.pcard__body{padding:22px 22px 24px;display:flex;flex-direction:column;gap:10px;flex:1}
+
+.pcard__meta{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+
+.pcard__meta .sep{opacity:.5}
+
+.pcard__body h3{font-size:18px;line-height:1.35}
+
+.pcard__body h3 a{color:inherit}
+
+.pcard__body h3 a:hover{color:var(--brand)}
+
+.pcard__body p{color:var(--ink-2);font-size:14.5px;flex:1}
+
+.pcard__more{
+    margin-top:6px;display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--brand);font-size:14px;
+    align-self:flex-start;border-bottom:2px solid transparent;padding-bottom:2px;transition:.15s gap;
+  }
+
+.pcard__more:hover{gap:10px;border-color:var(--brand)}
+
+html[dir="rtl"] .pcard__more svg{transform:scaleX(-1)}
+
+.empty{
+    text-align:center;padding:64px 20px;color:var(--muted);
+    border:1.5px dashed var(--line);border-radius:18px;display:none;
+  }
+
+.empty.show{display:block}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to main content</a>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="left hide-sm">
+      <a href="tel:+213554250110"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+213 554 25 01 10</a>
+      <span class="sep">•</span>
+      <a href="mailto:contact@benroindustries.com"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>contact@benroindustries.com</a>
+    </div>
+    <div class="right">
+      <span class="hide-sm" data-i18n="topbar.tagline">Algeria 🇩🇿 · HVAC&amp;R Manufacturer</span>
+      <span class="sep hide-sm">•</span>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-btn" id="langTrigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10A15.3 15.3 0 0 1 8 12 15.3 15.3 0 0 1 12 2z"/></svg>
+          <span id="langCurrent">EN</span>
+          <svg class="caret" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="listbox">
+          <li><button type="button" role="option" data-lang="en"><span>🇬🇧</span> English</button></li>
+          <li><button type="button" role="option" data-lang="fr"><span>🇫🇷</span> Français</button></li>
+          <li><button type="button" role="option" data-lang="ar"><span>🇩🇿</span> العربية</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="siteHeader">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><img src="assets/images/benro-logo.png" alt="Benro Industries"/></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#products" data-i18n="nav.products">Products</a>
+      <a href="index.html#why" data-i18n="nav.why">Why Benro</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="blog.html" class="is-active" data-i18n="nav.blog">Blog</a>
+      <a href="index.html#partners" data-i18n="nav.clients">Clients</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a href="index.html#products" class="btn btn--ghost" data-i18n="cta.browse">Browse catalogue</a>
+      <a href="quote.html" class="btn btn--primary"><span data-i18n="cta.quote">Get a Quote</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<aside class="mnav" id="mnav" aria-label="Mobile menu">
+  <button class="mnav-close" id="mnavClose" aria-label="Close menu">×</button>
+  <a href="index.html#products" data-i18n="nav.products">Products</a>
+  <a href="index.html#why" data-i18n="nav.why">Why Benro</a>
+  <a href="about.html" data-i18n="nav.about">About</a>
+  <a href="blog.html" data-i18n="nav.blog">Blog</a>
+  <a href="index.html#partners" data-i18n="nav.clients">Clients</a>
+  <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  <a href="quote.html" class="btn btn--primary" data-i18n="cta.quote">Get a Quote</a>
+</aside>
+
+<!-- BREADCRUMB -->
+<nav class="crumbs" aria-label="Breadcrumb">
+  <div class="container crumbs__inner">
+    <a href="index.html" data-i18n="crumb.home">Home</a>
+    <span class="sep">›</span>
+    <span class="current" data-i18n="crumb.blog">Blog</span>
+  </div>
+</nav>
+
+<!-- BLOG HERO -->
+<section class="bhero" id="main-content">
+  <div class="container bhero__wrap">
+    <span class="badge" data-i18n="blog.hero.eyebrow">BENRO Journal</span>
+    <h1 data-i18n-html="blog.hero.title">Blogs <span class="accent">&amp; Events</span></h1>
+    <p data-i18n="blog.hero.lead">Insights, technical guides and milestones from BENRO INDUSTRIES — HVAC components made in Algeria.</p>
+  </div>
+</section>
+
+<!-- LIST -->
+<section style="padding:56px 0 96px">
+  <div class="container">
+    <div class="toolbar">
+      <div class="toolbar__filters" id="filters">
+        <button class="chip is-active" data-cat="All"><span data-i18n="blog.filter.all">All</span></button><button class="chip" data-cat="Comparison"><span data-i18n="cat.Comparison">Comparison</span></button><button class="chip" data-cat="Entreprise"><span data-i18n="cat.Entreprise">Entreprise</span></button><button class="chip" data-cat="Events"><span data-i18n="cat.Events">Events</span></button><button class="chip" data-cat="Guide"><span data-i18n="cat.Guide">Guide</span></button><button class="chip" data-cat="Products"><span data-i18n="cat.Products">Products</span></button><button class="chip" data-cat="Produits"><span data-i18n="cat.Produits">Produits</span></button><button class="chip" data-cat="Regional"><span data-i18n="cat.Regional">Regional</span></button><button class="chip" data-cat="Technical"><span data-i18n="cat.Technical">Technical</span></button>
+      </div>
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input id="search" type="search" placeholder="Search articles…" data-i18n-ph="blog.search.ph" aria-label="Search" />
+      </label>
+    </div>
+
+    <div class="pgrid" id="pgrid">
+        <article class="pcard reveal" data-cat="Guide" data-search="benro industries: a trusted name in hvac solutions why hvac professionals across algeria and beyond rely on benro industries for premium copper, aluminium and pe-foam components compliant with en 12735. guide benro industries: a trusted name in hvac solutions why hvac professionals across algeria and beyond rely on benro industries for premium copper, aluminium and pe-foam components compliant with en 12735. guide benro industries: un nom de confiance dans les solutions cvc pourquoi les professionnels du cvc en algérie et au-delà font confiance à benro industries pour des composants en cuivre, aluminium et mousse pe de qualité supérieure conformes à la norme en 12735. guide benro industries: اسم موثوق به في حلول التدفئة والتهوية وتكييف الهواء (hvac). لماذا يعتمد متخصصو التدفئة والتهوية وتكييف الهواء في جميع أنحاء الجزائر وخارجها على benro industries للحصول على مكونات ممتازة من النحاس والألمنيوم ورغوة البولي إيثيلين المتوافقة مع en 12735. مرشد">
+          <a href="blog/benro-industries-a-trusted-name-in-hvac-solutions.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-03-12.png" srcset="assets/images/blog/cover-blog-2025-03-12-400.webp 400w, assets/images/blog/cover-blog-2025-03-12-800.webp 800w, assets/images/blog/cover-blog-2025-03-12-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Benro Industries: A Trusted Name in HVAC Solutions" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Guide">Guide</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-04-12" data-i18n="post.benro-industries-a-trusted-name-in-hvac-solutions.date">April 12, 2025</time>
+            </div>
+            <h3><a href="blog/benro-industries-a-trusted-name-in-hvac-solutions.html" data-i18n-html="post.benro-industries-a-trusted-name-in-hvac-solutions.title">Benro Industries: A Trusted Name in HVAC Solutions</a></h3>
+            <p data-i18n="post.benro-industries-a-trusted-name-in-hvac-solutions.excerpt">Why HVAC professionals across Algeria and beyond rely on Benro Industries for premium copper, aluminium and PE-foam components compliant with EN 12735.</p>
+            <a href="blog/benro-industries-a-trusted-name-in-hvac-solutions.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Technical" data-search="en 12735 copper tube: the essential guide for hvac &amp;amp; refrigeration systems everything hvac contractors need to know about the en 12735 standard: pressure ratings, comparison with astm b280, and btu-loss benchmarks. technical en 12735 copper tube: the essential guide for hvac &amp;amp; refrigeration systems everything hvac contractors need to know about the en 12735 standard: pressure ratings, comparison with astm b280, and btu-loss benchmarks. technical tube en cuivre en 12735: le guide essentiel pour les systèmes cvc et de réfrigération tout ce que les entrepreneurs en cvc doivent savoir sur la norme en 12735: pressions nominales, comparaison avec astm b280 et tests de perte de btu. technique en 12735 الأنبوب النحاسي: الدليل الأساسي لأنظمة التدفئة والتهوية وتكييف الهواء والتبريد كل ما يحتاج مقاولو التدفئة والتهوية وتكييف الهواء (hvac) إلى معرفته حول معيار en 12735: تقييمات الضغط، والمقارنة مع astm b280، ومعايير خسارة btu. اِصطِلاحِيّ">
+          <a href="blog/en-12735-copper-tube-the-essential-guide.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-02-25-cu.png" srcset="assets/images/blog/cover-blog-2025-02-25-cu-400.webp 400w, assets/images/blog/cover-blog-2025-02-25-cu-800.webp 800w, assets/images/blog/cover-blog-2025-02-25-cu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="EN 12735 Copper Tube: The Essential Guide for HVAC &amp;amp; Refrigeration Systems" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Technical">Technical</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-04-10" data-i18n="post.en-12735-copper-tube-the-essential-guide.date">April 10, 2025</time>
+            </div>
+            <h3><a href="blog/en-12735-copper-tube-the-essential-guide.html" data-i18n-html="post.en-12735-copper-tube-the-essential-guide.title">EN 12735 Copper Tube: The Essential Guide for HVAC &amp; Refrigeration Systems</a></h3>
+            <p data-i18n="post.en-12735-copper-tube-the-essential-guide.excerpt">Everything HVAC contractors need to know about the EN 12735 standard: pressure ratings, comparison with ASTM B280, and BTU-loss benchmarks.</p>
+            <a href="blog/en-12735-copper-tube-the-essential-guide.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Products" data-search="enhancing hvac efficiency with insulated aluminium tubes how twin insulated aluminium tubes deliver thermal efficiency, lighter installs, and corrosion resistance for modern hvac systems. products enhancing hvac efficiency with insulated aluminium tubes how twin insulated aluminium tubes deliver thermal efficiency, lighter installs, and corrosion resistance for modern hvac systems. products améliorer l&#x27;efficacité cvc avec des tubes en aluminium isolés comment les tubes en aluminium à double isolation offrent une efficacité thermique, des installations plus légères et une résistance à la corrosion pour les systèmes cvc modernes. produits تعزيز كفاءة التدفئة والتهوية وتكييف الهواء (hvac) باستخدام أنابيب الألومنيوم المعزولة كيف توفر أنابيب الألومنيوم المعزولة المزدوجة الكفاءة الحرارية والتركيبات الأخف وزنًا ومقاومة التآكل لأنظمة التدفئة والتهوية وتكييف الهواء (hvac) الحديثة. منتجات">
+          <a href="blog/enhancing-hvac-efficiency-with-insulated-aluminum-tubes.html" class="pcard__media">
+            <img src="assets/images/twin-aluminium.png" srcset="assets/images/twin-aluminium-400.webp 400w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Enhancing HVAC Efficiency with Insulated Aluminium Tubes" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Products">Products</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-04-03" data-i18n="post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.date">April 3, 2025</time>
+            </div>
+            <h3><a href="blog/enhancing-hvac-efficiency-with-insulated-aluminum-tubes.html" data-i18n-html="post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.title">Enhancing HVAC Efficiency with Insulated Aluminium Tubes</a></h3>
+            <p data-i18n="post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.excerpt">How twin insulated aluminium tubes deliver thermal efficiency, lighter installs, and corrosion resistance for modern HVAC systems.</p>
+            <a href="blog/enhancing-hvac-efficiency-with-insulated-aluminum-tubes.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Comparison" data-search="insulated copper vs. standard copper tubes: which one is best for your hvac system? side-by-side comparison of insulated vs. standard copper tubes — btu loss tables, sizing tips, and when to pick each one. comparison insulated copper vs. standard copper tubes: which one is best for your hvac system? side-by-side comparison of insulated vs. standard copper tubes — btu loss tables, sizing tips, and when to pick each one. comparison tubes en cuivre isolés ou tubes en cuivre standard: lequel convient le mieux à votre système cvc? comparaison côte à côte des tubes en cuivre isolés et standards: tableaux de perte en btu, conseils de dimensionnement et quand choisir chacun d&#x27;entre eux. comparaison النحاس المعزول مقابل أنابيب النحاس القياسية: أيهما أفضل لنظام التدفئة والتهوية وتكييف الهواء لديك؟ مقارنة جنبًا إلى جنب بين الأنابيب النحاسية المعزولة والأنابيب النحاسية القياسية - جداول خسارة btu، ونصائح الحجم، ومتى يتم اختيار كل منها. مقارنة">
+          <a href="blog/insulated-copper-vs-standard-copper-tubes.html" class="pcard__media">
+            <img src="assets/images/insulated-copper-tubes.png" srcset="assets/images/insulated-copper-tubes-400.webp 400w, assets/images/insulated-copper-tubes-800.webp 800w, assets/images/insulated-copper-tubes-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Insulated Copper vs. Standard Copper Tubes: Which One is Best for Your HVAC System?" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Comparison">Comparison</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-03-19" data-i18n="post.insulated-copper-vs-standard-copper-tubes.date">March 19, 2025</time>
+            </div>
+            <h3><a href="blog/insulated-copper-vs-standard-copper-tubes.html" data-i18n-html="post.insulated-copper-vs-standard-copper-tubes.title">Insulated Copper vs. Standard Copper Tubes: Which One is Best for Your HVAC System?</a></h3>
+            <p data-i18n="post.insulated-copper-vs-standard-copper-tubes.excerpt">Side-by-side comparison of insulated vs. standard copper tubes — BTU loss tables, sizing tips, and when to pick each one.</p>
+            <a href="blog/insulated-copper-vs-standard-copper-tubes.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Guide" data-search="the ultimate guide to insulated copper tubes for air conditioners insulated copper tubes, btu sizing tables by room area, copper vs aluminium statistics, and how to pick the right tube for your ac. guide the ultimate guide to insulated copper tubes for air conditioners insulated copper tubes, btu sizing tables by room area, copper vs aluminium statistics, and how to pick the right tube for your ac. guide le guide ultime des tubes de cuivre isolés pour climatiseurs tubes en cuivre isolés, tableaux de dimensionnement en btu par zone de pièce, statistiques cuivre/aluminium et comment choisir le tube adapté à votre climatiseur. guide الدليل النهائي لأنابيب النحاس المعزولة لمكيفات الهواء الأنابيب النحاسية المعزولة، وجداول تحجيم btu حسب مساحة الغرفة، وإحصائيات النحاس مقابل الألومنيوم، وكيفية اختيار الأنبوب المناسب لمكيف الهواء لديك. مرشد">
+          <a href="blog/the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.html" class="pcard__media">
+            <img src="assets/images/insulated-copper-tubes.png" srcset="assets/images/insulated-copper-tubes-400.webp 400w, assets/images/insulated-copper-tubes-800.webp 800w, assets/images/insulated-copper-tubes-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="The Ultimate Guide to Insulated Copper Tubes for Air Conditioners" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Guide">Guide</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-03-16" data-i18n="post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.date">March 16, 2025</time>
+            </div>
+            <h3><a href="blog/the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.html" data-i18n-html="post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.title">The Ultimate Guide to Insulated Copper Tubes for Air Conditioners</a></h3>
+            <p data-i18n="post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.excerpt">Insulated copper tubes, BTU sizing tables by room area, copper vs aluminium statistics, and how to pick the right tube for your AC.</p>
+            <a href="blog/the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Guide" data-search="insulated copper tube: the ultimate solution for efficient hvac systems why insulated copper tubes are the backbone of modern hvac systems — and how to pick the right one against en12735 / astm. guide insulated copper tube: the ultimate solution for efficient hvac systems why insulated copper tubes are the backbone of modern hvac systems — and how to pick the right one against en12735 / astm. guide tube de cuivre isolé: la solution ultime pour des systèmes cvc efficaces pourquoi les tubes en cuivre isolés sont l&#x27;épine dorsale des systèmes cvc modernes — et comment choisir le bon selon la norme en12735/astm. guide الأنبوب النحاسي المعزول: الحل النهائي لأنظمة التدفئة والتهوية وتكييف الهواء (hvac) الفعالة لماذا تعتبر الأنابيب النحاسية المعزولة العمود الفقري لأنظمة التدفئة والتهوية وتكييف الهواء (hvac) الحديثة - وكيفية اختيار الأنبوب المناسب وفقًا للمعيار en12735 / astm. مرشد">
+          <a href="blog/insulated-copper-tube-the-ultimate-solution.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-03-12.png" srcset="assets/images/blog/cover-blog-2025-03-12-400.webp 400w, assets/images/blog/cover-blog-2025-03-12-800.webp 800w, assets/images/blog/cover-blog-2025-03-12-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Insulated Copper Tube: The Ultimate Solution for Efficient HVAC Systems" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Guide">Guide</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-03-12" data-i18n="post.insulated-copper-tube-the-ultimate-solution.date">March 12, 2025</time>
+            </div>
+            <h3><a href="blog/insulated-copper-tube-the-ultimate-solution.html" data-i18n-html="post.insulated-copper-tube-the-ultimate-solution.title">Insulated Copper Tube: The Ultimate Solution for Efficient HVAC Systems</a></h3>
+            <p data-i18n="post.insulated-copper-tube-the-ultimate-solution.excerpt">Why insulated copper tubes are the backbone of modern HVAC systems — and how to pick the right one against EN12735 / ASTM.</p>
+            <a href="blog/insulated-copper-tube-the-ultimate-solution.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Regional" data-search="insulated aluminium tubes: lightweight hvac solutions for north africa why insulated aluminium tubes are the right answer for algeria, tunisia and libya — sizing tables, certifications and installation tips. regional insulated aluminium tubes: lightweight hvac solutions for north africa why insulated aluminium tubes are the right answer for algeria, tunisia and libya — sizing tables, certifications and installation tips. regional tubes en aluminium isolés: solutions cvc légères pour l&#x27;afrique du nord pourquoi les tubes en aluminium isolés sont la bonne réponse pour l&#x27;algérie, la tunisie et la libye — tableaux de dimensionnement, certifications et conseils d&#x27;installation. régional أنابيب الألومنيوم المعزولة: حلول التدفئة والتهوية وتكييف الهواء (hvac) خفيفة الوزن لشمال أفريقيا لماذا تعتبر أنابيب الألومنيوم المعزولة هي الحل الصحيح للجزائر وتونس وليبيا - جداول المقاسات والشهادات ونصائح التثبيت. إقليمي">
+          <a href="blog/insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-02-25-alu.jpg" srcset="assets/images/blog/cover-blog-2025-02-25-alu-400.webp 400w, assets/images/blog/cover-blog-2025-02-25-alu-800.webp 800w, assets/images/blog/cover-blog-2025-02-25-alu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Insulated Aluminium Tubes: Lightweight HVAC Solutions for North Africa" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Regional">Regional</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-02-25" data-i18n="post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.date">February 25, 2025</time>
+            </div>
+            <h3><a href="blog/insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.html" data-i18n-html="post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.title">Insulated Aluminium Tubes: Lightweight HVAC Solutions for North Africa</a></h3>
+            <p data-i18n="post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.excerpt">Why insulated aluminium tubes are the right answer for Algeria, Tunisia and Libya — sizing tables, certifications and installation tips.</p>
+            <a href="blog/insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Guide" data-search="insulated copper tubes: the ultimate guide for hvac efficiency &amp;amp; durability composition, certifications, applications, sizing, installation best practices, and a desert case study — all about insulated copper tubes. guide insulated copper tubes: the ultimate guide for hvac efficiency &amp;amp; durability composition, certifications, applications, sizing, installation best practices, and a desert case study — all about insulated copper tubes. guide tubes de cuivre isolés: le guide ultime pour l&#x27;efficacité et la durabilité du cvc composition, certifications, applications, dimensionnement, meilleures pratiques d&#x27;installation et étude de cas dans le désert: tout sur les tubes en cuivre isolés. guide أنابيب النحاس المعزولة: الدليل النهائي لكفاءة ومتانة التدفئة والتهوية وتكييف الهواء (hvac). التركيب، والشهادات، والتطبيقات، والتحجيم، وأفضل ممارسات التثبيت، ودراسة حالة صحراوية - كل شيء عن أنابيب النحاس المعزولة. مرشد">
+          <a href="blog/insulated-copper-tubes-the-ultimate-guide.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-02-25-cu.png" srcset="assets/images/blog/cover-blog-2025-02-25-cu-400.webp 400w, assets/images/blog/cover-blog-2025-02-25-cu-800.webp 800w, assets/images/blog/cover-blog-2025-02-25-cu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Insulated Copper Tubes: The Ultimate Guide for HVAC Efficiency &amp;amp; Durability" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Guide">Guide</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-02-25" data-i18n="post.insulated-copper-tubes-the-ultimate-guide.date">February 25, 2025</time>
+            </div>
+            <h3><a href="blog/insulated-copper-tubes-the-ultimate-guide.html" data-i18n-html="post.insulated-copper-tubes-the-ultimate-guide.title">Insulated Copper Tubes: The Ultimate Guide for HVAC Efficiency &amp; Durability</a></h3>
+            <p data-i18n="post.insulated-copper-tubes-the-ultimate-guide.excerpt">Composition, certifications, applications, sizing, installation best practices, and a desert case study — all about insulated copper tubes.</p>
+            <a href="blog/insulated-copper-tubes-the-ultimate-guide.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Products" data-search="the role of aluminium tubes in modern hvac systems how benro industries’ 1070-series aluminium tubes — pre-insulated with pe foam — are reshaping modern hvac installations. products the role of aluminium tubes in modern hvac systems how benro industries’ 1070-series aluminium tubes — pre-insulated with pe foam — are reshaping modern hvac installations. products le rôle des tubes en aluminium dans les systèmes cvc modernes comment les tubes en aluminium de la série 1070 de benro industries – pré-isolés avec de la mousse pe – remodèlent les installations cvc modernes. produits دور أنابيب الألومنيوم في أنظمة التدفئة والتهوية وتكييف الهواء الحديثة كيف تعمل أنابيب الألومنيوم من سلسلة 1070 من benro industries - المعزولة مسبقًا برغوة البولي إيثيلين - على إعادة تشكيل تركيبات التدفئة والتهوية وتكييف الهواء الحديثة. منتجات">
+          <a href="blog/the-role-of-aluminum-tubes-in-modern-hvac-systems.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-30-alu.jpg" srcset="assets/images/blog/cover-blog-2025-01-30-alu-400.webp 400w, assets/images/blog/cover-blog-2025-01-30-alu-800.webp 800w, assets/images/blog/cover-blog-2025-01-30-alu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="The Role of Aluminium Tubes in Modern HVAC Systems" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Products">Products</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-30" data-i18n="post.the-role-of-aluminum-tubes-in-modern-hvac-systems.date">January 30, 2025</time>
+            </div>
+            <h3><a href="blog/the-role-of-aluminum-tubes-in-modern-hvac-systems.html" data-i18n-html="post.the-role-of-aluminum-tubes-in-modern-hvac-systems.title">The Role of Aluminium Tubes in Modern HVAC Systems</a></h3>
+            <p data-i18n="post.the-role-of-aluminum-tubes-in-modern-hvac-systems.excerpt">How BENRO INDUSTRIES’ 1070-series aluminium tubes — pre-insulated with PE foam — are reshaping modern HVAC installations.</p>
+            <a href="blog/the-role-of-aluminum-tubes-in-modern-hvac-systems.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Products" data-search="how benro industries’ pe foam insulation enhances hvac efficiency closed-cell pe foam, low thermal conductivity, moisture resistance — how benro insulation pushes hvac efficiency higher. products how benro industries’ pe foam insulation enhances hvac efficiency closed-cell pe foam, low thermal conductivity, moisture resistance — how benro insulation pushes hvac efficiency higher. products comment l&#x27;isolation en mousse pe de benro industries améliore l&#x27;efficacité du cvc mousse pe à cellules fermées, faible conductivité thermique, résistance à l&#x27;humidité: comment l&#x27;isolation benro augmente l&#x27;efficacité du cvc. produits كيف يعمل عزل رغوة البولي إيثيلين الخاص بشركة benro industries على تعزيز كفاءة التدفئة والتهوية وتكييف الهواء (hvac). رغوة pe ذات الخلية المغلقة، التوصيل الحراري المنخفض، مقاومة الرطوبة - كيف يدفع عزل benro كفاءة التدفئة والتهوية وتكييف الهواء (hvac) إلى أعلى. منتجات">
+          <a href="blog/how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-30-pe.jpg" srcset="assets/images/blog/cover-blog-2025-01-30-pe-400.webp 400w, assets/images/blog/cover-blog-2025-01-30-pe-800.webp 800w, assets/images/blog/cover-blog-2025-01-30-pe-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="How BENRO INDUSTRIES’ PE Foam Insulation Enhances HVAC Efficiency" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Products">Products</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-30" data-i18n="post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.date">January 30, 2025</time>
+            </div>
+            <h3><a href="blog/how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.html" data-i18n-html="post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.title">How BENRO INDUSTRIES’ PE Foam Insulation Enhances HVAC Efficiency</a></h3>
+            <p data-i18n="post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.excerpt">Closed-cell PE foam, low thermal conductivity, moisture resistance — how BENRO insulation pushes HVAC efficiency higher.</p>
+            <a href="blog/how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Entreprise" data-search="benro industries : votre partenaire pour des solutions hvac durables et écoénergétiques pourquoi benro industries est le partenaire de référence pour des solutions hvac durables et écoénergétiques en algérie. entreprise benro industries: your partner for sustainable and energy-efficient hvac solutions why benro industries is the reference partner for sustainable and energy-efficient hvac solutions in algeria. business benro industries: votre partenaire pour des solutions hvac durables et écoénergétiques pourquoi benro industries est le partenaire de référence pour des solutions hvac durables et écoénergétiques en algérie. entreprise benro industries: شريكك لحلول التدفئة والتهوية وتكييف الهواء المستدامة والموفرة للطاقة لماذا تعتبر benro industries الشريك المرجعي لحلول التدفئة والتهوية وتكييف الهواء المستدامة والموفرة للطاقة في الجزائر. عمل">
+          <a href="blog/benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-30-alu.jpg" srcset="assets/images/blog/cover-blog-2025-01-30-alu-400.webp 400w, assets/images/blog/cover-blog-2025-01-30-alu-800.webp 800w, assets/images/blog/cover-blog-2025-01-30-alu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="BENRO INDUSTRIES : Votre Partenaire pour des Solutions HVAC Durables et Écoénergétiques" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Entreprise">Entreprise</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-30" data-i18n="post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.date">30 janvier 2025</time>
+            </div>
+            <h3><a href="blog/benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.html" data-i18n-html="post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.title">BENRO INDUSTRIES : Votre Partenaire pour des Solutions HVAC Durables et Écoénergétiques</a></h3>
+            <p data-i18n="post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.excerpt">Pourquoi BENRO INDUSTRIES est le partenaire de référence pour des solutions HVAC durables et écoénergétiques en Algérie.</p>
+            <a href="blog/benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Produits" data-search="les avantages des tubes en cuivre isolés benro industries pour la climatisation tubes en cuivre isolés en 12735-1 — conductivité, résistance uv et installation facile pour vos kits de climatisation. produits the advantages of benro industries insulated copper tubes for air conditioning en 12735-1 insulated copper tubes — conductivity, uv resistance and easy installation for your air conditioning kits. products les avantages des tubes en cuivre isolés benro industries pour la climatisation tubes en cuivre isolés en 12735-1 — conductivité, résistance uv et installation facile pour vos kits de climatisation. produits مزايا أنابيب النحاس المعزولة لتكييف الهواء من benro industries أنابيب النحاس المعزولة en 12735-1 - الموصلية، ومقاومة الأشعة فوق البنفسجية، وسهولة التركيب لمجموعات تكييف الهواء الخاصة بك. منتجات">
+          <a href="blog/les-avantages-des-tubes-en-cuivre-isoles-benro-industries.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-30-cu-isole.png" srcset="assets/images/blog/cover-blog-2025-01-30-cu-isole-400.webp 400w, assets/images/blog/cover-blog-2025-01-30-cu-isole-800.webp 800w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Les Avantages des Tubes en Cuivre Isolés BENRO INDUSTRIES pour la Climatisation" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Produits">Produits</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-30" data-i18n="post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.date">30 janvier 2025</time>
+            </div>
+            <h3><a href="blog/les-avantages-des-tubes-en-cuivre-isoles-benro-industries.html" data-i18n-html="post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.title">Les Avantages des Tubes en Cuivre Isolés BENRO INDUSTRIES pour la Climatisation</a></h3>
+            <p data-i18n="post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.excerpt">Tubes en cuivre isolés EN 12735-1 — conductivité, résistance UV et installation facile pour vos kits de climatisation.</p>
+            <a href="blog/les-avantages-des-tubes-en-cuivre-isoles-benro-industries.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Produits" data-search="les avantages des tubes en cuivre européen pour la climatisation centrale les tubes en cuivre européens en 12735-1 : pourquoi ils restent le choix de référence pour la climatisation centrale. produits the advantages of european copper tubes for central air conditioning european en 12735-1 copper tubes: why they remain the reference choice for central air conditioning. products les avantages des tubes en cuivre européen pour la climatisation centrale les tubes en cuivre européens en 12735-1: pourquoi ils restent le choix de référence pour la climatisation centrale. produits مميزات الأنابيب النحاسية الأوروبية للتكييف المركزي الأنابيب النحاسية en 12735-1 الأوروبية: لماذا تظل الخيار المرجعي لتكييف الهواء المركزي. منتجات">
+          <a href="blog/les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-30-cu-eu.jpg" srcset="assets/images/blog/cover-blog-2025-01-30-cu-eu-400.webp 400w, assets/images/blog/cover-blog-2025-01-30-cu-eu-800.webp 800w, assets/images/blog/cover-blog-2025-01-30-cu-eu-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Les Avantages des Tubes en Cuivre Européen pour la Climatisation Centrale" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Produits">Produits</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-30" data-i18n="post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.date">30 janvier 2025</time>
+            </div>
+            <h3><a href="blog/les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.html" data-i18n-html="post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.title">Les Avantages des Tubes en Cuivre Européen pour la Climatisation Centrale</a></h3>
+            <p data-i18n="post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.excerpt">Les tubes en cuivre européens EN 12735-1 : pourquoi ils restent le choix de référence pour la climatisation centrale.</p>
+            <a href="blog/les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Guide" data-search="comment choisir le meilleur kit de climatisation pour votre maison en algérie guide complet pour choisir le kit de climatisation adapté à votre maison : btu, seer, types de tubes, et conseils benro. guide how to choose the best air conditioning kit for your home in algeria complete guide to choosing the right air conditioning kit for your home: btu, seer, tube types, and benro advice. guide comment choisir le meilleur kit de climatisation pour votre maison en algérie guide complet pour choisir le kit de climatisation adapté à votre maison: btu, seer, types de tubes, et conseils benro. guide كيفية اختيار أفضل مجموعة تكييف الهواء لمنزلك في الجزائر الدليل الكامل لاختيار مجموعة تكييف الهواء المناسبة لمنزلك: btu، وseer، وأنواع الأنابيب، ونصائح benro. مرشد">
+          <a href="blog/comment-choisir-le-meilleur-kit-de-climatisation.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2025-01-28-kit.png" srcset="assets/images/blog/cover-blog-2025-01-28-kit-400.webp 400w, assets/images/blog/cover-blog-2025-01-28-kit-800.webp 800w, assets/images/blog/cover-blog-2025-01-28-kit-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Comment Choisir le Meilleur Kit de Climatisation pour Votre Maison en Algérie" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Guide">Guide</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2025-01-28" data-i18n="post.comment-choisir-le-meilleur-kit-de-climatisation.date">28 janvier 2025</time>
+            </div>
+            <h3><a href="blog/comment-choisir-le-meilleur-kit-de-climatisation.html" data-i18n-html="post.comment-choisir-le-meilleur-kit-de-climatisation.title">Comment Choisir le Meilleur Kit de Climatisation pour Votre Maison en Algérie</a></h3>
+            <p data-i18n="post.comment-choisir-le-meilleur-kit-de-climatisation.excerpt">Guide complet pour choisir le kit de climatisation adapté à votre maison : BTU, SEER, types de tubes, et conseils BENRO.</p>
+            <a href="blog/comment-choisir-le-meilleur-kit-de-climatisation.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Events" data-search="recap of benro industries at sivecc 2024 benro industries’ second sivecc appearance — new partnerships across tunisia and libya, and standout feedback on benro-flex pe foam. events recap of benro industries at sivecc 2024 benro industries’ second sivecc appearance — new partnerships across tunisia and libya, and standout feedback on benro-flex pe foam. events récapitulatif de benro industries au sivecc 2024 deuxième apparition de benro industries au sivecc: nouveaux partenariats en tunisie et en libye, et retours remarquables sur la mousse pe benro-flex. événements خلاصة صناعات benro في sivecc 2024 الظهور الثاني لشركة benro industries في sivecc - شراكات جديدة في جميع أنحاء تونس وليبيا، وتعليقات مميزة على رغوة benro-flex pe. الأحداث">
+          <a href="blog/recap-of-benro-industries-at-sivecc-2024.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2024-11-29-sivecc.jpg" srcset="assets/images/blog/cover-blog-2024-11-29-sivecc-400.webp 400w, assets/images/blog/cover-blog-2024-11-29-sivecc-800.webp 800w, assets/images/blog/cover-blog-2024-11-29-sivecc-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Recap of BENRO INDUSTRIES at SIVECC 2024" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Events">Events</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2024-11-29" data-i18n="post.recap-of-benro-industries-at-sivecc-2024.date">November 29, 2024</time>
+            </div>
+            <h3><a href="blog/recap-of-benro-industries-at-sivecc-2024.html" data-i18n-html="post.recap-of-benro-industries-at-sivecc-2024.title">Recap of BENRO INDUSTRIES at SIVECC 2024</a></h3>
+            <p data-i18n="post.recap-of-benro-industries-at-sivecc-2024.excerpt">BENRO INDUSTRIES’ second SIVECC appearance — new partnerships across Tunisia and Libya, and standout feedback on BENRO-FLEX PE foam.</p>
+            <a href="blog/recap-of-benro-industries-at-sivecc-2024.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Events" data-search="local authorities inaugurate the new facility the wali of ghardaïa and local representatives inaugurated benro industries’ expanded plant in the industrial zone on october 27, 2024. events local authorities inaugurate the new facility the wali of ghardaïa and local representatives inaugurated benro industries’ expanded plant in the industrial zone on october 27, 2024. events les autorités locales inaugurent la nouvelle installation le wali de ghardaïa et les élus locaux ont inauguré le 27 octobre 2024 l’usine agrandie de benro industries dans la zone industrielle. événements السلطات المحلية تفتتح المنشأة الجديدة افتتح والي غرداية وممثلون محليون المصنع الموسع لشركة benro industries بالمنطقة الصناعية في 27 أكتوبر 2024. الأحداث">
+          <a href="blog/local-authorities-inaugurate-the-new-facility.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2024-11-01-inauguration.jpg" srcset="assets/images/blog/cover-blog-2024-11-01-inauguration-400.webp 400w, assets/images/blog/cover-blog-2024-11-01-inauguration-800.webp 800w, assets/images/blog/cover-blog-2024-11-01-inauguration-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Local Authorities Inaugurate the New Facility" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Events">Events</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2024-11-01" data-i18n="post.local-authorities-inaugurate-the-new-facility.date">November 1, 2024</time>
+            </div>
+            <h3><a href="blog/local-authorities-inaugurate-the-new-facility.html" data-i18n-html="post.local-authorities-inaugurate-the-new-facility.title">Local Authorities Inaugurate the New Facility</a></h3>
+            <p data-i18n="post.local-authorities-inaugurate-the-new-facility.excerpt">The Wali of Ghardaïa and local representatives inaugurated BENRO INDUSTRIES’ expanded plant in the industrial zone on October 27, 2024.</p>
+            <a href="blog/local-authorities-inaugurate-the-new-facility.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="pcard reveal" data-cat="Events" data-search="innovative hvac solutions by benro at sivecc 2023 benro industries’ first sivecc appearance — introducing benro-flex pe foam to the algerian hvac market and forging new partnerships. events innovative hvac solutions by benro at sivecc 2023 benro industries’ first sivecc appearance — introducing benro-flex pe foam to the algerian hvac market and forging new partnerships. events solutions cvc innovantes de benro au sivecc 2023 première apparition de benro industries au sivecc — introduction de la mousse pe benro-flex sur le marché algérien du cvc et forge de nouveaux partenariats. événements حلول hvac المبتكرة من benro في sivecc 2023 أول ظهور لـ benro industries لـ sivecc - إدخال رغوة benro-flex pe إلى سوق التدفئة والتهوية وتكييف الهواء (hvac) الجزائري وإقامة شراكات جديدة. الأحداث">
+          <a href="blog/innovative-hvac-solutions-by-benro-at-sivecc-2023.html" class="pcard__media">
+            <img src="assets/images/blog/cover-blog-2023-11-30-sivecc.jpg" srcset="assets/images/blog/cover-blog-2023-11-30-sivecc-400.webp 400w, assets/images/blog/cover-blog-2023-11-30-sivecc-800.webp 800w, assets/images/blog/cover-blog-2023-11-30-sivecc-1200.webp 1200w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px" alt="Innovative HVAC Solutions by BENRO at SIVECC 2023" loading="lazy"/>
+            <span class="pcard__cat" data-i18n="cat.Events">Events</span>
+          </a>
+          <div class="pcard__body">
+            <div class="pcard__meta">
+              <span>BENRO INDUSTRIES</span><span class="sep">·</span><time datetime="2023-11-30" data-i18n="post.innovative-hvac-solutions-by-benro-at-sivecc-2023.date">November 30, 2023</time>
+            </div>
+            <h3><a href="blog/innovative-hvac-solutions-by-benro-at-sivecc-2023.html" data-i18n-html="post.innovative-hvac-solutions-by-benro-at-sivecc-2023.title">Innovative HVAC Solutions by BENRO at SIVECC 2023</a></h3>
+            <p data-i18n="post.innovative-hvac-solutions-by-benro-at-sivecc-2023.excerpt">BENRO INDUSTRIES’ first SIVECC appearance — introducing BENRO-FLEX PE foam to the Algerian HVAC market and forging new partnerships.</p>
+            <a href="blog/innovative-hvac-solutions-by-benro-at-sivecc-2023.html" class="pcard__more"><span data-i18n="blog.readmore">Read article</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+    </div>
+
+    <div class="empty" id="empty" data-i18n="blog.empty">No article matches your search.</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/images/benro-logo.png" alt="Benro Industries"/>
+        <p data-i18n="footer.about">BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&amp;R sector — producing insulated copper &amp; aluminium connecting lines and PE foam insulation in Algeria.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.products">Products</h4>
+        <ul>
+          <li><a href="products/twin-insulated-copper.html" data-i18n="footer.prod1">Twin Insulated Copper</a></li>
+          <li><a href="products/single-insulated-copper.html" data-i18n="footer.prod2">Single Insulated Copper</a></li>
+          <li><a href="products/twin-insulated-aluminium.html" data-i18n="footer.prod3">Twin Insulated Aluminium</a></li>
+          <li><a href="products/insulation-polyethylene.html" data-i18n="footer.prod4">PE Insulation Tubes</a></li>
+          <li><a href="products/copper-tubes.html" data-i18n="footer.prod5">Copper Pancake Coils</a></li>
+          <li><a href="products/polyethylene-tubes.html" data-i18n="footer.prod6">Polyethylene Tubes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.quicklinks">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="footer.home">Home</a></li>
+          <li><a href="about.html" data-i18n="footer.about_link">About us</a></li>
+          <li><a href="index.html#products" data-i18n="nav.products">Products</a></li>
+          <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          <li><a href="quote.html" data-i18n="cta.quote">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <a href="https://www.google.com/maps/search/?api=1&query=Industrial+Zone%2C+Ghardaia%2C+Algeria" target="_blank" rel="noopener" data-i18n="footer.address">Industrial Zone, Ghardaïa, Algeria</a>
+          </li>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+213554250110">+213 554 25 01 10</a>
+          </li>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+            <a href="mailto:contact@benroindustries.com">contact@benroindustries.com</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.follow">Follow Us</h4>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/benro-industries" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm-1.78 13.02h3.55V9H3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://www.facebook.com/benroindustries" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.5v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/benroindustries" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://wa.me/213554250110" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg></a>
+        </div>
+        <p style="margin-top:18px;font-size:13px;color:#5A6B7E;line-height:1.6" data-i18n="footer.response">We typically respond within 2–4 hours.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div><span data-i18n="footer.copy_prefix">©</span> <span id="yr"></span> <span data-i18n="footer.copy_suffix">Benro Industries — All rights reserved.</span></div>
+      <div>
+        <a href="contact.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <span style="margin:0 8px;opacity:.3">•</span>
+        <span data-i18n="footer.tagline">HVAC&amp;R Manufacturer · Algeria 🇩🇿</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/213554250110" class="wa" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
+</a>
+
+<script>window.BLOG_I18N ={"en":{"post.benro-industries-a-trusted-name-in-hvac-solutions.title":"Benro Industries: A Trusted Name in HVAC Solutions","post.benro-industries-a-trusted-name-in-hvac-solutions.excerpt":"Why HVAC professionals across Algeria and beyond rely on Benro Industries for premium copper, aluminium and PE-foam components compliant with EN 12735.","post.benro-industries-a-trusted-name-in-hvac-solutions.category":"Guide","post.benro-industries-a-trusted-name-in-hvac-solutions.date":"April 12, 2025","cat.Guide":"Guide","post.en-12735-copper-tube-the-essential-guide.title":"EN 12735 Copper Tube: The Essential Guide for HVAC &amp; Refrigeration Systems","post.en-12735-copper-tube-the-essential-guide.excerpt":"Everything HVAC contractors need to know about the EN 12735 standard: pressure ratings, comparison with ASTM B280, and BTU-loss benchmarks.","post.en-12735-copper-tube-the-essential-guide.category":"Technical","post.en-12735-copper-tube-the-essential-guide.date":"April 10, 2025","cat.Technical":"Technical","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.title":"Enhancing HVAC Efficiency with Insulated Aluminium Tubes","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.excerpt":"How twin insulated aluminium tubes deliver thermal efficiency, lighter installs, and corrosion resistance for modern HVAC systems.","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.category":"Products","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.date":"April 3, 2025","cat.Products":"Products","post.insulated-copper-vs-standard-copper-tubes.title":"Insulated Copper vs. Standard Copper Tubes: Which One is Best for Your HVAC System?","post.insulated-copper-vs-standard-copper-tubes.excerpt":"Side-by-side comparison of insulated vs. standard copper tubes — BTU loss tables, sizing tips, and when to pick each one.","post.insulated-copper-vs-standard-copper-tubes.category":"Comparison","post.insulated-copper-vs-standard-copper-tubes.date":"March 19, 2025","cat.Comparison":"Comparison","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.title":"The Ultimate Guide to Insulated Copper Tubes for Air Conditioners","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.excerpt":"Insulated copper tubes, BTU sizing tables by room area, copper vs aluminium statistics, and how to pick the right tube for your AC.","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.category":"Guide","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.date":"March 16, 2025","post.insulated-copper-tube-the-ultimate-solution.title":"Insulated Copper Tube: The Ultimate Solution for Efficient HVAC Systems","post.insulated-copper-tube-the-ultimate-solution.excerpt":"Why insulated copper tubes are the backbone of modern HVAC systems — and how to pick the right one against EN12735 / ASTM.","post.insulated-copper-tube-the-ultimate-solution.category":"Guide","post.insulated-copper-tube-the-ultimate-solution.date":"March 12, 2025","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.title":"Insulated Aluminium Tubes: Lightweight HVAC Solutions for North Africa","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.excerpt":"Why insulated aluminium tubes are the right answer for Algeria, Tunisia and Libya — sizing tables, certifications and installation tips.","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.category":"Regional","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.date":"February 25, 2025","cat.Regional":"Regional","post.insulated-copper-tubes-the-ultimate-guide.title":"Insulated Copper Tubes: The Ultimate Guide for HVAC Efficiency &amp; Durability","post.insulated-copper-tubes-the-ultimate-guide.excerpt":"Composition, certifications, applications, sizing, installation best practices, and a desert case study — all about insulated copper tubes.","post.insulated-copper-tubes-the-ultimate-guide.category":"Guide","post.insulated-copper-tubes-the-ultimate-guide.date":"February 25, 2025","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.title":"The Role of Aluminium Tubes in Modern HVAC Systems","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.excerpt":"How BENRO INDUSTRIES’ 1070-series aluminium tubes — pre-insulated with PE foam — are reshaping modern HVAC installations.","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.category":"Products","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.date":"January 30, 2025","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.title":"How BENRO INDUSTRIES’ PE Foam Insulation Enhances HVAC Efficiency","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.excerpt":"Closed-cell PE foam, low thermal conductivity, moisture resistance — how BENRO insulation pushes HVAC efficiency higher.","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.category":"Products","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.date":"January 30, 2025","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.title":"BENRO INDUSTRIES: Your Partner for Sustainable and Energy-Efficient HVAC Solutions","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.excerpt":"Why BENRO INDUSTRIES is the reference partner for sustainable and energy-efficient HVAC solutions in Algeria.","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.category":"Business","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.date":"January 30, 2025","cat.Entreprise":"Business","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.title":"The Advantages of BENRO INDUSTRIES Insulated Copper Tubes for Air Conditioning","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.excerpt":"EN 12735-1 insulated copper tubes — conductivity, UV resistance and easy installation for your air conditioning kits.","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.category":"Products","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.date":"January 30, 2025","cat.Produits":"Products","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.title":"The Advantages of European Copper Tubes for Central Air Conditioning","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.excerpt":"European EN 12735-1 copper tubes: why they remain the reference choice for central air conditioning.","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.category":"Products","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.date":"January 30, 2025","post.comment-choisir-le-meilleur-kit-de-climatisation.title":"How to Choose the Best Air Conditioning Kit for Your Home in Algeria","post.comment-choisir-le-meilleur-kit-de-climatisation.excerpt":"Complete guide to choosing the right air conditioning kit for your home: BTU, SEER, tube types, and BENRO advice.","post.comment-choisir-le-meilleur-kit-de-climatisation.category":"Guide","post.comment-choisir-le-meilleur-kit-de-climatisation.date":"January 28, 2025","post.recap-of-benro-industries-at-sivecc-2024.title":"Recap of BENRO INDUSTRIES at SIVECC 2024","post.recap-of-benro-industries-at-sivecc-2024.excerpt":"BENRO INDUSTRIES’ second SIVECC appearance — new partnerships across Tunisia and Libya, and standout feedback on BENRO-FLEX PE foam.","post.recap-of-benro-industries-at-sivecc-2024.category":"Events","post.recap-of-benro-industries-at-sivecc-2024.date":"November 29, 2024","cat.Events":"Events","post.local-authorities-inaugurate-the-new-facility.title":"Local Authorities Inaugurate the New Facility","post.local-authorities-inaugurate-the-new-facility.excerpt":"The Wali of Ghardaïa and local representatives inaugurated BENRO INDUSTRIES’ expanded plant in the industrial zone on October 27, 2024.","post.local-authorities-inaugurate-the-new-facility.category":"Events","post.local-authorities-inaugurate-the-new-facility.date":"November 1, 2024","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.title":"Innovative HVAC Solutions by BENRO at SIVECC 2023","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.excerpt":"BENRO INDUSTRIES’ first SIVECC appearance — introducing BENRO-FLEX PE foam to the Algerian HVAC market and forging new partnerships.","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.category":"Events","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.date":"November 30, 2023"},"fr":{"post.benro-industries-a-trusted-name-in-hvac-solutions.title":"Benro Industries: un nom de confiance dans les solutions CVC","post.benro-industries-a-trusted-name-in-hvac-solutions.excerpt":"Pourquoi les professionnels du CVC en Algérie et au-delà font confiance à Benro Industries pour des composants en cuivre, aluminium et mousse PE de qualité supérieure conformes à la norme EN 12735.","post.benro-industries-a-trusted-name-in-hvac-solutions.category":"Guide","post.benro-industries-a-trusted-name-in-hvac-solutions.date":"12 avril 2025","cat.Guide":"Guide","post.en-12735-copper-tube-the-essential-guide.title":"Tube en cuivre EN 12735: Le guide essentiel pour les systèmes CVC et de réfrigération","post.en-12735-copper-tube-the-essential-guide.excerpt":"Tout ce que les entrepreneurs en CVC doivent savoir sur la norme EN 12735: pressions nominales, comparaison avec ASTM B280 et tests de perte de BTU.","post.en-12735-copper-tube-the-essential-guide.category":"Technique","post.en-12735-copper-tube-the-essential-guide.date":"10 avril 2025","cat.Technical":"Technique","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.title":"Améliorer l'efficacité CVC avec des tubes en aluminium isolés","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.excerpt":"Comment les tubes en aluminium à double isolation offrent une efficacité thermique, des installations plus légères et une résistance à la corrosion pour les systèmes CVC modernes.","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.category":"Produits","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.date":"3 avril 2025","cat.Products":"Produits","post.insulated-copper-vs-standard-copper-tubes.title":"Tubes en cuivre isolés ou tubes en cuivre standard: lequel convient le mieux à votre système CVC?","post.insulated-copper-vs-standard-copper-tubes.excerpt":"Comparaison côte à côte des tubes en cuivre isolés et standards: tableaux de perte en BTU, conseils de dimensionnement et quand choisir chacun d'entre eux.","post.insulated-copper-vs-standard-copper-tubes.category":"Comparaison","post.insulated-copper-vs-standard-copper-tubes.date":"19 mars 2025","cat.Comparison":"Comparaison","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.title":"Le guide ultime des tubes de cuivre isolés pour climatiseurs","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.excerpt":"Tubes en cuivre isolés, tableaux de dimensionnement en BTU par zone de pièce, statistiques cuivre/aluminium et comment choisir le tube adapté à votre climatiseur.","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.category":"Guide","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.date":"16 mars 2025","post.insulated-copper-tube-the-ultimate-solution.title":"Tube de cuivre isolé: la solution ultime pour des systèmes CVC efficaces","post.insulated-copper-tube-the-ultimate-solution.excerpt":"Pourquoi les tubes en cuivre isolés sont l'épine dorsale des systèmes CVC modernes — et comment choisir le bon selon la norme EN12735/ASTM.","post.insulated-copper-tube-the-ultimate-solution.category":"Guide","post.insulated-copper-tube-the-ultimate-solution.date":"12 mars 2025","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.title":"Tubes en aluminium isolés: solutions CVC légères pour l'Afrique du Nord","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.excerpt":"Pourquoi les tubes en aluminium isolés sont la bonne réponse pour l'Algérie, la Tunisie et la Libye — tableaux de dimensionnement, certifications et conseils d'installation.","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.category":"Régional","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.date":"25 février 2025","cat.Regional":"Régional","post.insulated-copper-tubes-the-ultimate-guide.title":"Tubes de cuivre isolés: le guide ultime pour l'efficacité et la durabilité du CVC","post.insulated-copper-tubes-the-ultimate-guide.excerpt":"Composition, certifications, applications, dimensionnement, meilleures pratiques d'installation et étude de cas dans le désert: tout sur les tubes en cuivre isolés.","post.insulated-copper-tubes-the-ultimate-guide.category":"Guide","post.insulated-copper-tubes-the-ultimate-guide.date":"25 février 2025","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.title":"Le rôle des tubes en aluminium dans les systèmes CVC modernes","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.excerpt":"Comment les tubes en aluminium de la série 1070 de BENRO INDUSTRIES – pré-isolés avec de la mousse PE – remodèlent les installations CVC modernes.","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.category":"Produits","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.date":"30 janvier 2025","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.title":"Comment l'isolation en mousse PE de BENRO INDUSTRIES améliore l'efficacité du CVC","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.excerpt":"Mousse PE à cellules fermées, faible conductivité thermique, résistance à l'humidité: comment l'isolation BENRO augmente l'efficacité du CVC.","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.category":"Produits","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.date":"30 janvier 2025","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.title":"BENRO INDUSTRIES: Votre Partenaire pour des Solutions HVAC Durables et Écoénergétiques","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.excerpt":"Pourquoi BENRO INDUSTRIES est le partenaire de référence pour des solutions HVAC durables et écoénergétiques en Algérie.","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.category":"Entreprise","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.date":"30 janvier 2025","cat.Entreprise":"Entreprise","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.title":"Les Avantages des Tubes en Cuivre Isolés BENRO INDUSTRIES pour la Climatisation","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.excerpt":"Tubes en cuivre isolés EN 12735-1 — conductivité, résistance UV et installation facile pour vos kits de climatisation.","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.category":"Produits","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.date":"30 janvier 2025","cat.Produits":"Produits","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.title":"Les Avantages des Tubes en Cuivre Européen pour la Climatisation Centrale","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.excerpt":"Les tubes en cuivre européens EN 12735-1: pourquoi ils restent le choix de référence pour la climatisation centrale.","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.category":"Produits","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.date":"30 janvier 2025","post.comment-choisir-le-meilleur-kit-de-climatisation.title":"Comment Choisir le Meilleur Kit de Climatisation pour Votre Maison en Algérie","post.comment-choisir-le-meilleur-kit-de-climatisation.excerpt":"Guide complet pour choisir le kit de climatisation adapté à votre maison: BTU, SEER, types de tubes, et conseils BENRO.","post.comment-choisir-le-meilleur-kit-de-climatisation.category":"Guide","post.comment-choisir-le-meilleur-kit-de-climatisation.date":"28 janvier 2025","post.recap-of-benro-industries-at-sivecc-2024.title":"Récapitulatif de BENRO INDUSTRIES au SIVECC 2024","post.recap-of-benro-industries-at-sivecc-2024.excerpt":"Deuxième apparition de BENRO INDUSTRIES au SIVECC: nouveaux partenariats en Tunisie et en Libye, et retours remarquables sur la mousse PE BENRO-FLEX.","post.recap-of-benro-industries-at-sivecc-2024.category":"Événements","post.recap-of-benro-industries-at-sivecc-2024.date":"29 novembre 2024","cat.Events":"Événements","post.local-authorities-inaugurate-the-new-facility.title":"Les autorités locales inaugurent la nouvelle installation","post.local-authorities-inaugurate-the-new-facility.excerpt":"Le Wali de Ghardaïa et les élus locaux ont inauguré le 27 octobre 2024 l’usine agrandie de BENRO INDUSTRIES dans la zone industrielle.","post.local-authorities-inaugurate-the-new-facility.category":"Événements","post.local-authorities-inaugurate-the-new-facility.date":"1 novembre 2024","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.title":"Solutions CVC innovantes de BENRO au SIVECC 2023","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.excerpt":"Première apparition de BENRO INDUSTRIES au SIVECC — introduction de la mousse PE BENRO-FLEX sur le marché algérien du CVC et forge de nouveaux partenariats.","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.category":"Événements","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.date":"30 novembre 2023"},"ar":{"post.benro-industries-a-trusted-name-in-hvac-solutions.title":"Benro Industries: اسم موثوق به في حلول التدفئة والتهوية وتكييف الهواء (HVAC).","post.benro-industries-a-trusted-name-in-hvac-solutions.excerpt":"لماذا يعتمد متخصصو التدفئة والتهوية وتكييف الهواء في جميع أنحاء الجزائر وخارجها على Benro Industries للحصول على مكونات ممتازة من النحاس والألمنيوم ورغوة البولي إيثيلين المتوافقة مع EN 12735.","post.benro-industries-a-trusted-name-in-hvac-solutions.category":"مرشد","post.benro-industries-a-trusted-name-in-hvac-solutions.date":"12 أبريل 2025","cat.Guide":"مرشد","post.en-12735-copper-tube-the-essential-guide.title":"EN 12735 الأنبوب النحاسي: الدليل الأساسي لأنظمة التدفئة والتهوية وتكييف الهواء والتبريد","post.en-12735-copper-tube-the-essential-guide.excerpt":"كل ما يحتاج مقاولو التدفئة والتهوية وتكييف الهواء (HVAC) إلى معرفته حول معيار EN 12735: تقييمات الضغط، والمقارنة مع ASTM B280، ومعايير خسارة BTU.","post.en-12735-copper-tube-the-essential-guide.category":"اِصطِلاحِيّ","post.en-12735-copper-tube-the-essential-guide.date":"10 أبريل 2025","cat.Technical":"اِصطِلاحِيّ","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.title":"تعزيز كفاءة التدفئة والتهوية وتكييف الهواء (HVAC) باستخدام أنابيب الألومنيوم المعزولة","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.excerpt":"كيف توفر أنابيب الألومنيوم المعزولة المزدوجة الكفاءة الحرارية والتركيبات الأخف وزنًا ومقاومة التآكل لأنظمة التدفئة والتهوية وتكييف الهواء (HVAC) الحديثة.","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.category":"منتجات","post.enhancing-hvac-efficiency-with-insulated-aluminum-tubes.date":"3 أبريل 2025","cat.Products":"منتجات","post.insulated-copper-vs-standard-copper-tubes.title":"النحاس المعزول مقابل أنابيب النحاس القياسية: أيهما أفضل لنظام التدفئة والتهوية وتكييف الهواء لديك؟","post.insulated-copper-vs-standard-copper-tubes.excerpt":"مقارنة جنبًا إلى جنب بين الأنابيب النحاسية المعزولة والأنابيب النحاسية القياسية - جداول خسارة BTU، ونصائح الحجم، ومتى يتم اختيار كل منها.","post.insulated-copper-vs-standard-copper-tubes.category":"مقارنة","post.insulated-copper-vs-standard-copper-tubes.date":"19 مارس 2025","cat.Comparison":"مقارنة","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.title":"الدليل النهائي لأنابيب النحاس المعزولة لمكيفات الهواء","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.excerpt":"الأنابيب النحاسية المعزولة، وجداول تحجيم BTU حسب مساحة الغرفة، وإحصائيات النحاس مقابل الألومنيوم، وكيفية اختيار الأنبوب المناسب لمكيف الهواء لديك.","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.category":"مرشد","post.the-ultimate-guide-to-insulated-copper-tubes-for-air-conditioners.date":"16 مارس 2025","post.insulated-copper-tube-the-ultimate-solution.title":"الأنبوب النحاسي المعزول: الحل النهائي لأنظمة التدفئة والتهوية وتكييف الهواء (HVAC) الفعالة","post.insulated-copper-tube-the-ultimate-solution.excerpt":"لماذا تعتبر الأنابيب النحاسية المعزولة العمود الفقري لأنظمة التدفئة والتهوية وتكييف الهواء (HVAC) الحديثة - وكيفية اختيار الأنبوب المناسب وفقًا للمعيار EN12735 / ASTM.","post.insulated-copper-tube-the-ultimate-solution.category":"مرشد","post.insulated-copper-tube-the-ultimate-solution.date":"12 مارس 2025","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.title":"أنابيب الألومنيوم المعزولة: حلول التدفئة والتهوية وتكييف الهواء (HVAC) خفيفة الوزن لشمال أفريقيا","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.excerpt":"لماذا تعتبر أنابيب الألومنيوم المعزولة هي الحل الصحيح للجزائر وتونس وليبيا - جداول المقاسات والشهادات ونصائح التثبيت.","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.category":"إقليمي","post.insulated-aluminium-tubes-lightweight-hvac-solutions-for-north-africa.date":"25 فبراير 2025","cat.Regional":"إقليمي","post.insulated-copper-tubes-the-ultimate-guide.title":"أنابيب النحاس المعزولة: الدليل النهائي لكفاءة ومتانة التدفئة والتهوية وتكييف الهواء (HVAC).","post.insulated-copper-tubes-the-ultimate-guide.excerpt":"التركيب، والشهادات، والتطبيقات، والتحجيم، وأفضل ممارسات التثبيت، ودراسة حالة صحراوية - كل شيء عن أنابيب النحاس المعزولة.","post.insulated-copper-tubes-the-ultimate-guide.category":"مرشد","post.insulated-copper-tubes-the-ultimate-guide.date":"25 فبراير 2025","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.title":"دور أنابيب الألومنيوم في أنظمة التدفئة والتهوية وتكييف الهواء الحديثة","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.excerpt":"كيف تعمل أنابيب الألومنيوم من سلسلة 1070 من BENRO INDUSTRIES - المعزولة مسبقًا برغوة البولي إيثيلين - على إعادة تشكيل تركيبات التدفئة والتهوية وتكييف الهواء الحديثة.","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.category":"منتجات","post.the-role-of-aluminum-tubes-in-modern-hvac-systems.date":"30 يناير 2025","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.title":"كيف يعمل عزل رغوة البولي إيثيلين الخاص بشركة BENRO INDUSTRIES على تعزيز كفاءة التدفئة والتهوية وتكييف الهواء (HVAC).","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.excerpt":"رغوة PE ذات الخلية المغلقة، التوصيل الحراري المنخفض، مقاومة الرطوبة - كيف يدفع عزل BENRO كفاءة التدفئة والتهوية وتكييف الهواء (HVAC) إلى أعلى.","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.category":"منتجات","post.how-benro-industries-pe-foam-insulation-enhances-hvac-efficiency.date":"30 يناير 2025","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.title":"BENRO INDUSTRIES: شريكك لحلول التدفئة والتهوية وتكييف الهواء المستدامة والموفرة للطاقة","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.excerpt":"لماذا تعتبر BENRO INDUSTRIES الشريك المرجعي لحلول التدفئة والتهوية وتكييف الهواء المستدامة والموفرة للطاقة في الجزائر.","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.category":"عمل","post.benro-industries-votre-partenaire-pour-des-solutions-hvac-durables.date":"30 يناير 2025","cat.Entreprise":"عمل","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.title":"مزايا أنابيب النحاس المعزولة لتكييف الهواء من BENRO INDUSTRIES","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.excerpt":"أنابيب النحاس المعزولة EN 12735-1 - الموصلية، ومقاومة الأشعة فوق البنفسجية، وسهولة التركيب لمجموعات تكييف الهواء الخاصة بك.","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.category":"منتجات","post.les-avantages-des-tubes-en-cuivre-isoles-benro-industries.date":"30 يناير 2025","cat.Produits":"منتجات","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.title":"مميزات الأنابيب النحاسية الأوروبية للتكييف المركزي","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.excerpt":"الأنابيب النحاسية EN 12735-1 الأوروبية: لماذا تظل الخيار المرجعي لتكييف الهواء المركزي.","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.category":"منتجات","post.les-avantages-des-tubes-en-cuivre-europeen-pour-la-climatisation-centrale.date":"30 يناير 2025","post.comment-choisir-le-meilleur-kit-de-climatisation.title":"كيفية اختيار أفضل مجموعة تكييف الهواء لمنزلك في الجزائر","post.comment-choisir-le-meilleur-kit-de-climatisation.excerpt":"الدليل الكامل لاختيار مجموعة تكييف الهواء المناسبة لمنزلك: BTU، وSEER، وأنواع الأنابيب، ونصائح BENRO.","post.comment-choisir-le-meilleur-kit-de-climatisation.category":"مرشد","post.comment-choisir-le-meilleur-kit-de-climatisation.date":"28 يناير 2025","post.recap-of-benro-industries-at-sivecc-2024.title":"خلاصة صناعات BENRO في SIVECC 2024","post.recap-of-benro-industries-at-sivecc-2024.excerpt":"الظهور الثاني لشركة BENRO INDUSTRIES في SIVECC - شراكات جديدة في جميع أنحاء تونس وليبيا، وتعليقات مميزة على رغوة BENRO-FLEX PE.","post.recap-of-benro-industries-at-sivecc-2024.category":"الأحداث","post.recap-of-benro-industries-at-sivecc-2024.date":"29 نوفمبر 2024","cat.Events":"الأحداث","post.local-authorities-inaugurate-the-new-facility.title":"السلطات المحلية تفتتح المنشأة الجديدة","post.local-authorities-inaugurate-the-new-facility.excerpt":"افتتح والي غرداية وممثلون محليون المصنع الموسع لشركة BENRO INDUSTRIES بالمنطقة الصناعية في 27 أكتوبر 2024.","post.local-authorities-inaugurate-the-new-facility.category":"الأحداث","post.local-authorities-inaugurate-the-new-facility.date":"1 نوفمبر 2024","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.title":"حلول HVAC المبتكرة من BENRO في SIVECC 2023","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.excerpt":"أول ظهور لـ BENRO INDUSTRIES لـ SIVECC - إدخال رغوة BENRO-FLEX PE إلى سوق التدفئة والتهوية وتكييف الهواء (HVAC) الجزائري وإقامة شراكات جديدة.","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.category":"الأحداث","post.innovative-hvac-solutions-by-benro-at-sivecc-2023.date":"30 نوفمبر 2023"}};
+
+window.I18N = {
+  en: {
+    'a11y.skip':'Skip to main content',
+    'topbar.tagline':'Algeria 🇩🇿 · HVAC&R Manufacturer',
+    'nav.products':'Products','nav.why':'Why Benro','nav.about':'About','nav.blog':'Blog','nav.clients':'Clients','nav.contact':'Contact',
+    'cta.browse':'Browse catalogue','cta.quote':'Get a Quote',
+    'crumb.home':'Home','crumb.blog':'Blog',
+    'blog.hero.eyebrow':'BENRO Journal','blog.hero.title':'Blogs &amp; Events','blog.hero.lead':'Insights, technical guides and milestones from BENRO INDUSTRIES — HVAC components made in Algeria.',
+    'blog.filter.all':'All','blog.search.ph':'Search articles…',
+    'blog.empty':'No article matches your search.',
+    'blog.readmore':'Read article',
+    'blog.recent':'You may also like',
+    'blog.back':'Back to blog','blog.share':'Share this article',
+    'finalCta.btn1':'Call sales','finalCta.btn2':'Send a message',
+    'footer.about':'BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&R sector — producing insulated copper & aluminium connecting lines and PE foam insulation in Algeria.',
+    'footer.quicklinks':'Quick Links','footer.home':'Home','footer.about_link':'About us','footer.products':'Products','footer.prod1':'Twin Insulated Copper','footer.prod2':'Single Insulated Copper','footer.prod3':'Twin Insulated Aluminium','footer.prod4':'PE Insulation Tubes','footer.prod5':'Copper Pancake Coils','footer.prod6':'Polyethylene Tubes','footer.contact':'Contact',
+    'footer.address':'Industrial Zone, Ghardaïa, Algeria',
+    'footer.follow':'Follow Us','footer.response':'We typically respond within 2–4 hours.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — All rights reserved.','footer.tagline':'HVAC&R Manufacturer · Algeria 🇩🇿','footer.privacy':'Privacy Policy'
+  },
+  fr: {
+    'a11y.skip':'Aller au contenu principal',
+    'topbar.tagline':'Algérie 🇩🇿 · Fabricant CVC&R',
+    'nav.products':'Produits','nav.why':'Pourquoi Benro','nav.about':'À propos','nav.blog':'Blog','nav.clients':'Clients','nav.contact':'Contact',
+    'cta.browse':'Voir le catalogue','cta.quote':'Demander un devis',
+    'crumb.home':'Accueil','crumb.blog':'Blog',
+    'blog.hero.eyebrow':'Journal BENRO','blog.hero.title':'Blog &amp; Événements','blog.hero.lead':"Analyses, guides techniques et étapes-clés de BENRO INDUSTRIES — composants CVC fabriqués en Algérie.",
+    'blog.filter.all':'Tous','blog.search.ph':'Rechercher des articles…',
+    'blog.empty':'Aucun article ne correspond à votre recherche.',
+    'blog.readmore':"Lire l'article",
+    'blog.recent':"À lire aussi",
+    'blog.back':'Retour au blog','blog.share':'Partager cet article',
+    'finalCta.btn1':'Appeler les ventes','finalCta.btn2':'Envoyer un message',
+    'footer.about':"BENRO INDUSTRIES est un fabricant dynamique et innovant à la pointe du secteur CVC&R — produisant des lignes de raccordement en cuivre & aluminium isolées et de la mousse PE en Algérie.",
+    'footer.quicklinks':'Liens rapides','footer.home':'Accueil','footer.about_link':'À propos','footer.products':'Produits','footer.prod1':'Cuivre isolé jumelé','footer.prod2':'Cuivre isolé simple','footer.prod3':'Aluminium isolé jumelé','footer.prod4':"Tubes d'isolation PE",'footer.prod5':'Couronnes de cuivre','footer.prod6':'Tubes en polyéthylène','footer.contact':'Contact',
+    'footer.address':'Zone Industrielle, Ghardaïa, Algérie',
+    'footer.follow':'Suivez-nous','footer.response':'Nous répondons généralement sous 2 à 4 heures.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — Tous droits réservés.','footer.tagline':'Fabricant CVC&R · Algérie 🇩🇿','footer.privacy':'Politique de confidentialité'
+  },
+  ar: {
+    'a11y.skip':'انتقل إلى المحتوى الرئيسي',
+    'topbar.tagline':'الجزائر 🇩🇿 · صانع تكييف وتبريد',
+    'nav.products':'المنتجات','nav.why':'لماذا Benro','nav.about':'من نحن','nav.blog':'المدوّنة','nav.clients':'العملاء','nav.contact':'اتصل بنا',
+    'cta.browse':'تصفح الكتالوج','cta.quote':'اطلب عرض سعر',
+    'crumb.home':'الرئيسية','crumb.blog':'المدوّنة',
+    'blog.hero.eyebrow':'مجلّة BENRO','blog.hero.title':'المدوّنة والفعاليات','blog.hero.lead':'تحليلات وأدلّة تقنية ومحطّات هامّة من بنرو للصناعات — مكوّنات تكييف صنعت في الجزائر.',
+    'blog.filter.all':'الكل','blog.search.ph':'ابحث في المقالات…',
+    'blog.empty':'لا يوجد مقالٌ يطابق بحثك.',
+    'blog.readmore':'قراءة المقال',
+    'blog.recent':'قد يعجبك أيضاً',
+    'blog.back':'العودة إلى المدوّنة','blog.share':'شارك هذا المقال',
+    'finalCta.btn1':'اتصل بالمبيعات','finalCta.btn2':'أرسل رسالة',
+    'footer.about':'بنرو للصناعات صانعٌ ديناميكي ومبتكر في طليعة قطاع التكييف والتبريد — ينتج خطوط توصيل نحاسية وألمنيومية معزولة ورغوة PE في الجزائر.',
+    'footer.quicklinks':'روابط سريعة','footer.home':'الرئيسية','footer.about_link':'من نحن','footer.products':'المنتجات','footer.prod1':'نحاس مزدوج معزول','footer.prod2':'نحاس مفرد معزول','footer.prod3':'ألمنيوم مزدوج معزول','footer.prod4':'أنابيب عزل PE','footer.prod5':'لفّات نحاسية','footer.prod6':'أنابيب بولي إيثيلين','footer.contact':'تواصل',
+    'footer.address':'المنطقة الصناعية، غرداية، الجزائر',
+    'footer.follow':'تابعنا','footer.response':'نرد عادةً خلال 2–4 ساعات.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'بنرو للصناعات — جميع الحقوق محفوظة.','footer.tagline':'صانع تكييف وتبريد · الجزائر 🇩🇿','footer.privacy':'سياسة الخصوصية'
+  }
+};
+
+/* Filter + search */
+const filters = document.getElementById('filters');
+const searchInput = document.getElementById('search');
+const cards = [...document.querySelectorAll('.pcard')];
+const empty = document.getElementById('empty');
+let activeCat = 'All';
+let activeQuery = '';
+
+function refilter(){
+  let shown = 0;
+  cards.forEach(c => {
+    const matchCat = activeCat === 'All' || c.dataset.cat === activeCat;
+    const matchQ = !activeQuery || c.dataset.search.includes(activeQuery);
+    const ok = matchCat && matchQ;
+    c.style.display = ok ? '' : 'none';
+    if (ok) shown++;
+  });
+  empty.classList.toggle('show', shown === 0);
+}
+filters.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if(!b) return;
+  filters.querySelectorAll('.chip').forEach(x => x.classList.remove('is-active'));
+  b.classList.add('is-active');
+  activeCat = b.dataset.cat;
+  refilter();
+});
+searchInput.addEventListener('input', () => {
+  activeQuery = searchInput.value.trim().toLowerCase();
+  refilter();
+});
+</script>
+<script src="assets/js/shared.js"></script>
+<script src="assets/js/whatsapp-widget.js" defer></script>
+</body>
+</html>
