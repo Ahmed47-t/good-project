@@ -13,3 +13,13 @@ __pycache__/
 
 # Logs
 *.log
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# Node
+node_modules/
+dist/
+build/
