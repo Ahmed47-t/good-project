@@ -1,32 +1,86 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import {
+  routeToFile,
+  fileToRoute,
+  isSiteUrl,
+  resolveAssetUrls,
+  fixScriptAssetPaths,
+  CHROME_SELECTORS,
+} from '../lib/site'
+import type { BenroShared } from '../types/benro-shared'
 
-const loadedExternal = new Set<string>()
+const PAGE_MARK = 'data-benro-page'
+const loadedExternalScripts = new Set<string>()
 
-function routeToFile(pathname: string): string {
-  if (!pathname || pathname === '/') return '/site/index.html'
-  return '/site' + pathname.replace(/\/+$/, '') + '.html'
-}
-function fileToRoute(filePathname: string): string {
-  let rel = filePathname.replace(/^\/site/, '').replace(/\.html$/, '').replace(/\/index$/, '')
-  if (rel === '/index' || rel === '' || rel === '/') return '/'
-  return rel
-}
-function waitForShared(timeout = 4000): Promise<any> {
+/** Resolve once the bundled shared behaviors (BenroShared + I18N) are ready. */
+function waitForShared(timeout = 4000): Promise<BenroShared | undefined> {
   return new Promise((resolve) => {
     const start = Date.now()
     const tick = () => {
-      const bs = (window as any).BenroShared
-      if (bs && (window as any).I18N) return resolve(bs)
-      if (Date.now() - start > timeout) return resolve((window as any).BenroShared)
+      if (window.BenroShared && window.I18N) return resolve(window.BenroShared)
+      if (Date.now() - start > timeout) return resolve(window.BenroShared)
       setTimeout(tick, 50)
     }
     tick()
   })
 }
 
-// Chrome elements that live in the persistent Layout — strip them from page content
-const CHROME_SELECTORS = '.skip-link, .topbar, header, #siteHeader, .scrim, .mnav, footer'
+/** Copy the page's own <style>/<link> blocks into <head>, tagged for cleanup. */
+function injectPageStyles(doc: Document): void {
+  doc.querySelectorAll('head style, head link[rel="stylesheet"]').forEach((node) => {
+    const clone = node.cloneNode(true) as HTMLElement
+    clone.setAttribute(PAGE_MARK, '1')
+    document.head.appendChild(clone)
+  })
+}
+
+/** Re-create and execute page scripts (innerHTML scripts don't run on their own). */
+function runPageScripts(scripts: HTMLScriptElement[], fileBase: URL): void {
+  scripts.forEach((old) => {
+    const s = document.createElement('script')
+    const src = old.getAttribute('src')
+    if (src) {
+      const abs = new URL(src, fileBase).pathname
+      if (loadedExternalScripts.has(abs)) return
+      loadedExternalScripts.add(abs)
+      for (const at of Array.from(old.attributes)) {
+        if (at.name === 'src') s.src = abs
+        else s.setAttribute(at.name, at.value)
+      }
+      s.setAttribute(PAGE_MARK, '1')
+      document.body.appendChild(s)
+    } else {
+      s.text = fixScriptAssetPaths(old.textContent || '')
+      s.setAttribute(PAGE_MARK, '1')
+      document.body.appendChild(s)
+      s.remove()
+    }
+  })
+}
+
+/** Re-apply the saved language and re-run reveal/counter animations for new content. */
+function reinitContent(bs: BenroShared | undefined): void {
+  try {
+    const savedLang = localStorage.getItem('benroLang') || 'en'
+    if (bs?.applyLang) bs.applyLang(savedLang)
+    else window.applyLang?.(savedLang)
+    bs?.initReveal?.()
+    bs?.initCounters?.()
+    bs?.initYear?.()
+  } catch { /* non-fatal */ }
+}
+
+/** Scroll to the hash target if present and valid, otherwise to the top. */
+function scrollToHashOrTop(hash: string): void {
+  if (hash) {
+    try {
+      const target = document.querySelector(hash)
+      if (target) { target.scrollIntoView({ behavior: 'auto' }); return }
+    } catch { /* invalid selector */ }
+  }
+  window.scrollTo(0, 0)
+}
 
 export default function ContentPage() {
   const location = useLocation()
@@ -38,101 +92,46 @@ export default function ContentPage() {
     let cancelled = false
     const file = routeToFile(location.pathname)
     setError(null)
-    document.querySelectorAll('[data-benro-page]').forEach((n) => n.remove())
+    document.querySelectorAll('[' + PAGE_MARK + ']').forEach((n) => n.remove())
 
     fetch(file)
-      .then((res) => { if (!res.ok) throw new Error('HTTP ' + res.status); return res.text() })
+      .then((res) => {
+        if (!res.ok) throw new Error('HTTP ' + res.status)
+        return res.text()
+      })
       .then(async (html) => {
         if (cancelled) return
         const doc = new DOMParser().parseFromString(html, 'text/html')
         const fileBase = new URL(file, window.location.origin)
 
-        // Resolve relative asset URLs
-        doc.querySelectorAll('*').forEach((el) => {
-          ;['src', 'href', 'poster'].forEach((a) => {
-            const v = el.getAttribute(a)
-            if (v && !/^(https?:|\/\/|#|mailto:|tel:|javascript:|data:|\/)/i.test(v)) {
-              try { el.setAttribute(a, new URL(v, fileBase).pathname) } catch {}
-            }
-          })
-          const ss = el.getAttribute('srcset')
-          if (ss) {
-            const fixed = ss.split(',').map((part) => {
-              const seg = part.trim().split(/\s+/)
-              if (seg[0] && !/^(https?:|\/\/|\/|data:)/i.test(seg[0])) {
-                try { seg[0] = new URL(seg[0], fileBase).pathname } catch {}
-              }
-              return seg.join(' ')
-            }).join(', ')
-            el.setAttribute('srcset', fixed)
-          }
-        })
-
+        resolveAssetUrls(doc, fileBase)
         if (doc.title) document.title = doc.title
         const lang = doc.documentElement.getAttribute('lang')
         if (lang) document.documentElement.setAttribute('lang', lang)
 
-        // Inject page-specific <style> blocks
-        doc.querySelectorAll('head style, head link[rel="stylesheet"]').forEach((node) => {
-          const clone = node.cloneNode(true) as HTMLElement
-          clone.setAttribute('data-benro-page', '1')
-          document.head.appendChild(clone)
-        })
+        injectPageStyles(doc)
 
-        // Strip chrome (rendered by persistent Layout) and collect scripts
+        // Strip persistent chrome and collect scripts before injecting content.
         const body = doc.body
         body.querySelectorAll(CHROME_SELECTORS).forEach((n) => n.remove())
-        const scripts = Array.from(body.querySelectorAll('script'))
-        scripts.forEach((s) => s.remove())
-
+        const bodyScripts = Array.from(body.querySelectorAll('script'))
+        bodyScripts.forEach((s) => s.remove())
         if (containerRef.current) containerRef.current.innerHTML = body.innerHTML
 
-        // Execute page scripts (hero slider, etc.)
-        const allScripts = [...Array.from(doc.querySelectorAll('head script')), ...scripts] as HTMLScriptElement[]
-        allScripts.forEach((old) => {
-          const src = old.getAttribute('src')
-          if (src) {
-            const abs = new URL(src, fileBase).pathname
-            if (loadedExternal.has(abs)) return
-            loadedExternal.add(abs)
-            const s = document.createElement('script')
-            for (const at of Array.from(old.attributes)) {
-              if (at.name === 'src') s.src = abs; else s.setAttribute(at.name, at.value)
-            }
-            s.setAttribute('data-benro-page', '1')
-            document.body.appendChild(s)
-          } else {
-            const s = document.createElement('script')
-            s.text = (old.textContent || '').replace(/([\s"'(`,])assets\//g, '$1/site/assets/')
-            s.setAttribute('data-benro-page', '1')
-            document.body.appendChild(s)
-            s.remove()
-          }
-        })
+        const headScripts = Array.from(doc.querySelectorAll('head script')) as HTMLScriptElement[]
+        runPageScripts([...headScripts, ...bodyScripts], fileBase)
 
-        // Re-apply current language + re-run reveal/counter animations for new content
         const bs = await waitForShared()
         if (cancelled) return
-        try {
-          const savedLang = localStorage.getItem('benroLang') || 'en'
-          bs?.applyLang ? bs.applyLang(savedLang) : (window as any).applyLang?.(savedLang)
-          bs?.initReveal?.(); bs?.initCounters?.(); bs?.initYear?.()
-        } catch {}
-
-        // Hash scroll or top
-        if (location.hash) {
-          const target = document.querySelector(location.hash)
-          if (target) target.scrollIntoView({ behavior: 'auto' }); else window.scrollTo(0, 0)
-        } else {
-          window.scrollTo(0, 0)
-        }
+        reinitContent(bs)
+        scrollToHashOrTop(location.hash)
       })
       .catch((e) => { if (!cancelled) setError(String(e)) })
 
     return () => { cancelled = true }
   }, [location.pathname, location.hash])
 
-  // Intercept internal content link clicks
+  // Route internal content links through React Router.
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
@@ -143,7 +142,7 @@ export default function ContentPage() {
       if (!href || href.startsWith('#')) return
       let url: URL
       try { url = new URL(href, window.location.origin + routeToFile(location.pathname)) } catch { return }
-      if (url.origin === window.location.origin && url.pathname.startsWith('/site/')) {
+      if (isSiteUrl(url)) {
         e.preventDefault()
         navigate(fileToRoute(url.pathname) + (url.hash || ''))
       }
