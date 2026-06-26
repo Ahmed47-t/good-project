@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Request a Quote — Benro Industries · HVAC&R Manufacturer</title>
+<meta name="description" content="Request a B2B quote from BENRO Industries for insulated copper tubes, aluminium tubes, PE foam insulation and copper pancake coils. Bulk pricing for HVAC professionals." />
+<!-- Social SEO -->
+<meta property="og:title" content="Request a Quote — BENRO INDUSTRIES" />
+<meta property="og:description" content="Request a B2B quote from BENRO Industries for insulated copper tubes, aluminium tubes, PE foam insulation and copper pancake coils. Bulk pricing for HVAC professionals." />
+<meta property="og:image" content="https://www.benroindustries.com/assets/images/benro-logo.png" />
+<meta property="og:url" content="https://www.benroindustries.com/quote.html" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Request a Quote — BENRO INDUSTRIES" />
+<meta name="twitter:description" content="Request a B2B quote from BENRO Industries for insulated copper tubes, aluminium tubes, PE foam insulation and copper pancake coils. Bulk pricing for HVAC professionals." />
+<meta name="twitter:image" content="https://www.benroindustries.com/assets/images/benro-logo.png" />
+<link rel="canonical" href="https://www.benroindustries.com/quote.html" />
+<!-- /Social SEO -->
+<link rel="icon" type="image/png" href="assets/images/benro-logo.png" />
+<link rel="stylesheet" href="assets/css/shared.css" />
+<style>
+:root{
+    --brand:#E45911; --brand-600:#c84a09; --brand-50:#FFF1E9;
+    --ink:#1F2937; --ink-2:#3D4F5F; --muted:#5A6577;
+    --line:#E7EBEE; --surface:#FBFBFC; --surface-2:#F3F5F7;
+    --white:#ffffff;
+    --shadow-sm:0 1px 2px rgba(17,24,39,.04), 0 1px 3px rgba(17,24,39,.06);
+    --shadow-md:0 8px 24px -8px rgba(17,24,39,.12), 0 4px 8px -4px rgba(17,24,39,.08);
+    --shadow-lg:0 24px 48px -16px rgba(17,24,39,.18);
+    --container:1240px;
+    --font:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+
+.qhero{
+    padding:80px 0 100px;
+    background:
+      radial-gradient(1100px 580px at 90% -10%, rgba(228,89,17,.10), transparent 60%),
+      radial-gradient(800px 460px at -10% 110%, rgba(11,61,145,.08), transparent 60%),
+      linear-gradient(180deg,#fff 0%, var(--surface) 100%);
+  }
+
+.qhero__inner{max-width:800px;margin:0 auto;text-align:center}
+
+.qhero h1{margin-top:18px}
+
+.qhero h1 .accent{background:linear-gradient(90deg,var(--brand) 0%, #f4a045 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.qhero p.lead{margin-top:22px;font-size:18px;color:var(--ink-2);max-width:600px;margin-left:auto;margin-right:auto}
+
+.qwrap{max-width:820px;margin:0 auto}
+
+.qform{background:#fff;border:1px solid var(--line);border-radius:20px;padding:48px;box-shadow:var(--shadow-md)}
+
+.qform h2{font-size:clamp(22px,2vw,28px);margin-bottom:8px}
+
+.qform > p{color:var(--ink-2);font-size:15px;margin-bottom:32px}
+
+.qrow{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+
+.qgroup{display:flex;flex-direction:column;gap:6px;margin-bottom:22px}
+
+.qgroup label{font-size:14px;font-weight:700;color:var(--ink);letter-spacing:.02em}
+
+.qgroup label .req{color:var(--brand)}
+
+.qgroup input,.qgroup textarea,.qgroup select{
+    padding:13px 18px;border-radius:10px;border:1.5px solid var(--line);font:inherit;font-size:15px;color:var(--ink);
+    background:#fff;transition:border-color .2s,box-shadow .2s;outline:none;width:100%;appearance:none;-webkit-appearance:none
+  }
+
+.qgroup input:focus,.qgroup textarea:focus,.qgroup select:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(228,89,17,.12)}
+
+.qgroup select{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='%236B7280'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 16px center;padding-right:44px}
+
+html[dir="rtl"] .qgroup select{background-position:left 16px center;padding-right:18px;padding-left:44px}
+
+.qgroup textarea{resize:vertical;min-height:120px}
+
+.qgroup .help{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+.qsubmit{width:100%;justify-content:center;margin-top:10px;padding:16px 24px;font-size:16px}
+
+.qsuccess{display:none;text-align:center;padding:56px 24px}
+
+.qsuccess.show{display:block}
+
+.qsuccess .ico{width:60px;height:60px;color:#22c55e;margin-bottom:18px}
+
+.qsuccess h3{font-size:24px;margin-bottom:10px}
+
+.qsuccess p{color:var(--ink-2);font-size:16px;max-width:480px;margin:0 auto}
+
+@media (max-width:780px){.qform{padding:28px 22px}.qrow{grid-template-columns:1fr;gap:0}}
+
+.qbenefits{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+.qbenefit{text-align:center;padding:32px 24px;background:#fff;border:1px solid var(--line);border-radius:16px;transition:.2s;box-shadow:var(--shadow-sm)}
+
+.qbenefit:hover{border-color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow-md)}
+
+.qbenefit__ico{width:52px;height:52px;margin:0 auto 16px;border-radius:14px;background:var(--brand-50);color:var(--brand);display:flex;align-items:center;justify-content:center}
+
+.qbenefit__ico svg{width:24px;height:24px}
+
+.qbenefit h3{font-size:17px;margin-bottom:8px}
+
+.qbenefit p{color:var(--ink-2);font-size:14.5px;line-height:1.6}
+
+@media (max-width:780px){.qbenefits{grid-template-columns:1fr;gap:16px}}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to main content</a>
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="left hide-sm">
+      <a href="tel:+213554250110"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+213 554 25 01 10</a>
+      <span class="sep">•</span>
+      <a href="mailto:contact@benroindustries.com"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>contact@benroindustries.com</a>
+    </div>
+    <div class="right">
+      <span class="hide-sm" data-i18n="topbar.tagline">Algeria 🇩🇿 · HVAC&amp;R Manufacturer</span>
+      <span class="sep hide-sm">•</span>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-btn" id="langTrigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10A15.3 15.3 0 0 1 8 12 15.3 15.3 0 0 1 12 2z"/></svg>
+          <span id="langCurrent">EN</span>
+          <svg class="caret" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="listbox">
+          <li><button type="button" role="option" data-lang="en"><span>🇬🇧</span> English</button></li>
+          <li><button type="button" role="option" data-lang="fr"><span>🇫🇷</span> Français</button></li>
+          <li><button type="button" role="option" data-lang="ar"><span>🇩🇿</span> العربية</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="siteHeader">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><img src="assets/images/benro-logo.png" alt="Benro Industries"/></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#products" data-i18n="nav.products">Products</a>
+      <a href="index.html#why" data-i18n="nav.why">Why Benro</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="blog.html" data-i18n="nav.blog">Blog</a>
+      <a href="index.html#partners" data-i18n="nav.clients">Clients</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a href="index.html#products" class="btn btn--ghost" data-i18n="cta.browse">Browse catalogue</a>
+      <a href="quote.html" class="btn btn--primary is-active"><span data-i18n="cta.quote">Get a Quote</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<aside class="mnav" id="mnav" aria-label="Mobile menu">
+  <button class="mnav-close" id="mnavClose" aria-label="Close menu">×</button>
+  <a href="index.html#products" data-i18n="nav.products">Products</a>
+  <a href="index.html#why" data-i18n="nav.why">Why Benro</a>
+  <a href="about.html" data-i18n="nav.about">About</a>
+  <a href="blog.html" data-i18n="nav.blog">Blog</a>
+  <a href="index.html#partners" data-i18n="nav.clients">Clients</a>
+  <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  <a href="quote.html" class="btn btn--primary" data-i18n="cta.quote">Get a Quote</a>
+</aside>
+
+<!-- BREADCRUMB -->
+<nav class="crumbs" aria-label="Breadcrumb">
+  <div class="container crumbs__inner">
+    <a href="index.html" data-i18n="quote.crumb_home">Home</a>
+    <span class="sep">›</span>
+    <span class="current" data-i18n="quote.crumb_current">Request a Quote</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="main-content" class="qhero">
+  <div class="container qhero__inner reveal">
+    <span class="badge" data-i18n="quote.hero_badge">B2B Quote Request</span>
+    <h1 data-i18n-html="quote.hero_title">Request a <span class="accent">Quote</span></h1>
+    <p class="lead" data-i18n="quote.hero_lead">Fill in the details below and our sales engineering team will prepare a custom pricing proposal for your volume, specifications and delivery requirements.</p>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="section" id="form">
+  <div class="container qwrap">
+    <div class="qform reveal">
+      <h2 data-i18n="quote.form_title">Request a Quote</h2>
+      <p data-i18n-html="quote.form_desc">All fields marked with <span class="req">*</span> are required. We typically respond within 24 hours.</p>
+
+      <form id="quoteForm" novalidate>
+        <div class="qrow">
+          <div class="qgroup">
+            <label for="fullName" data-i18n-html="quote.form.full_name">Full Name <span class="req">*</span></label>
+            <input type="text" id="fullName" name="fullName" required placeholder="Your full name" data-i18n="quote.form.full_name_placeholder" />
+          </div>
+          <div class="qgroup">
+            <label for="email" data-i18n-html="quote.form.email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="your@company.com" data-i18n="quote.form.email_placeholder" />
+          </div>
+        </div>
+
+        <div class="qrow">
+          <div class="qgroup">
+            <label for="phone" data-i18n="quote.form.phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+213 XXX XX XX XX" data-i18n="quote.form.phone_placeholder" />
+          </div>
+          <div class="qgroup">
+            <label for="company" data-i18n="quote.form.company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Your company name" data-i18n="quote.form.company_placeholder" />
+          </div>
+        </div>
+
+        <div class="qrow">
+          <div class="qgroup">
+            <label for="product" data-i18n="quote.form.product">Product Type</label>
+            <select id="product" name="product">
+              <option value="" data-i18n="quote.form.product_placeholder">Select a product</option>
+              <option value="twin-insulated-copper" data-i18n="quote.form.prod1">Twin Insulated Copper</option>
+              <option value="single-insulated-copper" data-i18n="quote.form.prod2">Single Insulated Copper</option>
+              <option value="twin-insulated-aluminium" data-i18n="quote.form.prod3">Twin Insulated Aluminium</option>
+              <option value="pe-insulation-tubes" data-i18n="quote.form.prod4">PE Insulation Tubes</option>
+              <option value="copper-pancake-coils" data-i18n="quote.form.prod5">Copper Pancake Coils</option>
+              <option value="polyethylene-tubes" data-i18n="quote.form.prod6">Polyethylene Tubes</option>
+              <option value="other" data-i18n="quote.form.prod_other">Other</option>
+            </select>
+          </div>
+          <div class="qgroup">
+            <label for="quantity" data-i18n="quote.form.qty">Requested Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" step="1" inputmode="numeric" placeholder="500" data-i18n="quote.form.qty_placeholder" />
+            <span class="help" data-i18n="quote.form.qty_help">Enter an approximate quantity; specify unit in the notes if needed.</span>
+          </div>
+        </div>
+
+        <div class="qgroup">
+          <label for="specs" data-i18n="quote.form.specs">Size / Specifications</label>
+          <textarea id="specs" name="specs" placeholder="Tell us the size, dimensions, insulation thickness, packaging or certifications required." data-i18n="quote.form.specs_placeholder"></textarea>
+        </div>
+
+        <div class="qgroup">
+          <label for="notes" data-i18n="quote.form.notes">Additional Notes</label>
+          <textarea id="notes" name="notes" placeholder="Any deadline, delivery destination or extra project details?" data-i18n="quote.form.notes_placeholder"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary qsubmit">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          <span data-i18n="quote.form.submit">Submit Quote Request</span>
+        </button>
+      </form>
+
+      <div class="qsuccess" id="quoteSuccess">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <h3 data-i18n="quote.form.success_title">Quote Request Submitted!</h3>
+        <p data-i18n="quote.form.success_desc">Thank you. Our sales engineering team will review your requirements and get back to you within 24 hours with a detailed quote.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY REQUEST A QUOTE -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="quote.why_eyebrow">Why request a quote</span>
+      <h2 data-i18n="quote.why_title">Bulk pricing for HVAC professionals</h2>
+      <p data-i18n="quote.why_desc">We serve manufacturers, distributors and installers across North Africa and beyond. Here is what you can expect.</p>
+    </div>
+    <div class="qbenefits">
+      <div class="qbenefit reveal">
+        <div class="qbenefit__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3 data-i18n="quote.why1.title">Competitive Volume Pricing</h3>
+        <p data-i18n="quote.why1.desc">Get tiered pricing for bulk orders — from small-batch custom cuts to full container loads with priority lead times.</p>
+      </div>
+      <div class="qbenefit reveal">
+        <div class="qbenefit__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <h3 data-i18n="quote.why2.title">Custom Specifications</h3>
+        <p data-i18n="quote.why2.desc">Request non-standard dimensions, insulation thickness, custom packaging, or private labelling for your brand.</p>
+      </div>
+      <div class="qbenefit reveal">
+        <div class="qbenefit__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+        <h3 data-i18n="quote.why3.title">Fast & Reliable Response</h3>
+        <p data-i18n="quote.why3.desc">Our sales engineering team reviews every inquiry within 24 hours — with pricing, lead times and delivery options.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section style="padding:0">
+  <div class="cta-band reveal">
+    <div>
+      <h2 data-i18n="quote.cta_title">Need help with your specifications?</h2>
+      <p data-i18n="quote.cta_desc">Talk to our technical team. We can help you select the right products and configurations for your project.</p>
+    </div>
+    <div class="actions">
+      <a href="contact.html" class="btn btn--white"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="quote.cta_btn1">Call sales</span></a>
+      <a href="contact.html" class="btn" style="background:rgba(255,255,255,.15);color:#fff;border:1.5px solid rgba(255,255,255,.4)"><span data-i18n="quote.cta_btn2">Contact us</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/images/benro-logo.png" alt="Benro Industries"/>
+        <p data-i18n="footer.about">BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&amp;R sector — producing insulated copper &amp; aluminium connecting lines and PE foam insulation in Algeria.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.products">Products</h4>
+        <ul>
+          <li><a href="products/twin-insulated-copper.html" data-i18n="footer.prod1">Twin Insulated Copper</a></li>
+          <li><a href="products/single-insulated-copper.html" data-i18n="footer.prod2">Single Insulated Copper</a></li>
+          <li><a href="products/twin-insulated-aluminium.html" data-i18n="footer.prod3">Twin Insulated Aluminium</a></li>
+          <li><a href="products/insulation-polyethylene.html" data-i18n="footer.prod4">PE Insulation Tubes</a></li>
+          <li><a href="products/copper-tubes.html" data-i18n="footer.prod5">Copper Pancake Coils</a></li>
+          <li><a href="products/polyethylene-tubes.html" data-i18n="footer.prod6">Polyethylene Tubes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.quicklinks">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="footer.home">Home</a></li>
+          <li><a href="about.html" data-i18n="footer.about_link">About us</a></li>
+          <li><a href="index.html#products" data-i18n="nav.products">Products</a></li>
+          <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          <li><a href="quote.html" data-i18n="cta.quote">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <a href="https://www.google.com/maps/search/?api=1&query=Industrial+Zone%2C+Ghardaia%2C+Algeria" target="_blank" rel="noopener" data-i18n="footer.address">Industrial Zone, Ghardaïa, Algeria</a>
+          </li>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+213554250110">+213 554 25 01 10</a>
+          </li>
+          <li class="contact-li">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+            <a href="mailto:contact@benroindustries.com">contact@benroindustries.com</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.follow">Follow Us</h4>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/benro-industries" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm-1.78 13.02h3.55V9H3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://www.facebook.com/benroindustries" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.5v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/benroindustries" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://wa.me/213554250110" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg></a>
+        </div>
+        <p style="margin-top:18px;font-size:13px;color:#5A6B7E;line-height:1.6" data-i18n="footer.response">We typically respond within 2–4 hours.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div><span data-i18n="footer.copy_prefix">©</span> <span id="yr"></span> <span data-i18n="footer.copy_suffix">Benro Industries — All rights reserved.</span></div>
+      <div>
+        <a href="contact.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <span style="margin:0 8px;opacity:.3">•</span>
+        <span data-i18n="footer.tagline">HVAC&amp;R Manufacturer · Algeria 🇩🇿</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/213554250110" class="wa" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
+</a>
+
+<script>
+/* ===== i18n (EN / FR / AR) ===== */
+window.I18N = {
+  en: {
+    'a11y.skip':'Skip to main content',
+    'topbar.tagline': 'Algeria 🇩🇿 · HVAC&R Manufacturer',
+    'nav.products':'Products','nav.why':'Why Benro','nav.about':'About','nav.clients':'Clients','nav.blog':'Blog','nav.contact':'Contact',
+    'cta.browse':'Browse catalogue','cta.quote':'Get a Quote',
+    'footer.about':'BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&R sector — producing insulated copper & aluminium connecting lines and PE foam insulation in Algeria.',
+    'footer.quicklinks':'Quick Links','footer.home':'Home','footer.about_link':'About us','footer.products':'Products','footer.prod1':'Twin Insulated Copper','footer.prod2':'Single Insulated Copper','footer.prod3':'Twin Insulated Aluminium','footer.prod4':'PE Insulation Tubes','footer.prod5':'Copper Pancake Coils','footer.prod6':'Polyethylene Tubes','footer.contact':'Contact',
+    'footer.address':'Industrial Zone, Ghardaïa, Algeria',
+    'footer.follow':'Follow Us','footer.response':'We typically respond within 2–4 hours.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — All rights reserved.','footer.tagline':'HVAC&R Manufacturer · Algeria 🇩🇿','footer.privacy':'Privacy Policy',
+
+    'quote.crumb_home':'Home','quote.crumb_current':'Request a Quote',
+    'quote.hero_badge':'Quote Request',
+    'quote.hero_title':'Request a <span class="accent">Quote</span>',
+    'quote.hero_lead':'Share your product needs and our sales engineering team will prepare a tailored proposal for your specifications, quantity and delivery requirements.',
+    'quote.form_title':'Request a Quote',
+    'quote.form_desc':'Only full name and email are required. Add as much detail as possible so we can respond with an accurate proposal.',
+    'quote.form.full_name':'Full Name <span class="req">*</span>','quote.form.full_name_placeholder':'Your full name',
+    'quote.form.email':'Email Address <span class="req">*</span>','quote.form.email_placeholder':'your@company.com',
+    'quote.form.phone':'Phone Number','quote.form.phone_placeholder':'+213 XXX XX XX XX',
+    'quote.form.company':'Company Name','quote.form.company_placeholder':'Your company name',
+    'quote.form.product':'Product Type','quote.form.product_placeholder':'Select a product',
+    'quote.form.prod1':'Twin Insulated Copper','quote.form.prod2':'Single Insulated Copper','quote.form.prod3':'Twin Insulated Aluminium',
+    'quote.form.prod4':'PE Insulation Tubes','quote.form.prod5':'Copper Pancake Coils','quote.form.prod6':'Polyethylene Tubes','quote.form.prod_other':'Other',
+    'quote.form.qty':'Requested Quantity','quote.form.qty_placeholder':'500','quote.form.qty_help':'Enter an approximate quantity; specify unit in the notes if needed.',
+    'quote.form.specs':'Size / Specifications','quote.form.specs_placeholder':'Tell us the size, dimensions, insulation thickness, packaging or certifications required.',
+    'quote.form.notes':'Additional Notes','quote.form.notes_placeholder':'Any deadline, delivery destination or extra project details?',
+    'quote.form.submit':'Submit Quote Request',
+    'quote.form.success_title':'Quote Request Submitted!',
+    'quote.form.success_desc':'Thank you. Your email client should open with the prepared quote request. Our team will review your details and reply as soon as possible.',
+    'quote.why_eyebrow':'Why request a quote','quote.why_title':'Bulk pricing for HVAC professionals','quote.why_desc':'We serve manufacturers, distributors and installers across North Africa and beyond. Here is what you can expect.',
+    'quote.why1.title':'Competitive Volume Pricing','quote.why1.desc':'Get tiered pricing for bulk orders — from small-batch custom cuts to full container loads with priority lead times.',
+    'quote.why2.title':'Custom Specifications','quote.why2.desc':'Request non-standard dimensions, insulation thickness, custom packaging, or private labelling for your brand.',
+    'quote.why3.title':'Fast & Reliable Response','quote.why3.desc':'Our sales engineering team reviews every inquiry within 24 hours — with pricing, lead times and delivery options.',
+    'quote.cta_title':'Need help with your specifications?','quote.cta_desc':'Talk to our technical team. We can help you select the right products and configurations for your project.',
+    'quote.cta_btn1':'Call sales','quote.cta_btn2':'Contact us' 
+  },
+  fr: {
+    'a11y.skip':'Aller au contenu principal',
+    'topbar.tagline':'Algérie 🇩🇿 · Fabricant CVC&R',
+    'nav.products':'Produits','nav.why':'Pourquoi Benro','nav.about':'À propos','nav.clients':'Clients','nav.blog':'Blog','nav.contact':'Contact',
+    'cta.browse':'Voir le catalogue','cta.quote':'Demander un devis',
+    'footer.about':"BENRO INDUSTRIES est un fabricant dynamique et innovant à la pointe du secteur CVC&R — produisant des lignes de raccordement en cuivre & aluminium isolées et de la mousse PE en Algérie.",
+    'footer.quicklinks':'Liens rapides','footer.home':'Accueil','footer.about_link':'À propos','footer.products':'Produits','footer.prod1':'Cuivre isolé jumelé','footer.prod2':'Cuivre isolé simple','footer.prod3':'Aluminium isolé jumelé','footer.prod4':"Tubes d'isolation PE",'footer.prod5':'Couronnes de cuivre','footer.prod6':'Tubes en polyéthylène','footer.contact':'Contact',
+    'footer.address':'Zone Industrielle, Ghardaïa, Algérie',
+    'footer.follow':'Suivez-nous','footer.response':'Nous répondons généralement sous 2 à 4 heures.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — Tous droits réservés.','footer.tagline':'Fabricant CVC&R · Algérie 🇩🇿','footer.privacy':'Politique de confidentialité',
+
+    'quote.crumb_home':'Accueil','quote.crumb_current':'Demander un devis',
+    'quote.hero_badge':'Demande de devis',
+    'quote.hero_title':'Demander un <span class="accent">devis</span>',
+    'quote.hero_lead':"Partagez vos besoins produit et notre équipe technico-commerciale préparera une proposition adaptée à vos spécifications, quantités et exigences de livraison.",
+    'quote.form_title':'Demander un devis',
+    'quote.form_desc':"Seuls le nom complet et l’adresse e-mail sont obligatoires. Ajoutez le plus de détails possible pour recevoir une proposition précise.",
+    'quote.form.full_name':'Nom complet <span class="req">*</span>','quote.form.full_name_placeholder':'Votre nom complet',
+    'quote.form.email':'Adresse e-mail <span class="req">*</span>','quote.form.email_placeholder':'vous@entreprise.com',
+    'quote.form.phone':'Numéro de téléphone','quote.form.phone_placeholder':'+213 XXX XX XX XX',
+    'quote.form.company':'Nom de l’entreprise','quote.form.company_placeholder':'Nom de votre entreprise',
+    'quote.form.product':'Type de produit','quote.form.product_placeholder':'Sélectionnez un produit',
+    'quote.form.prod1':'Cuivre isolé jumelé','quote.form.prod2':'Cuivre isolé simple','quote.form.prod3':'Aluminium isolé jumelé',
+    'quote.form.prod4':"Tubes d’isolation PE",'quote.form.prod5':'Couronnes de cuivre','quote.form.prod6':'Tubes en polyéthylène','quote.form.prod_other':'Autre',
+    'quote.form.qty':'Quantité demandée','quote.form.qty_placeholder':'500','quote.form.qty_help':'Indiquez une quantité approximative ; précisez l’unité dans les notes si nécessaire.',
+    'quote.form.specs':'Dimensions / Spécifications','quote.form.specs_placeholder':"Indiquez les dimensions, l’épaisseur d’isolation, l’emballage ou les certifications requises.",
+    'quote.form.notes':'Notes supplémentaires','quote.form.notes_placeholder':'Délai, destination de livraison ou détails supplémentaires du projet ?',
+    'quote.form.submit':'Soumettre la demande',
+    'quote.form.success_title':'Demande de devis soumise !',
+    'quote.form.success_desc':"Merci. Votre client e-mail devrait s’ouvrir avec la demande préparée. Notre équipe examinera vos détails et vous répondra dès que possible.",
+    'quote.why_eyebrow':'Pourquoi demander un devis','quote.why_title':'Tarifs de gros pour les professionnels du CVC','quote.why_desc':'Nous servons fabricants, distributeurs et installateurs en Afrique du Nord et au-delà. Voici ce à quoi vous attendre.',
+    'quote.why1.title':'Prix compétitifs pour volumes','quote.why1.desc':'Obtenez une tarification par paliers — des petites séries sur mesure aux conteneurs complets avec délais prioritaires.',
+    'quote.why2.title':'Spécifications personnalisées','quote.why2.desc':"Dimensions non standard, épaisseur d’isolation, emballage personnalisé ou marquage privé pour votre marque.",
+    'quote.why3.title':'Réponse rapide et fiable','quote.why3.desc':"Notre équipe examine chaque demande sous 24 heures — avec tarifs, délais et options de livraison.",
+    'quote.cta_title':'Besoin d’aide pour vos spécifications ?','quote.cta_desc':"Parlez à notre équipe technique. Nous vous aiderons à choisir les produits adaptés à votre projet.",
+    'quote.cta_btn1':'Appeler les ventes','quote.cta_btn2':'Nous contacter' 
+  },
+  ar: {
+    'a11y.skip':'انتقل إلى المحتوى الرئيسي',
+    'topbar.tagline':'الجزائر 🇩🇿 · صانع تكييف وتبريد',
+    'nav.products':'المنتجات','nav.why':'لماذا Benro','nav.about':'من نحن','nav.clients':'العملاء','nav.blog':'المدوّنة','nav.contact':'اتصل بنا',
+    'cta.browse':'تصفح الكتالوج','cta.quote':'اطلب عرض سعر',
+    'footer.about':'بنرو للصناعات صانعٌ ديناميكي ومبتكر في طليعة قطاع التكييف والتبريد — ينتج خطوط توصيل نحاسية وألمنيومية معزولة ورغوة PE في الجزائر.',
+    'footer.quicklinks':'روابط سريعة','footer.home':'الرئيسية','footer.about_link':'من نحن','footer.products':'المنتجات','footer.prod1':'نحاس مزدوج معزول','footer.prod2':'نحاس مفرد معزول','footer.prod3':'ألمنيوم مزدوج معزول','footer.prod4':'أنابيب عزل PE','footer.prod5':'لفّات نحاسية','footer.prod6':'أنابيب بولي إيثيلين','footer.contact':'تواصل',
+    'footer.address':'المنطقة الصناعية، غرداية، الجزائر',
+    'footer.follow':'تابعنا','footer.response':'نرد عادةً خلال 2–4 ساعات.',
+    'footer.copy_prefix':'©','footer.copy_suffix':'بنرو للصناعات — جميع الحقوق محفوظة.','footer.tagline':'صانع تكييف وتبريد · الجزائر 🇩🇿','footer.privacy':'سياسة الخصوصية',
+
+    'quote.crumb_home':'الرئيسية','quote.crumb_current':'اطلب عرض سعر',
+    'quote.hero_badge':'طلب عرض سعر',
+    'quote.hero_title':'اطلب <span class="accent">عرض سعر</span>',
+    'quote.hero_lead':'شاركنا احتياجاتك من المنتجات وسيقوم فريق هندسة المبيعات بإعداد عرض مناسب حسب المواصفات والكمية ومتطلبات التسليم.',
+    'quote.form_title':'اطلب عرض سعر',
+    'quote.form_desc':'الاسم الكامل والبريد الإلكتروني فقط إلزاميان. أضف أكبر قدر ممكن من التفاصيل لنتمكن من إرسال عرض دقيق.',
+    'quote.form.full_name':'الاسم الكامل <span class="req">*</span>','quote.form.full_name_placeholder':'اسمك الكامل',
+    'quote.form.email':'البريد الإلكتروني <span class="req">*</span>','quote.form.email_placeholder':'you@company.com',
+    'quote.form.phone':'رقم الهاتف','quote.form.phone_placeholder':'+213 XXX XX XX XX',
+    'quote.form.company':'اسم الشركة','quote.form.company_placeholder':'اسم شركتك',
+    'quote.form.product':'نوع المنتج','quote.form.product_placeholder':'اختر المنتج',
+    'quote.form.prod1':'نحاس مزدوج معزول','quote.form.prod2':'نحاس مفرد معزول','quote.form.prod3':'ألمنيوم مزدوج معزول',
+    'quote.form.prod4':'أنابيب عزل PE','quote.form.prod5':'لفّات نحاسية','quote.form.prod6':'أنابيب بولي إيثيلين','quote.form.prod_other':'أخرى',
+    'quote.form.qty':'الكمية المطلوبة','quote.form.qty_placeholder':'500','quote.form.qty_help':'أدخل كمية تقريبية؛ وحدد الوحدة في الملاحظات إذا لزم الأمر.',
+    'quote.form.specs':'المقاس / المواصفات','quote.form.specs_placeholder':'اذكر المقاسات، الأبعاد، سمك العزل، التغليف أو الشهادات المطلوبة.',
+    'quote.form.notes':'ملاحظات إضافية','quote.form.notes_placeholder':'أي موعد نهائي أو وجهة تسليم أو تفاصيل إضافية للمشروع؟',
+    'quote.form.submit':'إرسال طلب عرض السعر',
+    'quote.form.success_title':'تم إرسال طلب عرض السعر!',
+    'quote.form.success_desc':'شكراً لك. من المفترض أن يفتح تطبيق البريد الإلكتروني مع طلب عرض السعر المجهز. سيراجع فريقنا التفاصيل ويرد في أقرب وقت ممكن.',
+    'quote.why_eyebrow':'لماذا تطلب عرض سعر','quote.why_title':'أسعار الجملة لمحترفي التكييف','quote.why_desc':'نخدم المصنّعين والموزّعين والفنّيين في شمال أفريقيا وخارجها. إليك ما يمكنك توقّعه.',
+    'quote.why1.title':'أسعار تنافسية للكميات','quote.why1.desc':'احصل على تسعير متدرّج للطلبات بالجملة — من الدفعات الصغيرة المخصّصة إلى حمولات الحاويات الكاملة بأوقات تسليم ذات أولوية.',
+    'quote.why2.title':'مواصفات مخصّصة','quote.why2.desc':'اطلب مقاسات غير قياسية، سمك عزل مخصّص، تغليف حسب الطلب، أو علامة تجارية خاصة.',
+    'quote.why3.title':'رد سريع وموثوق','quote.why3.desc':'يراجع فريقنا كل طلب خلال 24 ساعة — مع الأسعار والمهل الزمنية وخيارات التوصيل.',
+    'quote.cta_title':'هل تحتاج مساعدة في المواصفات؟','quote.cta_desc':'تحدث مع فريقنا الفني. يمكننا مساعدتك في اختيار المنتجات والتكوينات المناسبة لمشروعك.',
+    'quote.cta_btn1':'اتصل بالمبيعات','quote.cta_btn2':'اتصل بنا' 
+  }
+};
+
+// Quote form handler
+const form = document.getElementById('quoteForm');
+const success = document.getElementById('quoteSuccess');
+if (form) {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const fd = new FormData(form);
+    const fullName = fd.get('fullName') || '';
+    const email = fd.get('email') || '';
+    const phone = fd.get('phone') || '';
+    const company = fd.get('company') || '';
+    const product = fd.get('product') || '';
+    const quantity = fd.get('quantity') || '';
+    const specs = fd.get('specs') || '';
+    const notes = fd.get('notes') || '';
+
+    const lang = document.documentElement.lang || 'en';
+    const dict = (window.BenroShared && window.BenroShared.getDict ? window.BenroShared.getDict(lang) : ((window.I18N && window.I18N[lang]) || {}));
+
+    const prodMap = {
+      'twin-insulated-copper': dict['quote.form.prod1'] || 'Twin Insulated Copper',
+      'single-insulated-copper': dict['quote.form.prod2'] || 'Single Insulated Copper',
+      'twin-insulated-aluminium': dict['quote.form.prod3'] || 'Twin Insulated Aluminium',
+      'pe-insulation-tubes': dict['quote.form.prod4'] || 'PE Insulation Tubes',
+      'copper-pancake-coils': dict['quote.form.prod5'] || 'Copper Pancake Coils',
+      'polyethylene-tubes': dict['quote.form.prod6'] || 'Polyethylene Tubes',
+      'other': dict['quote.form.prod_other'] || 'Other',
+      '': 'Not specified'
+    };
+    const langLabel = lang === 'ar' ? 'AR' : (lang === 'fr' ? 'FR' : 'EN');
+
+    const body = `-- Benro Industries Quote Request --
+Language: ${langLabel}
+Full Name: ${fullName}
+Email: ${email}
+Phone: ${phone || 'N/A'}
+Company: ${company || 'N/A'}
+Product: ${prodMap[product] || product}
+Requested Quantity: ${quantity || 'N/A'}
+
+Size / Specifications:
+${specs || 'N/A'}
+
+Additional Notes:
+${notes || 'N/A'}`;
+
+    window.location.href = `mailto:contact@benroindustries.com?subject=${encodeURIComponent('Quote Request — ' + fullName)}&body=${encodeURIComponent(body)}`;
+
+    form.style.display = 'none';
+    success.classList.add('show');
+  });
+}
+</script>
+<script src="assets/js/shared.js"></script>
+</body>
+</html>

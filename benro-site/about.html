@@ -1,0 +1,977 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About Us — Benro Industries · HVAC&R Manufacturer in Algeria</title>
+<meta name="description" content="BENRO INDUSTRIES is a vibrant and innovative company at the forefront of the HVAC&R sector — crafting premium insulated copper & aluminium connecting tubes and PE foam insulation in Algeria." />
+<link rel="icon" type="image/png" href="assets/images/benro-logo.png" />
+<style>
+  :root{
+    --brand:#E45911; --brand-600:#c84a09; --brand-50:#FFF1E9;
+    --ink:#1F2937; --ink-2:#4B5563; --muted:#6B7280;
+    --line:#E7EBEE; --surface:#FBFBFC; --surface-2:#F3F5F7;
+    --white:#ffffff;
+    --shadow-sm:0 1px 2px rgba(17,24,39,.04), 0 1px 3px rgba(17,24,39,.06);
+    --shadow-md:0 8px 24px -8px rgba(17,24,39,.12), 0 4px 8px -4px rgba(17,24,39,.08);
+    --shadow-lg:0 24px 48px -16px rgba(17,24,39,.18);
+    --container:1240px;
+    --font:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;font-family:var(--font);color:var(--ink);background:#fff;line-height:1.65;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block;height:auto}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit;cursor:pointer;border:0;background:none}
+  .container{max-width:var(--container);margin:0 auto;padding:0 24px}
+  h1,h2,h3,h4{margin:0;line-height:1.18;letter-spacing:-0.02em;font-weight:800;color:var(--ink)}
+  h1{font-size:clamp(36px,5.4vw,64px)}
+  h2{font-size:clamp(28px,3.4vw,42px)}
+  h3{font-size:20px;font-weight:700}
+  h4{font-size:17px;font-weight:700}
+  p{margin:0}
+
+  /* Buttons (same as homepage) */
+  .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .15s,box-shadow .2s,background .2s,color .2s;white-space:nowrap}
+  .btn--primary{background:var(--brand);color:#fff;box-shadow:0 6px 18px -6px rgba(228,89,17,.55)}
+  .btn--primary:hover{background:var(--brand-600);transform:translateY(-1px)}
+  .btn--ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+  .btn--ghost:hover{border-color:var(--ink);background:var(--surface-2)}
+  .btn--white{background:#fff;color:var(--brand)}
+  .btn .ico{width:18px;height:18px;flex:0 0 18px}
+
+  /* Topbar */
+  .topbar{background:var(--ink);color:#cbd5e1;font-size:13px}
+  .topbar__inner{display:flex;align-items:center;justify-content:space-between;gap:16px;height:40px}
+  .topbar a{display:inline-flex;align-items:center;gap:6px;color:#cbd5e1;transition:color .15s}
+  .topbar a:hover{color:#fff}
+  .topbar .sep{opacity:.3;margin:0 10px}
+  .topbar .right{display:flex;align-items:center;gap:6px}
+
+  /* Language switcher */
+  .lang-switch{position:relative;display:inline-block}
+  .lang-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;border:1px solid #374151;background:transparent;color:#cbd5e1;font:inherit;font-size:13px;line-height:1;cursor:pointer;transition:.15s}
+  .lang-btn:hover{color:#fff;border-color:#4b5563;background:#1f2937}
+  .lang-btn .caret{transition:transform .2s;opacity:.8}
+  .lang-switch.open .lang-btn .caret{transform:rotate(180deg)}
+  .lang-switch.open .lang-btn{color:#fff;border-color:var(--brand);background:#1f2937}
+  .lang-menu{position:absolute;top:calc(100% + 8px);right:0;z-index:70;min-width:170px;margin:0;padding:6px;list-style:none;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow-md);opacity:0;transform:translateY(-6px);pointer-events:none;transition:.15s}
+  .lang-switch.open .lang-menu{opacity:1;transform:none;pointer-events:auto}
+  .lang-menu li{margin:0}
+  .lang-menu button{width:100%;display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;background:transparent;color:var(--ink);font:inherit;font-size:14px;font-weight:600;text-align:left;cursor:pointer}
+  .lang-menu button:hover,.lang-menu button.active{background:var(--brand-50);color:var(--brand)}
+  html[dir="rtl"] .lang-menu{right:auto;left:0}
+  html[dir="rtl"] .lang-menu button{text-align:right}
+  @media (max-width:720px){.topbar .hide-sm{display:none}}
+
+  /* RTL base */
+  html[dir="rtl"]{font-family:"Tajawal","Cairo","Noto Sans Arabic",var(--font)}
+  html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4{letter-spacing:0}
+
+  /* Header */
+  .header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+  .header.is-scrolled{border-color:var(--line);box-shadow:var(--shadow-sm)}
+  .header__inner{display:flex;align-items:center;justify-content:space-between;gap:24px;height:78px;transition:height .2s}
+  .header.is-scrolled .header__inner{height:64px}
+  .logo img{height:48px;width:auto;transition:height .2s}
+  .header.is-scrolled .logo img{height:40px}
+  .nav{display:flex;align-items:center;gap:4px}
+  .nav a{padding:10px 14px;border-radius:8px;font-weight:600;color:var(--ink-2);font-size:15px;transition:.15s}
+  .nav a:hover,.nav a.is-active{color:var(--brand);background:var(--brand-50)}
+  @media (max-width:1024px){.nav{display:none}.header__cta .btn--ghost{display:none}}
+
+  /* Breadcrumb */
+  .crumbs{background:var(--surface);border-bottom:1px solid var(--line)}
+  .crumbs__inner{display:flex;align-items:center;gap:8px;height:46px;font-size:13.5px;color:var(--ink-2);flex-wrap:wrap}
+  .crumbs a{color:var(--ink-2);transition:color .15s}
+  .crumbs a:hover{color:var(--brand)}
+  .crumbs .sep{opacity:.4}
+  .crumbs .current{color:var(--ink);font-weight:600}
+
+  /* About Hero */
+  .ahero{
+    padding:80px 0 100px;
+    background:
+      radial-gradient(1100px 580px at 90% -10%, rgba(228,89,17,.10), transparent 60%),
+      radial-gradient(800px 460px at -10% 110%, rgba(11,61,145,.08), transparent 60%),
+      linear-gradient(180deg,#fff 0%, var(--surface) 100%);
+  }
+  .ahero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:var(--brand-50);color:var(--brand-600);font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1px solid rgba(228,89,17,.18)}
+  .ahero h1{margin-top:18px}
+  .ahero h1 .accent{background:linear-gradient(90deg,var(--brand) 0%, #f4a045 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .ahero p.lead{margin-top:22px;font-size:18px;color:var(--ink-2);max-width:560px}
+  .ahero p.lead + p.lead{margin-top:14px}
+  .ahero__ctas{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+  .ahero__media{position:relative;border-radius:24px;overflow:hidden;background:linear-gradient(135deg,#fff,#f3f5f7);box-shadow:var(--shadow-lg);aspect-ratio:5/6;border:1px solid var(--line)}
+  .ahero__media img{width:100%;height:100%;object-fit:cover}
+  @media (max-width:900px){.ahero{padding:48px 0 64px}.ahero__grid{grid-template-columns:1fr;gap:36px}.ahero__media{order:-1;max-width:440px;margin:0 auto;aspect-ratio:1/1}}
+
+  /* Section helpers */
+  .section{padding:96px 0}
+  .section--alt{background:var(--surface)}
+  .section__head{max-width:760px;margin:0 auto 56px;text-align:center}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brand);margin-bottom:14px}
+  .section__head p{color:var(--ink-2);margin-top:14px;font-size:17px}
+
+  /* Milestones (vertical timeline)
+     ───────────────────────────────────────────────────────────────
+     Layout (LTR):
+       [ year column 110px ] [ gap 56px ] [ card column ]
+                              ▲
+                              ├─ vertical line at left:138px
+                              └─ dot centred on the line at left:130px (size 18px)
+     The 56px gap keeps the year ~28px clear of the line on both sides,
+     and the year text is right-aligned so its right edge sits ~12px
+     before the dot in LTR (mirrored in RTL).
+  */
+  .timeline{position:relative;max-width:840px;margin:0 auto;padding:8px 0}
+  .timeline::before{
+    content:"";position:absolute;top:0;bottom:0;left:138px;width:2px;
+    background:linear-gradient(180deg,var(--line),var(--brand) 30%,var(--brand) 70%,var(--line));
+    border-radius:2px;
+  }
+  html[dir="rtl"] .timeline::before{left:auto;right:138px}
+  .mile{position:relative;display:grid;grid-template-columns:110px 1fr;column-gap:56px;padding:22px 0}
+  .mile__year{
+    text-align:right;font-weight:800;font-size:30px;color:var(--ink);
+    font-feature-settings:"tnum";letter-spacing:-.02em;
+    padding-right:24px;      /* clearance between the year and the vertical line */
+    white-space:nowrap;
+  }
+  html[dir="rtl"] .mile__year{text-align:left;padding-right:0;padding-left:24px}
+  .mile::before{
+    content:"";position:absolute;left:130px;top:32px;width:18px;height:18px;border-radius:50%;
+    background:#fff;border:3px solid var(--brand);box-shadow:0 0 0 5px rgba(228,89,17,.12);
+  }
+  html[dir="rtl"] .mile::before{left:auto;right:130px}
+  .mile__card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow-sm);transition:.2s}
+  .mile__card:hover{border-color:var(--brand);transform:translateY(-2px);box-shadow:var(--shadow-md)}
+  .mile__card ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+  .mile__card li{position:relative;padding-left:22px;color:var(--ink);font-size:15.5px;line-height:1.55}
+  html[dir="rtl"] .mile__card li{padding-left:0;padding-right:22px}
+  .mile__card li::before{
+    content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--brand);
+  }
+  html[dir="rtl"] .mile__card li::before{left:auto;right:0}
+
+  /* Tablet — keep the same two-column rhythm with smaller numbers */
+  @media (max-width:900px){
+    .timeline::before{left:104px}
+    html[dir="rtl"] .timeline::before{right:104px;left:auto}
+    .mile{grid-template-columns:84px 1fr;column-gap:44px}
+    .mile__year{font-size:26px;padding-right:18px}
+    html[dir="rtl"] .mile__year{padding-right:0;padding-left:18px}
+    .mile::before{left:96px}
+    html[dir="rtl"] .mile::before{left:auto;right:96px}
+  }
+
+  /* Phone — switch to a single column with the line on the side */
+  @media (max-width:600px){
+    .timeline::before{left:18px}
+    html[dir="rtl"] .timeline::before{right:18px;left:auto}
+    .mile{grid-template-columns:1fr;column-gap:0;row-gap:10px;padding:18px 0 18px 48px}
+    html[dir="rtl"] .mile{padding:18px 48px 18px 0}
+    .mile__year{text-align:left;font-size:22px;padding:0}
+    html[dir="rtl"] .mile__year{text-align:right;padding:0}
+    .mile::before{left:10px;top:22px}
+    html[dir="rtl"] .mile::before{right:10px;left:auto}
+  }
+
+  /* Mission / Vision split */
+  .mv__grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:stretch}
+  .mv__card{position:relative;border-radius:20px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
+  .mv__media{aspect-ratio:5/3;overflow:hidden}
+  .mv__media img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+  .mv__card:hover .mv__media img{transform:scale(1.04)}
+  .mv__body{padding:28px 30px 32px}
+  .mv__label{font-size:12.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--brand);margin-bottom:10px}
+  .mv__body h3{font-size:22px;line-height:1.35;color:var(--ink)}
+  @media (max-width:780px){.mv__grid{grid-template-columns:1fr}}
+
+  /* Values grid */
+  .vals__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+  .val{padding:24px;background:#fff;border:1px solid var(--line);border-radius:16px;transition:.2s;display:flex;flex-direction:column;gap:12px}
+  .val:hover{border-color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow-md)}
+  .val__ico{width:44px;height:44px;border-radius:12px;background:var(--brand-50);color:var(--brand);display:flex;align-items:center;justify-content:center}
+  .val__ico svg{width:22px;height:22px}
+  .val h3{font-size:17px}
+  .val p{color:var(--ink-2);font-size:14.5px;line-height:1.65}
+
+  /* Stats band (mirrors homepage style) */
+  .stats{background:radial-gradient(900px 400px at 90% 0%, rgba(255,255,255,.08), transparent 60%),linear-gradient(135deg,#1F2937 0%, #0f172a 100%);color:#fff;border-radius:24px;padding:64px 48px;margin:0 24px}
+  .stats__wrap{max-width:var(--container);margin:0 auto}
+  .stats__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;text-align:center}
+  .stat .num{font-size:clamp(36px,4vw,52px);font-weight:800;letter-spacing:-.02em;color:#fff;display:flex;align-items:baseline;justify-content:center;gap:4px}
+  .stat .num .suffix{font-size:.55em;color:var(--brand);font-weight:700}
+  .stat .lbl{margin-top:8px;color:#cbd5e1;font-size:14px;letter-spacing:.04em}
+  @media (max-width:780px){.stats{padding:48px 28px;margin:0 16px}.stats__grid{grid-template-columns:repeat(2,1fr);gap:36px 24px}}
+
+  /* Why choose (same look as homepage) */
+  .why__grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .why__media{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md);aspect-ratio:5/4}
+  .why__media img{width:100%;height:100%;object-fit:cover}
+  .pillars{display:flex;flex-direction:column;gap:22px;margin-top:30px}
+  .pillar{display:flex;gap:16px;padding:20px;background:#fff;border:1px solid var(--line);border-radius:14px;transition:.2s}
+  .pillar:hover{border-color:var(--brand);transform:translateX(4px)}
+  html[dir="rtl"] .pillar:hover{transform:translateX(-4px)}
+  .pillar__ico{flex:0 0 48px;width:48px;height:48px;border-radius:12px;background:var(--brand-50);color:var(--brand);display:flex;align-items:center;justify-content:center}
+  .pillar__ico svg{width:24px;height:24px}
+  .pillar h3{margin-bottom:4px;font-size:18px}
+  .pillar p{color:var(--ink-2);font-size:14.5px}
+  .why__ctas{display:flex;gap:14px;margin-top:24px;flex-wrap:wrap}
+  @media (max-width:900px){.why__grid{grid-template-columns:1fr;gap:40px}}
+
+  /* Partners strip (identical to homepage) */
+  .partners{padding:48px 0;background:#fff;border-block:1px solid var(--line)}
+  .partners__title{text-align:center;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:24px}
+  .partners__grid{display:grid;grid-template-columns:repeat(6,1fr);gap:32px;align-items:center}
+  .partners__grid img{max-height:48px;width:auto;margin:0 auto;filter:grayscale(100%);opacity:.65;transition:.25s}
+  .partners__grid a:hover img{filter:none;opacity:1;transform:scale(1.05)}
+  @media (max-width:900px){.partners__grid{grid-template-columns:repeat(3,1fr);gap:24px}}
+  @media (max-width:480px){.partners__grid{grid-template-columns:repeat(2,1fr)}}
+
+  /* Team */
+  .team__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  .team__media{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md);aspect-ratio:5/3}
+  .team__media img{width:100%;height:100%;object-fit:cover}
+  .team__copy p{font-size:17px;color:var(--ink-2);line-height:1.75;margin-top:14px}
+  @media (max-width:900px){.team__grid{grid-template-columns:1fr;gap:32px}}
+
+  /* Blog / Events */
+  .blog__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .post{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.25s;display:flex;flex-direction:column}
+  .post:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:#dbe2ea}
+  .post__media{aspect-ratio:5/3;overflow:hidden}
+  .post__media img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+  .post:hover .post__media img{transform:scale(1.05)}
+  .post__body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .post__body h3{font-size:18px;line-height:1.35}
+  .post__body p{color:var(--ink-2);font-size:14.5px}
+  @media (max-width:900px){.blog__grid{grid-template-columns:1fr}}
+
+  /* CTA band (same as homepage) */
+  .cta-band{margin:0 24px;border-radius:24px;background:linear-gradient(135deg,var(--brand) 0%, #c84a09 100%);color:#fff;padding:64px 56px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center;box-shadow:0 30px 60px -20px rgba(228,89,17,.4);position:relative;overflow:hidden}
+  .cta-band::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 100% 0%, rgba(255,255,255,.18), transparent 60%);pointer-events:none}
+  .cta-band h2{color:#fff}
+  .cta-band p{margin-top:14px;color:#ffe9d9;font-size:17px;max-width:560px}
+  .cta-band .actions{display:flex;gap:14px;justify-content:flex-end;flex-wrap:wrap;position:relative}
+  html[dir="rtl"] .cta-band .actions{justify-content:flex-start}
+  @media (max-width:780px){.cta-band{grid-template-columns:1fr;padding:48px 32px;margin:0 16px;text-align:center}.cta-band .actions{justify-content:center}}
+
+  /* Footer (identical to homepage) */
+  .footer{background:#0b1220;color:#94a3b8;padding:72px 0 28px;margin-top:96px}
+  .footer__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:48px}
+  .footer__brand img{height:54px;filter:brightness(0) invert(1);opacity:.95}
+  .footer__brand p{margin-top:16px;font-size:14px;line-height:1.7;max-width:340px}
+  .footer h4{color:#fff;font-size:14px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+  .footer ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+  .footer ul a{color:#94a3b8;font-size:14.5px;transition:color .15s}
+  .footer ul a:hover{color:var(--brand)}
+  .footer .contact-li{display:flex;gap:10px;align-items:flex-start;color:#cbd5e1;font-size:14.5px;line-height:1.6}
+  .footer .contact-li .ico{width:18px;height:18px;color:var(--brand);flex:0 0 18px;margin-top:3px}
+  .footer__bottom{margin-top:56px;padding-top:28px;border-top:1px solid #1f2937;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px}
+  .socials{display:flex;gap:10px}
+  .socials a{width:38px;height:38px;border-radius:10px;background:#1f2937;color:#cbd5e1;display:inline-flex;align-items:center;justify-content:center;transition:.15s}
+  .socials a:hover{background:var(--brand);color:#fff;transform:translateY(-2px)}
+  .socials svg{width:18px;height:18px}
+  @media (max-width:900px){.footer__grid{grid-template-columns:1fr 1fr;gap:40px}}
+  @media (max-width:520px){.footer__grid{grid-template-columns:1fr}.footer__bottom{flex-direction:column;text-align:center}}
+
+  /* Floating WhatsApp */
+  .wa{position:fixed;right:22px;bottom:22px;z-index:40;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 24px -6px rgba(37,211,102,.55);transition:transform .2s}
+  .wa:hover{transform:scale(1.06)}
+  .wa svg{width:30px;height:30px}
+  .wa::after{content:"";position:absolute;inset:-6px;border-radius:50%;background:#25D36633;animation:ping 2s ease-out infinite;z-index:-1}
+  @keyframes ping{0%{transform:scale(.85);opacity:.7}80%,100%{transform:scale(1.4);opacity:0}}
+  html[dir="rtl"] .wa{right:auto;left:22px}
+
+  /* Reveal */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="left hide-sm">
+      <a href="tel:+213554250110"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+213 554 25 01 10</a>
+      <span class="sep">•</span>
+      <a href="mailto:contact@benroindustries.com"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>contact@benroindustries.com</a>
+    </div>
+    <div class="right">
+      <span class="hide-sm" data-i18n="topbar.tagline">Algeria 🇩🇿 · HVAC&amp;R Manufacturer</span>
+      <span class="sep hide-sm">•</span>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-btn" id="langTrigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10A15.3 15.3 0 0 1 8 12 15.3 15.3 0 0 1 12 2z"/></svg>
+          <span id="langCurrent">EN</span>
+          <svg class="caret" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="listbox">
+          <li><button type="button" role="option" data-lang="en"><span>🇬🇧</span> English</button></li>
+          <li><button type="button" role="option" data-lang="fr"><span>🇫🇷</span> Français</button></li>
+          <li><button type="button" role="option" data-lang="ar"><span>🇩🇿</span> العربية</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="siteHeader">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><img src="assets/images/benro-logo.png" alt="Benro Industries"/></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#products" data-i18n="nav.products">Products</a>
+      <a href="index.html#why" data-i18n="nav.why">Why Benro</a>
+      <a href="about.html" class="is-active" data-i18n="nav.about">About</a>
+      <a href="blog.html" data-i18n="nav.blog">Blog</a>
+      <a href="index.html#partners" data-i18n="nav.clients">Clients</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a href="index.html#products" class="btn btn--ghost" data-i18n="cta.browse">Browse catalogue</a>
+      <a href="index.html#contact" class="btn btn--primary"><span data-i18n="cta.quote">Get a Quote</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<!-- BREADCRUMB -->
+<nav class="crumbs" aria-label="Breadcrumb">
+  <div class="container crumbs__inner">
+    <a href="index.html" data-i18n="ds.crumb_home">Home</a>
+    <span class="sep">›</span>
+    <span class="current" data-i18n="nav.about">About</span>
+  </div>
+</nav>
+
+<!-- ABOUT HERO -->
+<section class="ahero">
+  <div class="container ahero__grid">
+    <div class="ahero__copy">
+      <span class="badge" data-i18n="about.eyebrow">Our Story</span>
+      <h1 data-i18n-html="about.h1">Let’s Change How We <span class="accent">Manage Business</span></h1>
+      <p class="lead" data-i18n-html="about.lead1"><strong>BENRO INDUSTRIES</strong> is a vibrant and innovative company at the forefront of the HVAC&amp;R sector. We take pride in crafting premium quality air conditioning connecting tubes, a versatile range of insulated refrigeration copper and aluminium tubes, catering to both industrial and residential applications.</p>
+      <p class="lead" data-i18n-html="about.lead2">Furthermore, <strong>BENRO INDUSTRIES</strong> excels in producing polyethylene foam tubes for insulating ACR tubes and many other industrial applications.</p>
+      <div class="ahero__ctas">
+        <a href="index.html#products" class="btn btn--primary"><span data-i18n="about.cta1">Explore our products</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#milestones" class="btn btn--ghost"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span data-i18n="about.cta2">See our milestones</span></a>
+      </div>
+    </div>
+    <div class="ahero__media reveal">
+      <img src="assets/images/factory.jpg" alt="BENRO INDUSTRIES facility"/>
+    </div>
+  </div>
+</section>
+
+<!-- MILESTONES -->
+<section class="section" id="milestones">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="about.milestones.eyebrow">Milestones</span>
+      <h2 data-i18n="about.milestones.title">From a Ghardaia workshop to a leading Algerian HVAC manufacturer</h2>
+      <p data-i18n="about.milestones.desc">Key moments along our journey of growth, investment and product diversification.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="mile reveal">
+        <div class="mile__year">2019</div>
+        <div class="mile__card">
+          <ul><li data-i18n="about.mile.y2019.a">Company established in Ghardaïa, Algeria.</li></ul>
+        </div>
+      </div>
+      <div class="mile reveal">
+        <div class="mile__year">2021</div>
+        <div class="mile__card">
+          <ul>
+            <li data-i18n="about.mile.y2021.a">Relocation of the factory to the Industrial Zone.</li>
+            <li data-i18n="about.mile.y2021.b">Launch of the PE Extrusion line.</li>
+            <li data-i18n="about.mile.y2021.c">Launch of the 2nd Copper Cutting line.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mile reveal">
+        <div class="mile__year">2022</div>
+        <div class="mile__card">
+          <ul><li data-i18n="about.mile.y2022.a">Launch of Aluminium welded tube production.</li></ul>
+        </div>
+      </div>
+      <div class="mile reveal">
+        <div class="mile__year">2023</div>
+        <div class="mile__card">
+          <ul>
+            <li data-i18n="about.mile.y2023.a">Products homologated by 2 major A/C manufacturers.</li>
+            <li data-i18n="about.mile.y2023.b">Manpower oversees the 30.</li>
+            <li data-i18n="about.mile.y2023.c">Implementation of QMS.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mile reveal">
+        <div class="mile__year">2024</div>
+        <div class="mile__card">
+          <ul>
+            <li data-i18n="about.mile.y2024.a">2nd extension to the new plant.</li>
+            <li data-i18n="about.mile.y2024.b">Launch of the 2nd PE Extrusion line.</li>
+            <li data-i18n="about.mile.y2024.c">Manufactory management by ERP.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE STAND FOR — Mission / Vision -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="about.mv.eyebrow">What we stand for</span>
+      <h2 data-i18n="about.mv.title">A clear mission. A bold vision.</h2>
+    </div>
+    <div class="mv__grid">
+      <div class="mv__card reveal">
+        <div class="mv__media"><img src="assets/images/factory.jpg" alt="BENRO INDUSTRIES products"/></div>
+        <div class="mv__body">
+          <div class="mv__label" data-i18n="about.mv.mission_label">Mission</div>
+          <h3 data-i18n="about.mv.mission">To provide quality products that contribute to individual well-being.</h3>
+        </div>
+      </div>
+      <div class="mv__card reveal">
+        <div class="mv__media"><img src="assets/images/about-sivecc-vision.jpg" alt="BENRO INDUSTRIES at SIVECC 2024"/></div>
+        <div class="mv__body">
+          <div class="mv__label" data-i18n="about.mv.vision_label">Vision</div>
+          <h3 data-i18n="about.mv.vision">By 2025, BENRO INDUSTRIES will be the leading and most trusted HVAC brand in Algeria, serving the entire national market and expanding into international export markets by 2026.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="about.values.eyebrow">Company values</span>
+      <h2 data-i18n="about.values.title">The seven principles that guide every decision</h2>
+    </div>
+    <div class="vals__grid">
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3 data-i18n="about.values.v1.t">Integrity</h3>
+        <p data-i18n="about.values.v1.d">We conduct our business with the highest ethical standards, ensuring transparency and honesty in all interactions with our stakeholders.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <h3 data-i18n="about.values.v2.t">Innovation</h3>
+        <p data-i18n="about.values.v2.d">We continuously seek new ways to improve our products and processes.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.2 2.96c.91 5.41-.92 12.04-7.2 17.04"/><path d="M2 21c.5-4.5 2.5-8 7-10"/></svg></div>
+        <h3 data-i18n="about.values.v3.t">Sustainability</h3>
+        <p data-i18n="about.values.v3.d">We are dedicated to environmentally responsible manufacturing practices.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3 data-i18n="about.values.v4.t">Employee Welfare</h3>
+        <p data-i18n="about.values.v4.d">We are committed to improving the quality of life for our employees.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+        <h3 data-i18n="about.values.v5.t">Quality</h3>
+        <p data-i18n="about.values.v5.d">We are committed to delivering products of superior quality and reliability.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <h3 data-i18n="about.values.v6.t">Customer Focus</h3>
+        <p data-i18n="about.values.v6.d">Our customers are at the heart of everything we do. We strive to exceed their expectations.</p>
+      </div>
+      <div class="val reveal">
+        <div class="val__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10A15.3 15.3 0 0 1 8 12 15.3 15.3 0 0 1 12 2z"/></svg></div>
+        <h3 data-i18n="about.values.v7.t">Social Responsibility</h3>
+        <p data-i18n="about.values.v7.d">We contribute to societal development and support educational initiatives.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section style="padding:0 0 96px;">
+  <div class="stats reveal">
+    <div class="stats__wrap">
+      <div class="stats__grid">
+        <div class="stat"><div class="num"><span class="counter" data-target="5">0</span><span class="suffix" data-i18n="stats.s1.suffix">yrs</span></div><div class="lbl" data-i18n="about.stats.s1">Experience in the field</div></div>
+        <div class="stat"><div class="num"><span class="counter" data-target="1000000">0</span><span class="suffix" data-i18n="stats.s2.suffix">pcs</span></div><div class="lbl" data-i18n="stats.s2.label">Yearly production capacity</div></div>
+        <div class="stat"><div class="num"><span class="counter" data-target="10">0</span><span class="suffix">+</span></div><div class="lbl" data-i18n="about.stats.s3">Wholesalers across Algeria</div></div>
+        <div class="stat"><div class="num"><span class="counter" data-target="30">0</span><span class="suffix">+</span></div><div class="lbl" data-i18n="stats.s4.label">Production manpower</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE OUR PRODUCTS -->
+<section class="section" id="why">
+  <div class="container why__grid">
+    <div class="why__media reveal">
+      <img src="assets/images/quality.jpg" alt="BENRO INDUSTRIES quality control"/>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="about.why.eyebrow">Why choose our products</span>
+      <h2 data-i18n="about.why.title">Here are some reasons why you would choose to work with us</h2>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <div>
+            <h3 data-i18n="why.p1.title">Quality &amp; Precision</h3>
+            <p data-i18n="about.why.p1.desc">This encompasses our commitment to precise production in insulation and length, quality control, and the use of high-quality, flexible copper.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M12 22v-6"/><path d="M4.93 4.93l4.24 4.24"/><path d="M14.83 14.83l4.24 4.24"/><path d="M2 12h6"/><path d="M16 12h6"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <div>
+            <h3 data-i18n="why.p2.title">Enhanced Durability &amp; Insulation</h3>
+            <p data-i18n="about.why.p2.desc">This highlights the advanced insulation properties of our product, including its resistance to sun damage, recyclability, shape retention, and the availability of multi-layer insulation.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+          <div>
+            <h3 data-i18n="about.why.p3.title">Reliable Supply &amp; Streamlined Logistics</h3>
+            <p data-i18n="about.why.p3.desc">Our products benefit from efficient sales and distribution processes, including consistent product availability, comprehensive logistics management, stable pricing, and robust packaging.</p>
+          </div>
+        </div>
+      </div>
+      <div class="why__ctas">
+        <a href="index.html#contact" class="btn btn--primary"><span data-i18n="cta.getquote">Get a Quote</span></a>
+        <a href="index.html#why" class="btn btn--ghost"><span data-i18n="about.why.more">More advantages</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="partners">
+  <div class="container">
+    <div class="partners__title" data-i18n="partners.title">Brands we’re proud to serve</div>
+    <div class="partners__grid">
+      <a href="https://www.daikinafrica.com/en_us/dmea-sales-network/dmea-Algeria.html" target="_blank" rel="noopener"><img src="assets/images/partner-daikin.png" alt="Daikin"/></a>
+      <a href="https://www.samsung.com/africa_en/" target="_blank" rel="noopener"><img src="assets/images/partner-samsung.png" alt="Samsung"/></a>
+      <a href="https://www.condor.dz/" target="_blank" rel="noopener"><img src="assets/images/partner-condor.svg" alt="Condor"/></a>
+      <a href="https://energical.dz/" target="_blank" rel="noopener"><img src="assets/images/partner-energical.webp" alt="Energical"/></a>
+      <a href="https://majorcold.com/" target="_blank" rel="noopener"><img src="assets/images/partner-majorcold.jpg" alt="Major Cold"/></a>
+      <a href="http://www.ccecc.com.cn/" target="_blank" rel="noopener"><img src="assets/images/partner-ccecc.jpeg" alt="CCECC"/></a>
+      <a href="https://dz.kompass.com/c/sm-fort-eurl/dz269418/" target="_blank" rel="noopener"><img src="assets/images/partner-smfort.jpg" alt="EURL SM Fort"/></a>
+      <a href="https://simafe.com/" target="_blank" rel="noopener"><img src="assets/images/partner-infrigor.png" alt="Infrigor"/></a>
+      <a href="https://www.africabizinfo.com/fr-DZ/sarl-builtec-art-construction-0561-72-61-07" target="_blank" rel="noopener"><img src="assets/images/partner-builtec.jpg" alt="Sarl Builtec"/></a>
+      <a href="https://www.dnb.com/business-directory/company-profiles.tabrid_services.9896b92f03ef1d693bdce0449fdee013.html" target="_blank" rel="noopener"><img src="assets/images/partner-tabrid.png" alt="Tabrid TBD"/></a>
+      <a href="https://www.arcodym.dz/" target="_blank" rel="noopener"><img src="assets/images/partner-arcodym.jpeg" alt="Arcodym"/></a>
+      <a href="https://simafe.com/" target="_blank" rel="noopener"><img src="assets/images/partner-simafe.png" alt="Simafe"/></a>
+    </div>
+  </div>
+</section>
+
+<!-- OUR TEAM -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="about.team.eyebrow">Our Team</span>
+      <h2 data-i18n="about.team.title">The people behind every BENRO product</h2>
+    </div>
+    <div class="team__grid">
+      <div class="team__media reveal">
+        <img src="assets/images/about-team.jpg" alt="BENRO INDUSTRIES team — driving force behind our vision"/>
+      </div>
+      <div class="team__copy reveal">
+        <p data-i18n="about.team.p1">Our dedicated team is the driving force behind our vision to become Algeria’s leading HVAC brand. Guided by our core values, we work together to deliver exceptional results.</p>
+        <p data-i18n="about.team.p2">From engineering and quality control to extrusion and logistics, every BENRO product passes through the hands of people who care — and that shows in the precision and reliability our customers experience every day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG / EVENTS -->
+<section class="section">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="about.blog.eyebrow">Blogs and Events</span>
+      <h2 data-i18n="about.blog.title">Milestones, exhibitions &amp; community moments</h2>
+    </div>
+    <div class="blog__grid">
+      <article class="post reveal">
+        <div class="post__media"><img src="assets/images/about-event-sivecc2024.jpg" alt="Exhibition at SIVECC 2024"/></div>
+        <div class="post__body">
+          <h3 data-i18n="about.blog.p1.t">Exhibition at SIVECC 2024</h3>
+          <p data-i18n="about.blog.p1.d">Recap of BENRO INDUSTRIES at SIVECC 2024.</p>
+        </div>
+      </article>
+      <article class="post reveal">
+        <div class="post__media"><img src="assets/images/about-event-inauguration.jpg" alt="Local authorities inaugurate the new facility"/></div>
+        <div class="post__body">
+          <h3 data-i18n="about.blog.p2.t">New extension — local authorities inaugurate the new facility</h3>
+          <p data-i18n="about.blog.p2.d">BENRO INDUSTRIES celebrates the grand opening of the factory expansion with the local authorities of Ghardaïa.</p>
+        </div>
+      </article>
+      <article class="post reveal">
+        <div class="post__media"><img src="assets/images/about-event-sivecc2023.jpg" alt="Exhibition at SIVECC 2023"/></div>
+        <div class="post__body">
+          <h3 data-i18n="about.blog.p3.t">Exhibition at SIVECC 2023</h3>
+          <p data-i18n="about.blog.p3.d">BENRO INDUSTRIES makes a splash at SIVECC 2023.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section id="contact" style="padding:0">
+  <div class="cta-band reveal">
+    <div>
+      <h2 data-i18n="about.cta.title">Let’s build something together.</h2>
+      <p data-i18n="about.cta.desc">We’re constantly pushing the boundaries of what’s possible. Let’s collaborate on innovative solutions that shape the future.</p>
+    </div>
+    <div class="actions">
+      <a href="index.html#contact" class="btn btn--white"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg><span data-i18n="about.cta.btn">Reach out now</span></a>
+      <a href="tel:+213554250110" class="btn" style="background:rgba(255,255,255,.15);color:#fff;border:1.5px solid rgba(255,255,255,.4)"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="finalCta.btn1">Call sales</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER (identical to homepage) -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/images/benro-logo.png" alt="Benro Industries"/>
+        <p data-i18n="footer.about">BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&amp;R sector — producing insulated copper &amp; aluminium connecting lines and PE foam in Algeria.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.products">Products</h4>
+        <ul>
+          <li><a href="products/twin-insulated-copper.html" data-i18n="footer.prod1">Twin Insulated Copper</a></li>
+          <li><a href="products/single-insulated-copper.html" data-i18n="footer.prod2">Single Insulated Copper</a></li>
+          <li><a href="products/twin-insulated-aluminium.html" data-i18n="footer.prod3">Twin Insulated Aluminium</a></li>
+          <li><a href="products/insulation-polyethylene.html" data-i18n="footer.prod4">PE Insulation Tubes</a></li>
+          <li><a href="products/copper-tubes.html">Copper Pancake</a></li>
+          <li><a href="products/polyethylene-tubes.html" data-i18n="footer.prod5">Polyethylene Tubes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.company">Company</h4>
+        <ul>
+          <li><a href="about.html" data-i18n="footer.about_link">About us</a></li>
+          <li><a href="index.html#why" data-i18n="nav.why">Why Benro</a></li>
+          <li><a href="index.html#partners" data-i18n="nav.clients">Clients</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul>
+          <li class="contact-li"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="footer.city">Algiers, Algeria</span></li>
+          <li class="contact-li"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+213554250110">+213 554 25 01 10</a></li>
+          <li class="contact-li"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg><a href="mailto:contact@benroindustries.com">contact@benroindustries.com</a></li>
+        </ul>
+        <div class="socials" style="margin-top:16px">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm-1.78 13.02h3.55V9H3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://wa.me/213554250110" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0zm0 22c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.8.9.9-3.7-.2-.4C2.5 15.6 2 13.8 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.5v7A10 10 0 0 0 22 12z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div><span data-i18n="footer.copy_prefix">©</span> <span id="yr"></span> <span data-i18n="footer.copy_suffix">Benro Industries — All rights reserved.</span></div>
+      <div data-i18n="footer.tagline">Redesigned with care · HVAC&amp;R manufacturer · Algeria 🇩🇿</div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/213554250110" class="wa" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1c-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
+</a>
+
+<script>
+/* ===== i18n (EN / FR / AR) — shared keys with homepage + about-specific keys ===== */
+const I18N = {
+  en: {
+    'topbar.tagline': 'Algeria 🇩🇿 · HVAC&R Manufacturer',
+    'nav.products':'Products','nav.why':'Why Benro','nav.about':'About','nav.clients':'Clients','nav.blog':'Blog','nav.contact':'Contact',
+    'cta.browse':'Browse catalogue','cta.quote':'Get a Quote','cta.getquote':'Get a Quote',
+    'ds.crumb_home':'Home',
+    'partners.title':"Brands we’re proud to serve",
+    'stats.s1.suffix':'yrs','stats.s2.suffix':'pcs','stats.s2.label':'Yearly production capacity','stats.s4.label':'Production manpower',
+    'finalCta.btn1':'Call sales',
+    'footer.about':'BENRO INDUSTRIES is a vibrant and innovative manufacturer at the forefront of the HVAC&R sector — producing insulated copper & aluminium connecting lines and PE foam in Algeria.',
+    'footer.products':'Products','footer.prod1':'Twin Insulated Copper','footer.prod2':'Single Insulated Copper','footer.prod3':'Twin Insulated Aluminium','footer.prod4':'PE Insulation Tubes','footer.prod5':'Polyethylene Tubes',
+    'footer.company':'Company','footer.about_link':'About us','footer.contact':'Contact','footer.city':'Algiers, Algeria',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — All rights reserved.','footer.tagline':'Redesigned with care · HVAC&R manufacturer · Algeria 🇩🇿',
+    'why.p1.title':'Quality & Precision','why.p2.title':'Enhanced Durability & Insulation',
+
+    /* About-specific */
+    'about.eyebrow':'Our Story',
+    'about.h1':'Let’s Change How We <span class="accent">Manage Business</span>',
+    'about.lead1':'<strong>BENRO INDUSTRIES</strong> is a vibrant and innovative company at the forefront of the HVAC&R sector. We take pride in crafting premium quality air conditioning connecting tubes, a versatile range of insulated refrigeration copper and aluminium tubes, catering to both industrial and residential applications.',
+    'about.lead2':'Furthermore, <strong>BENRO INDUSTRIES</strong> excels in producing polyethylene foam tubes for insulating ACR tubes and many other industrial applications.',
+    'about.cta1':'Explore our products','about.cta2':'See our milestones',
+
+    'about.milestones.eyebrow':'Milestones',
+    'about.milestones.title':'From a Ghardaïa workshop to a leading Algerian HVAC manufacturer',
+    'about.milestones.desc':'Key moments along our journey of growth, investment and product diversification.',
+    'about.mile.y2019.a':'Company established in Ghardaïa, Algeria.',
+    'about.mile.y2021.a':'Relocation of the factory to the Industrial Zone.',
+    'about.mile.y2021.b':'Launch of the PE Extrusion line.',
+    'about.mile.y2021.c':'Launch of the 2nd Copper Cutting line.',
+    'about.mile.y2022.a':'Launch of Aluminium welded tube production.',
+    'about.mile.y2023.a':'Products homologated by 2 major A/C manufacturers.',
+    'about.mile.y2023.b':'Manpower oversees the 30.',
+    'about.mile.y2023.c':'Implementation of QMS.',
+    'about.mile.y2024.a':'2nd extension to the new plant.',
+    'about.mile.y2024.b':'Launch of the 2nd PE Extrusion line.',
+    'about.mile.y2024.c':'Manufactory management by ERP.',
+
+    'about.mv.eyebrow':'What we stand for','about.mv.title':'A clear mission. A bold vision.',
+    'about.mv.mission_label':'Mission','about.mv.mission':'To provide quality products that contribute to individual well-being.',
+    'about.mv.vision_label':'Vision','about.mv.vision':'By 2025, BENRO INDUSTRIES will be the leading and most trusted HVAC brand in Algeria, serving the entire national market and expanding into international export markets by 2026.',
+
+    'about.values.eyebrow':'Company values','about.values.title':'The seven principles that guide every decision',
+    'about.values.v1.t':'Integrity','about.values.v1.d':'We conduct our business with the highest ethical standards, ensuring transparency and honesty in all interactions with our stakeholders.',
+    'about.values.v2.t':'Innovation','about.values.v2.d':'We continuously seek new ways to improve our products and processes.',
+    'about.values.v3.t':'Sustainability','about.values.v3.d':'We are dedicated to environmentally responsible manufacturing practices.',
+    'about.values.v4.t':'Employee Welfare','about.values.v4.d':'We are committed to improving the quality of life for our employees.',
+    'about.values.v5.t':'Quality','about.values.v5.d':'We are committed to delivering products of superior quality and reliability.',
+    'about.values.v6.t':'Customer Focus','about.values.v6.d':'Our customers are at the heart of everything we do. We strive to exceed their expectations.',
+    'about.values.v7.t':'Social Responsibility','about.values.v7.d':'We contribute to societal development and support educational initiatives.',
+
+    'about.stats.s1':'Experience in the field','about.stats.s3':'Wholesalers across Algeria',
+
+    'about.why.eyebrow':'Why choose our products','about.why.title':'Here are some reasons why you would choose to work with us',
+    'about.why.p1.desc':'This encompasses our commitment to precise production in insulation and length, quality control, and the use of high-quality, flexible copper.',
+    'about.why.p2.desc':'This highlights the advanced insulation properties of our product, including its resistance to sun damage, recyclability, shape retention, and the availability of multi-layer insulation.',
+    'about.why.p3.title':'Reliable Supply & Streamlined Logistics','about.why.p3.desc':'Our products benefit from efficient sales and distribution processes, including consistent product availability, comprehensive logistics management, stable pricing, and robust packaging.',
+    'about.why.more':'More advantages',
+
+    'about.team.eyebrow':'Our Team','about.team.title':'The people behind every BENRO product',
+    'about.team.p1':'Our dedicated team is the driving force behind our vision to become Algeria’s leading HVAC brand. Guided by our core values, we work together to deliver exceptional results.',
+    'about.team.p2':'From engineering and quality control to extrusion and logistics, every BENRO product passes through the hands of people who care — and that shows in the precision and reliability our customers experience every day.',
+
+    'about.blog.eyebrow':'Blogs and Events','about.blog.title':'Milestones, exhibitions & community moments',
+    'about.blog.p1.t':'Exhibition at SIVECC 2024','about.blog.p1.d':'Recap of BENRO INDUSTRIES at SIVECC 2024.',
+    'about.blog.p2.t':'New extension — local authorities inaugurate the new facility','about.blog.p2.d':'BENRO INDUSTRIES celebrates the grand opening of the factory expansion with the local authorities of Ghardaïa.',
+    'about.blog.p3.t':'Exhibition at SIVECC 2023','about.blog.p3.d':'BENRO INDUSTRIES makes a splash at SIVECC 2023.',
+
+    'about.cta.title':'Let’s build something together.','about.cta.desc':'We’re constantly pushing the boundaries of what’s possible. Let’s collaborate on innovative solutions that shape the future.',
+    'about.cta.btn':'Reach out now'
+  },
+
+  fr: {
+    'topbar.tagline':'Algérie 🇩🇿 · Fabricant CVC&R',
+    'nav.products':'Produits','nav.why':'Pourquoi Benro','nav.about':'À propos','nav.clients':'Clients','nav.blog':'Blog','nav.contact':'Contact',
+    'cta.browse':'Voir le catalogue','cta.quote':'Demander un devis','cta.getquote':'Demander un devis',
+    'ds.crumb_home':'Accueil',
+    'partners.title':'Marques que nous sommes fiers de servir',
+    'stats.s1.suffix':'ans','stats.s2.suffix':'pcs','stats.s2.label':'Capacité de production annuelle','stats.s4.label':'Effectif de production',
+    'finalCta.btn1':'Appeler les ventes',
+    'footer.about':"BENRO INDUSTRIES est un fabricant dynamique et innovant à la pointe du secteur CVC&R — produisant des lignes de raccordement en cuivre & aluminium isolées et de la mousse PE en Algérie.",
+    'footer.products':'Produits','footer.prod1':'Cuivre isolé jumelé','footer.prod2':'Cuivre isolé simple','footer.prod3':'Aluminium isolé jumelé','footer.prod4':"Tubes d'isolation PE",'footer.prod5':'Tubes en polyéthylène',
+    'footer.company':'Société','footer.about_link':'À propos','footer.contact':'Contact','footer.city':'Alger, Algérie',
+    'footer.copy_prefix':'©','footer.copy_suffix':'Benro Industries — Tous droits réservés.','footer.tagline':'Repensé avec soin · Fabricant CVC&R · Algérie 🇩🇿',
+    'why.p1.title':'Qualité & précision','why.p2.title':'Durabilité & isolation renforcées',
+
+    'about.eyebrow':'Notre histoire',
+    'about.h1':"Changeons la manière de <span class=\"accent\">gérer le business</span>",
+    'about.lead1':"<strong>BENRO INDUSTRIES</strong> est une entreprise dynamique et innovante à la pointe du secteur CVC&R. Nous sommes fiers de fabriquer des tubes de raccordement de climatisation de qualité premium — une gamme polyvalente de tubes en cuivre et aluminium isolés pour la réfrigération, destinés aux applications industrielles et résidentielles.",
+    'about.lead2':"De plus, <strong>BENRO INDUSTRIES</strong> excelle dans la production de tubes en mousse de polyéthylène pour l'isolation des tubes ACR et de nombreuses autres applications industrielles.",
+    'about.cta1':'Découvrir nos produits','about.cta2':'Voir notre parcours',
+
+    'about.milestones.eyebrow':'Parcours','about.milestones.title':"D'un atelier à Ghardaïa à un fabricant CVC algérien de référence",
+    'about.milestones.desc':"Étapes clés de notre parcours de croissance, d'investissement et de diversification produit.",
+    'about.mile.y2019.a':'Création de la société à Ghardaïa, Algérie.',
+    'about.mile.y2021.a':"Relocalisation de l'usine vers la zone industrielle.",
+    'about.mile.y2021.b':"Lancement de la ligne d'extrusion PE.",
+    'about.mile.y2021.c':"Lancement de la 2ᵉ ligne de découpe cuivre.",
+    'about.mile.y2022.a':"Lancement de la production de tubes en aluminium soudé.",
+    'about.mile.y2023.a':"Produits homologués par 2 grands fabricants A/C.",
+    'about.mile.y2023.b':"L'effectif dépasse les 30 personnes.",
+    'about.mile.y2023.c':"Mise en place du SMQ (QMS).",
+    'about.mile.y2024.a':"2ᵉ extension de la nouvelle usine.",
+    'about.mile.y2024.b':"Lancement de la 2ᵉ ligne d'extrusion PE.",
+    'about.mile.y2024.c':"Gestion de l'usine par ERP.",
+
+    'about.mv.eyebrow':"Nos valeurs",'about.mv.title':'Une mission claire. Une vision audacieuse.',
+    'about.mv.mission_label':'Mission','about.mv.mission':"Fournir des produits de qualité qui contribuent au bien-être de chacun.",
+    'about.mv.vision_label':'Vision','about.mv.vision':"D'ici 2025, BENRO INDUSTRIES sera la marque CVC la plus fiable et leader en Algérie, servant tout le marché national et s'étendant à l'export international d'ici 2026.",
+
+    'about.values.eyebrow':"Valeurs de l'entreprise",'about.values.title':'Les sept principes qui guident chaque décision',
+    'about.values.v1.t':'Intégrité','about.values.v1.d':"Nous conduisons nos affaires avec les plus hauts standards éthiques, garantissant transparence et honnêteté dans toutes nos interactions.",
+    'about.values.v2.t':'Innovation','about.values.v2.d':"Nous cherchons en permanence de nouvelles façons d'améliorer nos produits et nos procédés.",
+    'about.values.v3.t':'Durabilité','about.values.v3.d':'Nous nous engageons en faveur de pratiques de fabrication responsables.',
+    'about.values.v4.t':'Bien-être des employés','about.values.v4.d':'Nous nous engageons à améliorer la qualité de vie de nos employés.',
+    'about.values.v5.t':'Qualité','about.values.v5.d':'Nous nous engageons à livrer des produits de qualité et de fiabilité supérieures.',
+    'about.values.v6.t':'Orientation client','about.values.v6.d':'Nos clients sont au cœur de tout ce que nous faisons. Nous nous efforçons de dépasser leurs attentes.',
+    'about.values.v7.t':'Responsabilité sociale','about.values.v7.d':'Nous contribuons au développement de la société et soutenons les initiatives éducatives.',
+
+    'about.stats.s1':"Années d'expérience",'about.stats.s3':'Grossistes à travers l’Algérie',
+
+    'about.why.eyebrow':'Pourquoi choisir nos produits','about.why.title':'Voici quelques raisons de travailler avec nous',
+    'about.why.p1.desc':"Cela englobe notre engagement envers une production précise (isolation et longueur), le contrôle qualité et l'utilisation de cuivre flexible de haute qualité.",
+    'about.why.p2.desc':"Cela met en avant les propriétés d'isolation avancées de notre produit : résistance au soleil, recyclabilité, tenue de forme et disponibilité d'isolation multicouches.",
+    'about.why.p3.title':'Approvisionnement fiable & logistique optimisée','about.why.p3.desc':"Nos produits bénéficient de processus de vente et de distribution efficaces : disponibilité constante, gestion logistique complète, prix stables et emballage robuste.",
+    'about.why.more':'Plus d’avantages',
+
+    'about.team.eyebrow':'Notre équipe','about.team.title':'Les personnes derrière chaque produit BENRO',
+    'about.team.p1':"Notre équipe dévouée est la force motrice de notre vision : devenir la marque CVC leader en Algérie. Guidés par nos valeurs fondamentales, nous travaillons ensemble pour livrer des résultats exceptionnels.",
+    'about.team.p2':"De l'ingénierie au contrôle qualité, en passant par l'extrusion et la logistique, chaque produit BENRO passe entre les mains de personnes qui se soucient — et cela se voit dans la précision et la fiabilité que nos clients vivent au quotidien.",
+
+    'about.blog.eyebrow':'Blog et événements','about.blog.title':'Étapes, salons & moments communautaires',
+    'about.blog.p1.t':'Salon SIVECC 2024','about.blog.p1.d':"Bilan de la présence de BENRO INDUSTRIES à SIVECC 2024.",
+    'about.blog.p2.t':"Nouvelle extension — inauguration par les autorités locales",'about.blog.p2.d':"BENRO INDUSTRIES célèbre l'inauguration de l'extension de l'usine avec les autorités locales de Ghardaïa.",
+    'about.blog.p3.t':'Salon SIVECC 2023','about.blog.p3.d':"BENRO INDUSTRIES se distingue au salon SIVECC 2023.",
+
+    'about.cta.title':"Construisons ensemble.",'about.cta.desc':"Nous repoussons sans cesse les limites du possible. Collaborons sur des solutions innovantes qui façonnent l'avenir.",
+    'about.cta.btn':'Contactez-nous maintenant'
+  },
+
+  ar: {
+    'topbar.tagline':'الجزائر 🇩🇿 · صانع تكييف وتبريد',
+    'nav.products':'المنتجات','nav.why':'لماذا Benro','nav.about':'من نحن','nav.clients':'العملاء','nav.blog':'المدوّنة','nav.contact':'اتصل بنا',
+    'cta.browse':'تصفح الكتالوج','cta.quote':'اطلب عرض سعر','cta.getquote':'اطلب عرض سعر',
+    'ds.crumb_home':'الرئيسية',
+    'partners.title':'علاماتٌ نفخر بخدمتها',
+    'stats.s1.suffix':'سنوات','stats.s2.suffix':'قطعة','stats.s2.label':'طاقة الإنتاج السنوية','stats.s4.label':'القوى العاملة في الإنتاج',
+    'finalCta.btn1':'اتصل بالمبيعات',
+    'footer.about':'بنرو للصناعات صانعٌ ديناميكي ومبتكر في طليعة قطاع التكييف والتبريد — ينتج خطوط توصيل نحاسية وألمنيومية معزولة ورغوة PE في الجزائر.',
+    'footer.products':'المنتجات','footer.prod1':'نحاس مزدوج معزول','footer.prod2':'نحاس مفرد معزول','footer.prod3':'ألمنيوم مزدوج معزول','footer.prod4':'أنابيب عزل PE','footer.prod5':'أنابيب بولي إيثيلين',
+    'footer.company':'الشركة','footer.about_link':'من نحن','footer.contact':'تواصل','footer.city':'الجزائر العاصمة، الجزائر',
+    'footer.copy_prefix':'©','footer.copy_suffix':'بنرو للصناعات — جميع الحقوق محفوظة.','footer.tagline':'أُعيد تصميمه بعناية · صانع تكييف وتبريد · الجزائر 🇩🇿',
+    'why.p1.title':'الجودة والدقة','why.p2.title':'متانة وعزل مُعزَّزان',
+
+    'about.eyebrow':'قصّتنا',
+    'about.h1':'لنُغيِّر طريقة <span class="accent">إدارة الأعمال</span>',
+    'about.lead1':'<strong>بنرو للصناعات</strong> شركةٌ ديناميكية ومبتكرة في طليعة قطاع التكييف والتبريد. نفخر بصناعة أنابيب توصيل تكييف فاخرة، وبتشكيلة متنوّعة من أنابيب النحاس والألمنيوم المعزولة المُستخدَمة في التطبيقات الصناعية والسكنية.',
+    'about.lead2':'علاوةً على ذلك، تتميّز <strong>بنرو للصناعات</strong> في إنتاج أنابيب رغوة البولي إيثيلين لعزل أنابيب التبريد (ACR) والعديد من التطبيقات الصناعية الأخرى.',
+    'about.cta1':'استكشف منتجاتنا','about.cta2':'تعرّف على مسيرتنا',
+
+    'about.milestones.eyebrow':'المسيرة','about.milestones.title':'من ورشةٍ في غرداية إلى صانع تكييف جزائري رائد',
+    'about.milestones.desc':'لحظاتٌ مفصليّة في رحلة النمو والاستثمار وتنويع المنتجات.',
+    'about.mile.y2019.a':'تأسيس الشركة في غرداية، الجزائر.',
+    'about.mile.y2021.a':'نقل المصنع إلى المنطقة الصناعية.',
+    'about.mile.y2021.b':'إطلاق خطّ بثق البولي إيثيلين.',
+    'about.mile.y2021.c':'إطلاق الخط الثاني لقصّ النحاس.',
+    'about.mile.y2022.a':'إطلاق إنتاج أنبوب الألمنيوم الملحوم.',
+    'about.mile.y2023.a':'اعتماد المنتجات من قِبَل اثنين من كبار مُصنّعي أجهزة التكييف.',
+    'about.mile.y2023.b':'تجاوز عدد العمالة 30 عاملاً.',
+    'about.mile.y2023.c':'تنفيذ نظام إدارة الجودة (QMS).',
+    'about.mile.y2024.a':'التوسعة الثانية للمصنع الجديد.',
+    'about.mile.y2024.b':'إطلاق الخط الثاني لبثق البولي إيثيلين.',
+    'about.mile.y2024.c':'إدارة المصنع عبر نظام ERP.',
+
+    'about.mv.eyebrow':'ما نؤمن به','about.mv.title':'رسالةٌ واضحة. ورؤيةٌ طموحة.',
+    'about.mv.mission_label':'الرسالة','about.mv.mission':'تقديم منتجاتٍ عالية الجودة تُسهم في رفاهية الفرد.',
+    'about.mv.vision_label':'الرؤية','about.mv.vision':'بحلول 2025، ستكون بنرو للصناعات أكثر العلامات موثوقيةً وريادةً في قطاع التكييف بالجزائر، تخدم كامل السوق الوطنية وتتوسّع نحو أسواق التصدير الدولية بحلول 2026.',
+
+    'about.values.eyebrow':'قيم الشركة','about.values.title':'سبعة مبادئ تُوجّه كلّ قرار',
+    'about.values.v1.t':'النزاهة','about.values.v1.d':'ندير أعمالنا بأعلى المعايير الأخلاقية، مع ضمان الشفافية والصدق في كلّ تعاملاتنا.',
+    'about.values.v2.t':'الابتكار','about.values.v2.d':'نسعى باستمرار إلى طُرق جديدة لتحسين منتجاتنا وعمليّاتنا.',
+    'about.values.v3.t':'الاستدامة','about.values.v3.d':'نلتزم بممارسات تصنيع مسؤولة بيئياً.',
+    'about.values.v4.t':'رعاية الموظفين','about.values.v4.d':'نلتزم بتحسين جودة حياة موظفينا.',
+    'about.values.v5.t':'الجودة','about.values.v5.d':'نلتزم بتقديم منتجاتٍ ذات جودةٍ وموثوقيةٍ متفوّقة.',
+    'about.values.v6.t':'التركيز على العميل','about.values.v6.d':'عملاؤنا في قلب كلّ ما نقوم به، ونسعى لتجاوز توقّعاتهم.',
+    'about.values.v7.t':'المسؤولية الاجتماعية','about.values.v7.d':'نُسهم في تنمية المجتمع وندعم المبادرات التعليمية.',
+
+    'about.stats.s1':'سنوات الخبرة في المجال','about.stats.s3':'تاجر جملة عبر الجزائر',
+
+    'about.why.eyebrow':'لماذا تختار منتجاتنا','about.why.title':'إليك بعض الأسباب التي تجعلك تختار العمل معنا',
+    'about.why.p1.desc':'يشمل ذلك التزامنا بإنتاجٍ دقيقٍ من حيث العزل والطول، ومراقبة الجودة، واستخدام نحاسٍ مرنٍ عالي الجودة.',
+    'about.why.p2.desc':'يُسلّط ذلك الضوء على خصائص العزل المتقدّمة لمنتجنا — من مقاومةٍ للأشعة الشمسية، وقابليةٍ لإعادة التدوير، واحتفاظٍ بالشكل، وخيار العزل متعدّد الطبقات.',
+    'about.why.p3.title':'إمداد موثوق وخدمات لوجستية ميسّرة','about.why.p3.desc':'تستفيد منتجاتنا من عمليات بيعٍ وتوزيعٍ فعّالة: توفّر مستمر، إدارة لوجستية شاملة، أسعار مستقرّة، وتغليفٌ متين.',
+    'about.why.more':'مزايا أخرى',
+
+    'about.team.eyebrow':'فريقنا','about.team.title':'الأشخاص خلف كلّ منتج BENRO',
+    'about.team.p1':'فريقنا المتفاني هو القوّة الدافعة وراء رؤيتنا لنصبح العلامة الرائدة في التكييف بالجزائر. مُسترشدين بقيمنا الأساسية، نعمل معاً لتقديم نتائج استثنائية.',
+    'about.team.p2':'من الهندسة ومراقبة الجودة إلى البثق واللوجستيك، يمرّ كلّ منتج BENRO عبر أيادي أشخاصٍ يهتمّون — وهذا ما يظهر في الدقّة والاعتمادية التي يلمسها عملاؤنا كلّ يوم.',
+
+    'about.blog.eyebrow':'المدونة والفعاليات','about.blog.title':'محطّاتٌ ومعارضٌ ولحظاتٌ مجتمعية',
+    'about.blog.p1.t':'معرض SIVECC 2024','about.blog.p1.d':'ملخّص مشاركة بنرو للصناعات في معرض SIVECC 2024.',
+    'about.blog.p2.t':'توسعةٌ جديدة — السلطات المحلية تُدشّن المنشأة الجديدة','about.blog.p2.d':'بنرو للصناعات تحتفل بافتتاح توسعة المصنع برفقة السلطات المحلية لغرداية.',
+    'about.blog.p3.t':'معرض SIVECC 2023','about.blog.p3.d':'بنرو للصناعات تترك بصمةً لافتة في معرض SIVECC 2023.',
+
+    'about.cta.title':'لِنبنِ شيئاً معاً.','about.cta.desc':'نحن ندفع باستمرار حدود الممكن. لنتعاون على حلولٍ مبتكرة تُشكّل المستقبل.',
+    'about.cta.btn':'تواصل معنا الآن'
+  }
+};
+const LANG_LABEL = { en:'EN', fr:'FR', ar:'AR' };
+
+function applyLang(lang){
+  if(!I18N[lang]) lang = 'en';
+  const dict = I18N[lang];
+  const html = document.documentElement;
+  html.lang = lang;
+  html.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const k = el.getAttribute('data-i18n');
+    if (dict[k] != null) el.textContent = dict[k];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const k = el.getAttribute('data-i18n-html');
+    if (dict[k] != null) el.innerHTML = dict[k];
+  });
+  const cur = document.getElementById('langCurrent'); if (cur) cur.textContent = LANG_LABEL[lang];
+  document.querySelectorAll('#langMenu [data-lang]').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  try { localStorage.setItem('benroLang', lang); } catch(e){}
+}
+
+(function initLangSwitch(){
+  const wrap = document.getElementById('langSwitch');
+  const trig = document.getElementById('langTrigger');
+  const menu = document.getElementById('langMenu');
+  if (!wrap) return;
+  const close = () => { wrap.classList.remove('open'); trig.setAttribute('aria-expanded','false'); };
+  const open  = () => { wrap.classList.add('open');    trig.setAttribute('aria-expanded','true');  };
+  trig.addEventListener('click', e => { e.stopPropagation(); wrap.classList.contains('open') ? close() : open(); });
+  menu.querySelectorAll('[data-lang]').forEach(b => b.addEventListener('click', () => { applyLang(b.dataset.lang); close(); }));
+  document.addEventListener('click', e => { if (!wrap.contains(e.target)) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  let saved = null; try { saved = localStorage.getItem('benroLang'); } catch(e){}
+  const guess = (navigator.language || 'en').slice(0,2).toLowerCase();
+  applyLang(saved || (['en','fr','ar'].includes(guess) ? guess : 'en'));
+})();
+
+// sticky header
+const hdr = document.getElementById('siteHeader');
+const onScroll = () => hdr.classList.toggle('is-scrolled', window.scrollY > 8);
+window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+// reveal on scroll
+const io = new IntersectionObserver(es => { es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+// counters (locale-aware)
+const formatNum = (n) => {
+  const lang = document.documentElement.lang || 'en';
+  const loc = lang === 'ar' ? 'ar-DZ' : (lang === 'fr' ? 'fr-FR' : 'en-US');
+  try { return n.toLocaleString(loc); } catch(e){ return n.toLocaleString('en-US'); }
+};
+const animateCounter = (el) => {
+  const target = +el.dataset.target;
+  const duration = 1600;
+  const start = performance.now();
+  const tick = (t) => {
+    const p = Math.min(1, (t - start) / duration);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = formatNum(Math.floor(eased * target));
+    if (p < 1) requestAnimationFrame(tick); else el.textContent = formatNum(target);
+  };
+  requestAnimationFrame(tick);
+};
+const ioCount = new IntersectionObserver(es => { es.forEach(e => { if (e.isIntersecting) { animateCounter(e.target); ioCount.unobserve(e.target); } }); }, { threshold: 0.4 });
+document.querySelectorAll('.counter').forEach(c => ioCount.observe(c));
+
+// Year
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,3029 @@
+{
+  "_memory": {
+    "en>fr:HVAC Kit": "Kit CVC",
+    "en>fr:Twin Insulated Copper Tubes": "Tubes de cuivre isolés jumeaux",
+    "en>fr:This insulated copper tube consists of twin seamless annealed copper with PE insulation.": "Ce tube en cuivre isolé est constitué de double cuivre recuit sans soudure avec isolation PE.",
+    "en>fr:BENRO INDUSTRIES®️ Insulated Copper Tubes": "BENRO INDUSTRIES®️ Tubes de cuivre isolés",
+    "en>fr:BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of twin seamless annealed copper tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "BENRO INDUSTRIES Les lignes de connexion en cuivre isolées représentent une avancée significative dans la connectivité CVC. Fabriqués conformément à la norme EN 12735-1 (cuivre C12200), ces produits de grande valeur sont constitués de tubes jumeaux en cuivre recuit sans soudure avec isolation PE, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+    "en>fr:Maximized Energy Efficiency": "Efficacité énergétique maximisée",
+    "en>fr:Continuous energy savings are achieved through the high-performance PE insulation, which effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "Des économies d'énergie continues sont réalisées grâce à l'isolation PE haute performance, qui limite efficacement le transfert d'énergie et maintient des valeurs de sous-refroidissement appropriées. Conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm.",
+    "en>fr:Enhanced Operational Safety": "Sécurité opérationnelle améliorée",
+    "en>fr:Ensures safe and reliable split air conditioner system operation.": "Assure un fonctionnement sûr et fiable du système de climatisation split.",
+    "en>fr:Reduced Installation Time & Costs": "Temps et coûts d'installation réduits",
+    "en>fr:The lightly linked twin tubes allow for easy separation during installation, simplifying the process and lowering labor expenses.": "Les tubes jumeaux légèrement liés permettent une séparation facile lors de l'installation, simplifiant le processus et réduisant les coûts de main-d'œuvre.",
+    "en>fr:Exceptional Durability": "Durabilité exceptionnelle",
+    "en>fr:The C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress, while the PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 hours at 70 ℃, elongation at break ≥ 60%.": "Le tube en cuivre C12200 (CuDHP > 99,90%, trempe douce) offre une haute résistance aux contraintes mécaniques, tandis que l'isolation PE protège contre les agents chimiques et les rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 heures à 70 ℃, allongement à la rupture ≥ 60 %.",
+    "en>fr:Flexible Application": "Application flexible",
+    "en>fr:Suitable for connecting various split air conditioner units (9000, 12000, 18000, 24000, 48000 BTU).": "Convient pour connecter diverses unités de climatiseur split (9000, 12000, 18000, 24000, 48000 BTU).",
+    "en>fr:Weather Resistance": "Résistance aux intempéries",
+    "en>fr:The robust insulation withstands extreme atmospheric conditions.": "L'isolation robuste résiste aux conditions atmosphériques extrêmes.",
+    "en>fr:Copper Tubing": "Tubes en cuivre",
+    "en>fr:Alloy": "Alliage",
+    "en>fr:Non-alloy": "Sans alliage",
+    "en>fr:Material": "Matériel",
+    "en>fr:C12200 (CuDHP > 99.90%)": "C12200 (CuDHP > 99,90 %)",
+    "en>fr:Temper": "Caractère",
+    "en>fr:Soft temper": "Caractère doux",
+    "en>fr:Standard": "Standard",
+    "en>fr:EN 12735-1": "EN 12735-1",
+    "en>fr:Insulation": "Isolation",
+    "en>fr:PE (Polyethylene)": "PE (Polyéthylène)",
+    "en>fr:Apparent Density": "Densité apparente",
+    "en>fr:30 kg/m³": "30 kg/m³",
+    "en>fr:Wall Thickness": "Épaisseur de paroi",
+    "en>fr:8 – 12 mm": "8 à 12 mm",
+    "en>fr:Thermal Conductivity": "Conductivité thermique",
+    "en>fr:0.0402 W/m·K": "0,0402 W/m·K",
+    "en>fr:Tensile Strength": "Résistance à la traction",
+    "en>fr:0.36 MPa": "0,36 MPa",
+    "en>fr:Tear Strength": "Résistance à la déchirure",
+    "en>fr:0.19 N/mm": "0,19 N/mm",
+    "en>fr:Water Absorption": "Absorption d'eau",
+    "en>fr:Color": "Couleur",
+    "en>fr:White": "Blanc",
+    "en>fr:Heat Resistance": "Résistance à la chaleur",
+    "en>fr:No obvious color change or cracking after 6 h at 70 ℃": "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃",
+    "en>fr:Elongation at Break": "Allongement à la rupture",
+    "en>fr:Dimensions": "Dimensions",
+    "en>fr:Outside Ø (inch)": "Ø extérieur (pouces)",
+    "en>fr:Outside Ø (mm)": "Ø extérieur (mm)",
+    "en>fr:Wall Thickness (mm)": "Épaisseur de paroi (mm)",
+    "en>fr:Tube Length (m)": "Longueur du tube (m)",
+    "en>fr:Type of insulation": "Type d'isolation",
+    "en>fr:Ending": "Fin",
+    "en>fr:1/4 × 3/8": "1/4 × 3/8",
+    "en>fr:6.35 × 9.52": "6,35 × 9,52",
+    "en>fr:IXPE Covered / Single layer": "IXPE couvert / monocouche",
+    "en>fr:Brass nut or cap": "Écrou ou capuchon en laiton",
+    "en>fr:1/4 × 1/2": "1/4 × 1/2",
+    "en>fr:6.35 × 12.7": "6,35 × 12,7",
+    "en>fr:1/4 × 5/8": "1/4 × 5/8",
+    "en>fr:6.35 × 15.88": "6,35 × 15,88",
+    "en>fr:3/8 × 5/8": "3/8 × 5/8",
+    "en>fr:9.52 × 15.88": "9,52 × 15,88",
+    "en>fr:3/8 × 3/4": "3/8 × 3/4",
+    "en>fr:9.52 × 19.05": "9,52 × 19,05",
+    "en>fr:1/2 × 3/4": "1/2 × 3/4",
+    "en>fr:12.7 × 19.05": "12,7 × 19,05",
+    "en>ar:HVAC Kit": "طقم التدفئة والتهوية وتكييف الهواء",
+    "en>ar:Twin Insulated Copper Tubes": "أنابيب نحاسية معزولة مزدوجة",
+    "en>ar:This insulated copper tube consists of twin seamless annealed copper with PE insulation.": "يتكون هذا الأنبوب النحاسي المعزول من النحاس الملدن المزدوج غير الملحوم مع عزل PE.",
+    "en>ar:BENRO INDUSTRIES®️ Insulated Copper Tubes": "BENRO INDUSTRIES®️ أنابيب نحاسية معزولة",
+    "en>ar:BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of twin seamless annealed copper tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "تمثل خطوط التوصيل النحاسية المعزولة من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أجهزة التدفئة والتهوية وتكييف الهواء (HVAC). تم تصنيع هذه المنتجات عالية القيمة وفقًا للمعيار EN 12735-1 (C12200 النحاس)، وتتكون من أنابيب نحاسية ملدنة مزدوجة غير ملحومة مع عزل PE، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+    "en>ar:Maximized Energy Efficiency": "أقصى قدر من كفاءة الطاقة",
+    "en>ar:Continuous energy savings are achieved through the high-performance PE insulation, which effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "يتم تحقيق توفير الطاقة المستمر من خلال عزل PE عالي الأداء، والذي يحد بشكل فعال من نقل الطاقة ويحافظ على قيم التبريد الفرعي المناسبة. الموصلية الحرارية 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم.",
+    "en>ar:Enhanced Operational Safety": "تعزيز السلامة التشغيلية",
+    "en>ar:Ensures safe and reliable split air conditioner system operation.": "يضمن التشغيل الآمن والموثوق لنظام تكييف الهواء المنفصل.",
+    "en>ar:Reduced Installation Time & Costs": "تقليل وقت التثبيت والتكاليف",
+    "en>ar:The lightly linked twin tubes allow for easy separation during installation, simplifying the process and lowering labor expenses.": "تسمح الأنابيب المزدوجة المرتبطة بشكل خفيف بالفصل السهل أثناء التثبيت، مما يؤدي إلى تبسيط العملية وخفض تكاليف العمالة.",
+    "en>ar:Exceptional Durability": "متانة استثنائية",
+    "en>ar:The C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress, while the PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 hours at 70 ℃, elongation at break ≥ 60%.": "توفر الأنابيب النحاسية C12200 (CuDHP > 99.90%، مزاج ناعم) مقاومة عالية للضغط الميكانيكي، بينما يحمي عزل PE من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%.",
+    "en>ar:Flexible Application": "تطبيق مرن",
+    "en>ar:Suitable for connecting various split air conditioner units (9000, 12000, 18000, 24000, 48000 BTU).": "مناسب لتوصيل وحدات التكييف السبلت المختلفة (9000، 12000، 18000، 24000، 48000 وحدة حرارية بريطانية).",
+    "en>ar:Weather Resistance": "مقاومة الطقس",
+    "en>ar:The robust insulation withstands extreme atmospheric conditions.": "العزل القوي يتحمل الظروف الجوية القاسية.",
+    "en>ar:Copper Tubing": "أنابيب النحاس",
+    "en>ar:Alloy": "سبيكة",
+    "en>ar:Non-alloy": "غير سبيكة",
+    "en>ar:Material": "مادة",
+    "en>ar:C12200 (CuDHP > 99.90%)": "C12200 (CuDHP > 99.90%)",
+    "en>ar:Temper": "حِدّة",
+    "en>ar:Soft temper": "مزاج ناعم",
+    "en>ar:Standard": "معيار",
+    "en>ar:EN 12735-1": "إن 12735-1",
+    "en>ar:Insulation": "العزل",
+    "en>ar:PE (Polyethylene)": "بي (البولي ايثيلين)",
+    "en>ar:Apparent Density": "الكثافة الظاهرية",
+    "en>ar:30 kg/m³": "30 كجم/م3",
+    "en>ar:Wall Thickness": "سمك الجدار",
+    "en>ar:8 – 12 mm": "8 - 12 ملم",
+    "en>ar:Thermal Conductivity": "الموصلية الحرارية",
+    "en>ar:0.0402 W/m·K": "0.0402 واط/م·ك",
+    "en>ar:Tensile Strength": "قوة الشد",
+    "en>ar:0.36 MPa": "0.36 ميجا باسكال",
+    "en>ar:Tear Strength": "قوة المسيل للدموع",
+    "en>ar:0.19 N/mm": "0.19 ن/مم",
+    "en>ar:Water Absorption": "امتصاص الماء",
+    "en>ar:Color": "لون",
+    "en>ar:White": "أبيض",
+    "en>ar:Heat Resistance": "مقاومة الحرارة",
+    "en>ar:No obvious color change or cracking after 6 h at 70 ℃": "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية",
+    "en>ar:Elongation at Break": "استطالة عند الاستراحة",
+    "en>ar:Dimensions": "أبعاد",
+    "en>ar:Outside Ø (inch)": "خارج Ø (بوصة)",
+    "en>ar:Outside Ø (mm)": "خارج Ø (مم)",
+    "en>ar:Wall Thickness (mm)": "سمك الجدار (مم)",
+    "en>ar:Tube Length (m)": "طول الأنبوب (م)",
+    "en>ar:Type of insulation": "نوع العزل",
+    "en>ar:Ending": "إنهاء",
+    "en>ar:1/4 × 3/8": "1/4 × 3/8",
+    "en>ar:6.35 × 9.52": "6.35 × 9.52",
+    "en>ar:IXPE Covered / Single layer": "IXPE مغطى / طبقة واحدة",
+    "en>ar:Brass nut or cap": "الجوز النحاسي أو الغطاء",
+    "en>ar:1/4 × 1/2": "1/4 × 1/2",
+    "en>ar:6.35 × 12.7": "6.35 × 12.7",
+    "en>ar:1/4 × 5/8": "1/4 × 5/8",
+    "en>ar:6.35 × 15.88": "6.35 × 15.88",
+    "en>ar:3/8 × 5/8": "3/8 × 5/8",
+    "en>ar:9.52 × 15.88": "9.52 × 15.88",
+    "en>ar:3/8 × 3/4": "3/8 × 3/4",
+    "en>ar:9.52 × 19.05": "9.52 × 19.05",
+    "en>ar:1/2 × 3/4": "1/2 × 3/4",
+    "en>ar:12.7 × 19.05": "12.7 × 19.05",
+    "en>fr:Single Insulated Copper Tubes": "Tubes de cuivre isolés simples",
+    "en>fr:This insulated copper tube consists of single seamless annealed copper with PE insulation.": "Ce tube de cuivre isolé est constitué d'un seul cuivre recuit sans soudure avec une isolation PE.",
+    "en>fr:BENRO INDUSTRIES®️ Single Insulated Copper Tubes": "BENRO INDUSTRIES®️ Tubes en cuivre à isolation unique",
+    "en>fr:BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of single seamless annealed copper tubes with PE/NBR insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "BENRO INDUSTRIES Les lignes de connexion en cuivre isolées représentent une avancée significative dans la connectivité CVC. Fabriqués conformément à la norme EN 12735-1 (cuivre C12200), ces produits de grande valeur sont constitués de tubes simples en cuivre recuit sans soudure avec isolation PE/NBR, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+    "en>fr:High-performance PE insulation effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "L'isolation PE haute performance limite efficacement le transfert d'énergie et maintient des valeurs de sous-refroidissement appropriées. Conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm.",
+    "en>fr:Sold per length or custom-cut for installers — simpler logistics, faster commissioning.": "Vendu à la longueur ou découpé sur mesure pour les installateurs : une logistique plus simple, une mise en service plus rapide.",
+    "en>fr:C12200 copper (CuDHP > 99.90%, soft temper) with PE insulation that resists chemicals and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "Cuivre C12200 (CuDHP > 99,90%, trempe douce) avec isolation PE résistant aux produits chimiques et aux rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %.",
+    "en>fr:Suitable for 9000 / 12000 / 18000 / 24000 / 48000 BTU split AC units.": "Convient aux unités AC divisées de 9 000/12 000/18 000/24 ​​000/48 000 BTU.",
+    "en>fr:Robust insulation withstands extreme atmospheric conditions.": "Une isolation robuste résiste aux conditions atmosphériques extrêmes.",
+    "en>fr:White / Gray": "Blanc / Gris",
+    "en>ar:Single Insulated Copper Tubes": "أنابيب نحاسية معزولة واحدة",
+    "en>ar:This insulated copper tube consists of single seamless annealed copper with PE insulation.": "يتكون هذا الأنبوب النحاسي المعزول من نحاس ملدن غير ملحوم مع عزل PE.",
+    "en>ar:BENRO INDUSTRIES®️ Single Insulated Copper Tubes": "BENRO INDUSTRIES®️ أنابيب نحاسية مفردة معزولة",
+    "en>ar:BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of single seamless annealed copper tubes with PE/NBR insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "تمثل خطوط التوصيل النحاسية المعزولة من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أجهزة التدفئة والتهوية وتكييف الهواء (HVAC). تم تصنيع هذه المنتجات عالية القيمة وفقًا للمعيار EN 12735-1 (C12200 النحاس)، وتتكون من أنابيب نحاسية ملدنة مفردة غير ملحومة مع عزل PE/NBR، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+    "en>ar:High-performance PE insulation effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "يحد عزل PE عالي الأداء بشكل فعال من نقل الطاقة ويحافظ على قيم التبريد الفرعي المناسبة. الموصلية الحرارية 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم.",
+    "en>ar:Sold per length or custom-cut for installers — simpler logistics, faster commissioning.": "يتم بيعها حسب الطول أو القطع المخصص للقائمين بالتركيب - خدمات لوجستية أبسط وتشغيل أسرع.",
+    "en>ar:C12200 copper (CuDHP > 99.90%, soft temper) with PE insulation that resists chemicals and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "نحاس C12200 (CuDHP > 99.90%، مزاج ناعم) مع عزل PE الذي يقاوم المواد الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%.",
+    "en>ar:Suitable for 9000 / 12000 / 18000 / 24000 / 48000 BTU split AC units.": "مناسب لوحدات تكييف سبليت بقدرة 9000 / 12000 / 18000 / 24000 / 48000 وحدة حرارية بريطانية.",
+    "en>ar:Robust insulation withstands extreme atmospheric conditions.": "عزل قوي يتحمل الظروف الجوية القاسية.",
+    "en>ar:White / Gray": "أبيض / رمادي",
+    "en>fr:Lightweight": "Léger",
+    "en>fr:Twin Insulated Aluminium Tubes": "Tubes en aluminium isolés jumelés",
+    "en>fr:This insulated Aluminium tube consists of twin seamless annealed Aluminium with PE insulation.": "Ce tube en aluminium isolé est constitué d'un double aluminium recuit sans soudure avec une isolation PE.",
+    "en>fr:BENRO INDUSTRIES®️ Aluminium Tubes": "BENRO INDUSTRIES®️ Tubes en aluminium",
+    "en>fr:BENRO INDUSTRIES Insulated Aluminium connection lines represent a significant advancement in HVAC connectivity. These high-value products consist of twin seamless annealed Aluminium tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "Les lignes de connexion isolées en aluminium de BENRO INDUSTRIES représentent une avancée significative dans la connectivité CVC. Ces produits de grande valeur sont constitués de tubes jumeaux en aluminium recuit sans soudure avec isolation PE, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+    "en>fr:High-performance PE insulation, thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "Isolation PE haute performance, conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm.",
+    "en>fr:Safe and reliable split AC system operation.": "Fonctionnement sûr et fiable du système AC divisé.",
+    "en>fr:Lightly linked twin tubes allow for easy separation during installation.": "Les tubes jumeaux légèrement liés permettent une séparation facile lors de l'installation.",
+    "en>fr:PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "L'isolation PE protège contre les agents chimiques et les rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %.",
+    "en>fr:Withstands extreme atmospheric conditions.": "Résiste aux conditions atmosphériques extrêmes.",
+    "en>fr:Aluminium Tubing": "Tubes en aluminium",
+    "en>fr:1070 series": "série 1070",
+    "en>fr:Brass nut": "Écrou en laiton",
+    "en>ar:Lightweight": "خفيف الوزن",
+    "en>ar:Twin Insulated Aluminium Tubes": "أنابيب ألومنيوم معزولة مزدوجة",
+    "en>ar:This insulated Aluminium tube consists of twin seamless annealed Aluminium with PE insulation.": "يتكون أنبوب الألومنيوم المعزول من الألومنيوم الملدن المزدوج غير الملحوم مع عزل PE.",
+    "en>ar:BENRO INDUSTRIES®️ Aluminium Tubes": "BENRO INDUSTRIES®️ أنابيب الألومنيوم",
+    "en>ar:BENRO INDUSTRIES Insulated Aluminium connection lines represent a significant advancement in HVAC connectivity. These high-value products consist of twin seamless annealed Aluminium tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).": "تمثل خطوط التوصيل المصنوعة من الألومنيوم المعزول من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أنظمة التدفئة والتهوية وتكييف الهواء (HVAC). تتكون هذه المنتجات عالية القيمة من أنابيب ألمنيوم ملدنة مزدوجة غير ملحومة مع عزل PE، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+    "en>ar:High-performance PE insulation, thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm.": "عزل PE عالي الأداء، التوصيل الحراري 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم.",
+    "en>ar:Safe and reliable split AC system operation.": "تشغيل آمن وموثوق لنظام تكييف الهواء المنفصل.",
+    "en>ar:Lightly linked twin tubes allow for easy separation during installation.": "تسمح الأنابيب المزدوجة المرتبطة بشكل خفيف بالفصل السهل أثناء التثبيت.",
+    "en>ar:PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "عزل PE يحمي من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%.",
+    "en>ar:Withstands extreme atmospheric conditions.": "يتحمل الظروف الجوية القاسية.",
+    "en>ar:Aluminium Tubing": "أنابيب الألومنيوم",
+    "en>ar:1070 series": "سلسلة 1070",
+    "en>ar:Brass nut": "الجوز النحاسي",
+    "en>fr:Insulation Polyethylene Tubes": "Tubes en polyéthylène isolants",
+    "en>fr:BENRO INDUSTRIES offers its range of refrigeration insulation for ACR tubes.": "BENRO INDUSTRIES vous propose sa gamme d'isolation réfrigérante pour tubes ACR.",
+    "en>fr:Twin Insulation Polyethylene Tubes": "Tubes en polyéthylène à double isolation",
+    "en>fr:BENRO INDUSTRIES specializes in the manufacturing of polyethylene foam tubes for the insulation of ACR (Air Conditioning and Refrigeration) tubes and other industrial applications. Polyethylene foam has a straight-bond structure and is produced through an extrusion method with chemical and inflator-gas addition. PE foam features low thermal conductivity and a closed-cell structure, giving it high water-vapor diffusion resistance.": "BENRO INDUSTRIES se spécialise dans la fabrication de tubes en mousse de polyéthylène pour l'isolation des tubes ACR (Climatisation et Réfrigération) et autres applications industrielles. La mousse de polyéthylène a une structure à liaison droite et est produite par une méthode d'extrusion avec ajout de produits chimiques et de gaz de gonflage. La mousse PE présente une faible conductivité thermique et une structure à cellules fermées, ce qui lui confère une résistance élevée à la diffusion de la vapeur d'eau.",
+    "en>fr:Ease and Speed of Application": "Facilité et rapidité d'application",
+    "en>fr:Highly flexible material allows for quick and easy installation, reducing labor time and costs.": "Le matériau hautement flexible permet une installation rapide et facile, réduisant ainsi le temps et les coûts de main-d'œuvre.",
+    "en>fr:Water and Moisture Resistance": "Résistance à l'eau et à l'humidité",
+    "en>fr:Closed-cell structure prevents water and moisture absorption — long-term performance, no corrosion or mold.": "La structure à cellules fermées empêche l'absorption d'eau et d'humidité — performance à long terme, pas de corrosion ni de moisissure.",
+    "en>fr:Chemical and Environmental Resistance": "Résistance chimique et environnementale",
+    "en>fr:Unaffected by chemicals and environmental conditions — durability and longevity across applications.": "Insensible aux produits chimiques et aux conditions environnementales — durabilité et longévité dans toutes les applications.",
+    "en>fr:Eco-Friendly & Hygienic Solution": "Solution écologique et hygiénique",
+    "en>fr:Manufactured from recyclable PE, without HCFCs or harmful chemicals. Prevents fungi, bacteria and mold; odorless.": "Fabriqué à partir de PE recyclable, sans HCFC ni produits chimiques nocifs. Empêche les champignons, les bactéries et les moisissures ; inodore.",
+    "en>fr:Superior Thermal Insulation": "Isolation thermique supérieure",
+    "en>fr:Low thermal conductivity provides excellent insulation — minimizes energy loss and maximizes efficiency.": "La faible conductivité thermique offre une excellente isolation, minimise les pertes d'énergie et maximise l'efficacité.",
+    "en>fr:Impact Resistance & Condensation Prevention": "Résistance aux chocs et prévention de la condensation",
+    "en>fr:Recovers after impact, preventing damage and condensation buildup.": "Récupère après l'impact, évitant ainsi les dommages et l'accumulation de condensation.",
+    "en>fr:Sound and Heat Insulation": "Isolation phonique et thermique",
+    "en>fr:Provides both thermal and acoustic insulation.": "Fournit une isolation thermique et acoustique.",
+    "en>fr:Oil Resistance": "Résistance à l'huile",
+    "en>fr:Good resistance to oils, suitable where oil exposure is a concern.": "Bonne résistance aux huiles, convient là où l’exposition aux huiles est préoccupante.",
+    "en>fr:Dimensions — Twin Insulation Polyethylene Tubes": "Dimensions — Tubes en polyéthylène à double isolation",
+    "en>fr:Size": "Taille",
+    "en>fr:Inside Ø (mm)": "Ø intérieur (mm)",
+    "en>fr:Thickness (mm)": "Épaisseur (mm)",
+    "en>fr:Packaging": "Conditionnement",
+    "en>fr:8 × 12": "8 × 12",
+    "en>fr:Plastic Bag": "Sac en plastique",
+    "en>fr:8 × 15": "8 × 15",
+    "en>fr:8 × 18": "8 × 18",
+    "en>fr:12 × 18": "12 × 18",
+    "en>fr:12 × 22": "12 × 22",
+    "en>fr:15 × 22": "15 × 22",
+    "en>fr:Dimensions — BENRO-FLEX": "Dimensions — BENRO-FLEX",
+    "en>fr:Carton": "Carton",
+    "en>ar:Insulation Polyethylene Tubes": "أنابيب البولي إيثيلين العازلة",
+    "en>ar:BENRO INDUSTRIES offers its range of refrigeration insulation for ACR tubes.": "تقدم BENRO INDUSTRIES مجموعتها من عزل التبريد لأنابيب ACR.",
+    "en>ar:Twin Insulation Polyethylene Tubes": "أنابيب البولي إيثيلين العازلة المزدوجة",
+    "en>ar:BENRO INDUSTRIES specializes in the manufacturing of polyethylene foam tubes for the insulation of ACR (Air Conditioning and Refrigeration) tubes and other industrial applications. Polyethylene foam has a straight-bond structure and is produced through an extrusion method with chemical and inflator-gas addition. PE foam features low thermal conductivity and a closed-cell structure, giving it high water-vapor diffusion resistance.": "شركة BENRO INDUSTRIES متخصصة في تصنيع أنابيب رغوة البولي إيثيلين لعزل أنابيب ACR (تكييف الهواء والتبريد) والتطبيقات الصناعية الأخرى. تتميز رغوة البولي إيثيلين ببنية رابطة مستقيمة ويتم إنتاجها من خلال طريقة البثق مع إضافة المواد الكيميائية وغاز النفخ. تتميز رغوة البولي إيثيلين بموصلية حرارية منخفضة وبنية خلية مغلقة، مما يمنحها مقاومة عالية لانتشار بخار الماء.",
+    "en>ar:Ease and Speed of Application": "سهولة وسرعة التطبيق",
+    "en>ar:Highly flexible material allows for quick and easy installation, reducing labor time and costs.": "تسمح المادة المرنة للغاية بالتركيب السريع والسهل، مما يقلل من وقت العمل والتكاليف.",
+    "en>ar:Water and Moisture Resistance": "مقاومة الماء والرطوبة",
+    "en>ar:Closed-cell structure prevents water and moisture absorption — long-term performance, no corrosion or mold.": "هيكل الخلية المغلقة يمنع امتصاص الماء والرطوبة - أداء طويل الأمد، لا يسبب التآكل أو العفن.",
+    "en>ar:Chemical and Environmental Resistance": "المقاومة الكيميائية والبيئية",
+    "en>ar:Unaffected by chemicals and environmental conditions — durability and longevity across applications.": "لا يتأثر بالمواد الكيميائية والظروف البيئية - المتانة وطول العمر عبر التطبيقات.",
+    "en>ar:Eco-Friendly & Hygienic Solution": "حل صديق للبيئة وصحي",
+    "en>ar:Manufactured from recyclable PE, without HCFCs or harmful chemicals. Prevents fungi, bacteria and mold; odorless.": "مصنوع من مادة البولي إيثيلين القابلة لإعادة التدوير، بدون مركبات الكربون الهيدروكلورية فلورية أو المواد الكيميائية الضارة. يمنع الفطريات والبكتيريا والعفن. عديم الرائحة.",
+    "en>ar:Superior Thermal Insulation": "عزل حراري فائق",
+    "en>ar:Low thermal conductivity provides excellent insulation — minimizes energy loss and maximizes efficiency.": "توفر الموصلية الحرارية المنخفضة عزلًا ممتازًا — مما يقلل من فقدان الطاقة ويزيد من الكفاءة.",
+    "en>ar:Impact Resistance & Condensation Prevention": "مقاومة التأثير ومنع التكثيف",
+    "en>ar:Recovers after impact, preventing damage and condensation buildup.": "يتعافى بعد الاصطدام، ويمنع الضرر وتراكم التكثيف.",
+    "en>ar:Sound and Heat Insulation": "عزل الصوت والحرارة",
+    "en>ar:Provides both thermal and acoustic insulation.": "يوفر العزل الحراري والصوتي.",
+    "en>ar:Oil Resistance": "مقاومة النفط",
+    "en>ar:Good resistance to oils, suitable where oil exposure is a concern.": "مقاومة جيدة للزيوت، ومناسبة حيث يكون التعرض للزيت أمرًا مثيرًا للقلق.",
+    "en>ar:Dimensions — Twin Insulation Polyethylene Tubes": "الأبعاد – أنابيب البولي إيثيلين العازلة المزدوجة",
+    "en>ar:Size": "مقاس",
+    "en>ar:Inside Ø (mm)": "داخل Ø (مم)",
+    "en>ar:Thickness (mm)": "سمك (مم)",
+    "en>ar:Packaging": "التعبئة والتغليف",
+    "en>ar:8 × 12": "8 × 12",
+    "en>ar:Plastic Bag": "كيس من البلاستيك",
+    "en>ar:8 × 15": "8 × 15",
+    "en>ar:8 × 18": "8 × 18",
+    "en>ar:12 × 18": "12 × 18",
+    "en>ar:12 × 22": "12 × 22",
+    "en>ar:15 × 22": "15 × 22",
+    "en>ar:Dimensions — BENRO-FLEX": "الأبعاد — بينرو-فليكس",
+    "en>ar:Carton": "كرتون",
+    "en>fr:Raw material": "Matière première",
+    "en>fr:Copper Tubes (Pancake)": "Tubes de cuivre (crêpe)",
+    "en>fr:This seamless drawn copper tube is commonly used in ACR installations.": "Ce tube en cuivre étiré sans soudure est couramment utilisé dans les installations ACR.",
+    "en>fr:BENRO INDUSTRIES®️ Copper Tubes": "BENRO INDUSTRIES®️ Tubes en cuivre",
+    "en>fr:BENRO INDUSTRIES copper connection lines represent a significant advancement in HVAC connectivity, manufactured according to EN 12735-1 (C12200 copper). This seamless drawn copper tube is commonly used in ACR installations. Coiled in helical form and protected with caps at the ends, it is available in different sizes, thicknesses and lengths.": "Les lignes de connexion en cuivre de BENRO INDUSTRIES représentent une avancée significative dans la connectivité CVC, fabriquées conformément à la norme EN 12735-1 (cuivre C12200). Ce tube en cuivre étiré sans soudure est couramment utilisé dans les installations ACR. Enroulé sous forme hélicoïdale et protégé par des capuchons aux extrémités, il est disponible en différentes tailles, épaisseurs et longueurs.",
+    "en>fr:C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress; PE/NBR insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "Les tubes en cuivre C12200 (CuDHP > 99,90 %, trempe douce) offrent une haute résistance aux contraintes mécaniques ; L'isolation PE/NBR protège des agents chimiques et des rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %.",
+    "en>fr:Cap": "Capuchon",
+    "en>ar:Raw material": "مادة خام",
+    "en>ar:Copper Tubes (Pancake)": "أنابيب النحاس (فطيرة)",
+    "en>ar:This seamless drawn copper tube is commonly used in ACR installations.": "يُستخدم هذا الأنبوب النحاسي المسحوب بشكل غير ملحوم بشكل شائع في تركيبات ACR.",
+    "en>ar:BENRO INDUSTRIES®️ Copper Tubes": "BENRO INDUSTRIES®️ أنابيب النحاس",
+    "en>ar:BENRO INDUSTRIES copper connection lines represent a significant advancement in HVAC connectivity, manufactured according to EN 12735-1 (C12200 copper). This seamless drawn copper tube is commonly used in ACR installations. Coiled in helical form and protected with caps at the ends, it is available in different sizes, thicknesses and lengths.": "تمثل خطوط التوصيل النحاسية من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل HVAC، حيث تم تصنيعها وفقًا للمعيار EN 12735-1 (C12200 copper). يُستخدم هذا الأنبوب النحاسي المسحوب بشكل غير ملحوم بشكل شائع في تركيبات ACR. وهي ملفوفة بشكل حلزوني ومحمية بأغطية في الأطراف، وهي متوفرة بأحجام وسماكات وأطوال مختلفة.",
+    "en>ar:C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress; PE/NBR insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%.": "توفر الأنابيب النحاسية C12200 (CuDHP > 99.90%، مزاج ناعم) مقاومة عالية للضغط الميكانيكي؛ عزل PE/NBR يحمي من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%.",
+    "en>ar:Cap": "كاب",
+    "en>fr:PE Foam": "Mousse PE",
+    "en>fr:Polyethylene Tubes (PE Foam)": "Tubes en polyéthylène (mousse PE)",
+    "en>fr:BENRO INDUSTRIES offers its range of insulation PE tubes.": "BENRO INDUSTRIES vous propose sa gamme de tubes PE isolants.",
+    "en>fr:BENRO INDUSTRIES®️ Polyethylene Rod Tubes": "BENRO INDUSTRIES®️ Tubes à tige en polyéthylène",
+    "en>fr:BENRO INDUSTRIES manufactures extruded polyethylene tubes — commonly known as backer rods — used in construction to fill expansion and sealant joints. They provide support for sealants, ensuring uniform application and optimal joint performance.": "BENRO INDUSTRIES fabrique des tubes en polyéthylène extrudé – communément appelés tiges d'appui – utilisés dans la construction pour remplir les joints de dilatation et de scellement. Ils soutiennent les mastics, garantissant une application uniforme et des performances de joint optimales.",
+    "en>fr:Unaffected by chemicals and environmental conditions.": "Insensible aux produits chimiques et aux conditions environnementales.",
+    "en>fr:Recyclable PE, manufactured without HCFCs or harmful chemicals; prevents fungi, bacteria and mold; odorless.": "PE recyclable, fabriqué sans HCFC ni produits chimiques nocifs ; prévient les champignons, les bactéries et les moisissures ; inodore.",
+    "en>fr:Low thermal conductivity — minimizes energy loss and maximizes efficiency.": "Faible conductivité thermique : minimise les pertes d'énergie et maximise l'efficacité.",
+    "en>fr:Good resistance to oils.": "Bonne résistance aux huiles.",
+    "en>fr:Dimensions — Polyethylene Tubes": "Dimensions — Tubes en polyéthylène",
+    "en>fr:Type": "Taper",
+    "en>fr:Length (m)": "Longueur (m)",
+    "en>fr:PE Pipe": "Tuyau PE",
+    "en>fr:PE Rod": "Tige PE",
+    "en>fr:PE Neon": "Néon PE",
+    "en>fr:PE Net": "Filet PE",
+    "en>ar:PE Foam": "رغوة البولي ايثيلين",
+    "en>ar:Polyethylene Tubes (PE Foam)": "أنابيب البولي إيثيلين (رغوة البولي إيثيلين)",
+    "en>ar:BENRO INDUSTRIES offers its range of insulation PE tubes.": "تقدم BENRO INDUSTRIES مجموعتها من أنابيب PE العازلة.",
+    "en>ar:BENRO INDUSTRIES®️ Polyethylene Rod Tubes": "BENRO INDUSTRIES®️ أنابيب قضبان البولي إيثيلين",
+    "en>ar:BENRO INDUSTRIES manufactures extruded polyethylene tubes — commonly known as backer rods — used in construction to fill expansion and sealant joints. They provide support for sealants, ensuring uniform application and optimal joint performance.": "تقوم شركة BENRO INDUSTRIES بتصنيع أنابيب البولي إيثيلين المبثوقة - المعروفة باسم القضبان الداعمة - المستخدمة في البناء لملء وصلات التمدد ومانع التسرب. أنها توفر الدعم للمواد المانعة للتسرب، مما يضمن التطبيق الموحد والأداء الأمثل للمفاصل.",
+    "en>ar:Unaffected by chemicals and environmental conditions.": "لا يتأثر بالمواد الكيميائية والظروف البيئية.",
+    "en>ar:Recyclable PE, manufactured without HCFCs or harmful chemicals; prevents fungi, bacteria and mold; odorless.": "البولي إيثيلين القابل لإعادة التدوير، المُصنع بدون مركبات الكربون الهيدروكلورية فلورية أو المواد الكيميائية الضارة؛ يمنع الفطريات والبكتيريا والعفن. عديم الرائحة.",
+    "en>ar:Low thermal conductivity — minimizes energy loss and maximizes efficiency.": "الموصلية الحرارية المنخفضة - تقلل من فقدان الطاقة وتزيد من الكفاءة.",
+    "en>ar:Good resistance to oils.": "مقاومة جيدة للزيوت.",
+    "en>ar:Dimensions — Polyethylene Tubes": "الأبعاد – أنابيب البولي إيثيلين",
+    "en>ar:Type": "يكتب",
+    "en>ar:Length (m)": "الطول (م)",
+    "en>ar:PE Pipe": "أنابيب بي",
+    "en>ar:PE Rod": "قضيب بي",
+    "en>ar:PE Neon": "بي اي نيون",
+    "en>ar:PE Net": "بي نت",
+    "en>fr:BENRO-FLEX Insulation": "Isolation BENRO-FLEX",
+    "en>fr:While the well-known Arma-flex brand primarily uses elastomeric nitrile rubber foam, polyethylene (PE) foam is a versatile and widely used material in pipe insulation, particularly for cooling systems. Our BENRO-FLEX product line is proudly produced using high-quality PE foam, offering a cost-effective and environmentally responsible solution for cooling insulation. BENRO-FLEX PE foam provides excellent thermal performance, minimizing energy loss in refrigerant lines and maximizing efficiency. Its closed-cell structure ensures resistance to moisture and water vapor, preventing condensation and corrosion.": "Alors que la célèbre marque Arma-flex utilise principalement de la mousse de caoutchouc nitrile élastomère, la mousse de polyéthylène (PE) est un matériau polyvalent et largement utilisé dans l'isolation des canalisations, en particulier pour les systèmes de refroidissement. Notre gamme de produits BENRO-FLEX est fièrement fabriquée à partir de mousse PE de haute qualité, offrant une solution rentable et respectueuse de l'environnement pour l'isolation de refroidissement. La mousse BENRO-FLEX PE offre d'excellentes performances thermiques, minimisant les pertes d'énergie dans les conduites de réfrigérant et maximisant l'efficacité. Sa structure à cellules fermées assure une résistance à l'humidité et à la vapeur d'eau, empêchant ainsi la condensation et la corrosion.",
+    "en>ar:BENRO-FLEX Insulation": "عزل بينرو-فليكس",
+    "en>ar:While the well-known Arma-flex brand primarily uses elastomeric nitrile rubber foam, polyethylene (PE) foam is a versatile and widely used material in pipe insulation, particularly for cooling systems. Our BENRO-FLEX product line is proudly produced using high-quality PE foam, offering a cost-effective and environmentally responsible solution for cooling insulation. BENRO-FLEX PE foam provides excellent thermal performance, minimizing energy loss in refrigerant lines and maximizing efficiency. Its closed-cell structure ensures resistance to moisture and water vapor, preventing condensation and corrosion.": "في حين أن العلامة التجارية Arma-flex المعروفة تستخدم في المقام الأول رغوة مطاط النتريل المرنة، فإن رغوة البولي إيثيلين (PE) هي مادة متعددة الاستخدامات وتستخدم على نطاق واسع في عزل الأنابيب، خاصة لأنظمة التبريد. يتم إنتاج خط إنتاج BENRO-FLEX الخاص بنا بكل فخر باستخدام رغوة PE عالية الجودة، مما يوفر حلاً فعالاً من حيث التكلفة ومسؤولًا بيئيًا لعزل التبريد. توفر رغوة BENRO-FLEX PE أداءً حراريًا ممتازًا، مما يقلل من فقدان الطاقة في خطوط التبريد ويزيد من الكفاءة. يضمن هيكل الخلية المغلقة مقاومة الرطوبة وبخار الماء، مما يمنع التكثيف والتآكل.",
+    "en>fr:BENRO INDUSTRIES®️ Polyethylene Net": "BENRO INDUSTRIES®️ Filet en polyéthylène",
+    "en>fr:Extruded from polyethylene resin, BENRO INDUSTRIES' PE net tubes are manufactured using a continuous extrusion process that creates a seamless tubular mesh. This structure provides cushioning, ventilation and visibility for packaged products. The netting's flexibility lets it conform to the shape of the product, providing a secure and protective fit.": "Extrudés à partir de résine de polyéthylène, les tubes en filet PE de BENRO INDUSTRIES sont fabriqués à l'aide d'un processus d'extrusion continue qui crée un maillage tubulaire sans couture. Cette structure assure le rembourrage, la ventilation et la visibilité des produits emballés. La flexibilité du filet lui permet de s'adapter à la forme du produit, offrant ainsi un ajustement sûr et protecteur.",
+    "en>ar:BENRO INDUSTRIES®️ Polyethylene Net": "BENRO INDUSTRIES®️ شبكة من البولي إيثيلين",
+    "en>ar:Extruded from polyethylene resin, BENRO INDUSTRIES' PE net tubes are manufactured using a continuous extrusion process that creates a seamless tubular mesh. This structure provides cushioning, ventilation and visibility for packaged products. The netting's flexibility lets it conform to the shape of the product, providing a secure and protective fit.": "يتم تصنيع الأنابيب الشبكية PE الخاصة بشركة BENRO INDUSTRIES من راتينج البولي إيثيلين باستخدام عملية البثق المستمرة التي تخلق شبكة أنبوبية غير ملحومة. يوفر هذا الهيكل التوسيد والتهوية والرؤية للمنتجات المعبأة. مرونة الشبكة تسمح لها بالتوافق مع شكل المنتج، مما يوفر ملاءمة آمنة وواقية."
+  },
+  "twin-insulated-copper": {
+    "en": {
+      "tag": "HVAC Kit",
+      "title": "Twin Insulated Copper Tubes",
+      "short": "This insulated copper tube consists of twin seamless annealed copper with PE insulation.",
+      "intro_heading": "BENRO INDUSTRIES®️ Insulated Copper Tubes",
+      "intro": "BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of twin seamless annealed copper tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).",
+      "benefits": [
+        [
+          "Maximized Energy Efficiency",
+          "Continuous energy savings are achieved through the high-performance PE insulation, which effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm."
+        ],
+        [
+          "Enhanced Operational Safety",
+          "Ensures safe and reliable split air conditioner system operation."
+        ],
+        [
+          "Reduced Installation Time & Costs",
+          "The lightly linked twin tubes allow for easy separation during installation, simplifying the process and lowering labor expenses."
+        ],
+        [
+          "Exceptional Durability",
+          "The C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress, while the PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 hours at 70 ℃, elongation at break ≥ 60%."
+        ],
+        [
+          "Flexible Application",
+          "Suitable for connecting various split air conditioner units (9000, 12000, 18000, 24000, 48000 BTU)."
+        ],
+        [
+          "Weather Resistance",
+          "The robust insulation withstands extreme atmospheric conditions."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Copper Tubing",
+          [
+            [
+              "Alloy",
+              "Non-alloy"
+            ],
+            [
+              "Material",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "Temper",
+              "Soft temper"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ],
+        [
+          "Insulation",
+          [
+            [
+              "Material",
+              "PE (Polyethylene)"
+            ],
+            [
+              "Apparent Density",
+              "30 kg/m³"
+            ],
+            [
+              "Wall Thickness",
+              "8 – 12 mm"
+            ],
+            [
+              "Thermal Conductivity",
+              "0.0402 W/m·K"
+            ],
+            [
+              "Tensile Strength",
+              "0.36 MPa"
+            ],
+            [
+              "Tear Strength",
+              "0.19 N/mm"
+            ],
+            [
+              "Water Absorption",
+              "33.28%"
+            ],
+            [
+              "Color",
+              "White"
+            ],
+            [
+              "Heat Resistance",
+              "No obvious color change or cracking after 6 h at 70 ℃"
+            ],
+            [
+              "Elongation at Break",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Outside Ø (inch)",
+            "Outside Ø (mm)",
+            "Wall Thickness (mm)",
+            "Tube Length (m)",
+            "Type of insulation",
+            "Ending"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6.35 × 9.52",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "1/4 × 1/2",
+              "6.35 × 12.7",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "1/4 × 5/8",
+              "6.35 × 15.88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "3/8 × 5/8",
+              "9.52 × 15.88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "3/8 × 3/4",
+              "9.52 × 19.05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "1/2 × 3/4",
+              "12.7 × 19.05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ]
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "tag": "Kit CVC",
+      "title": "Tubes de cuivre isolés jumeaux",
+      "short": "Ce tube en cuivre isolé est constitué de double cuivre recuit sans soudure avec isolation PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ Tubes de cuivre isolés",
+      "intro": "BENRO INDUSTRIES Les lignes de connexion en cuivre isolées représentent une avancée significative dans la connectivité CVC. Fabriqués conformément à la norme EN 12735-1 (cuivre C12200), ces produits de grande valeur sont constitués de tubes jumeaux en cuivre recuit sans soudure avec isolation PE, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+      "benefits": [
+        [
+          "Efficacité énergétique maximisée",
+          "Des économies d'énergie continues sont réalisées grâce à l'isolation PE haute performance, qui limite efficacement le transfert d'énergie et maintient des valeurs de sous-refroidissement appropriées. Conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm."
+        ],
+        [
+          "Sécurité opérationnelle améliorée",
+          "Assure un fonctionnement sûr et fiable du système de climatisation split."
+        ],
+        [
+          "Temps et coûts d'installation réduits",
+          "Les tubes jumeaux légèrement liés permettent une séparation facile lors de l'installation, simplifiant le processus et réduisant les coûts de main-d'œuvre."
+        ],
+        [
+          "Durabilité exceptionnelle",
+          "Le tube en cuivre C12200 (CuDHP > 99,90%, trempe douce) offre une haute résistance aux contraintes mécaniques, tandis que l'isolation PE protège contre les agents chimiques et les rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 heures à 70 ℃, allongement à la rupture ≥ 60 %."
+        ],
+        [
+          "Application flexible",
+          "Convient pour connecter diverses unités de climatiseur split (9000, 12000, 18000, 24000, 48000 BTU)."
+        ],
+        [
+          "Résistance aux intempéries",
+          "L'isolation robuste résiste aux conditions atmosphériques extrêmes."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Tubes en cuivre",
+          [
+            [
+              "Alliage",
+              "Sans alliage"
+            ],
+            [
+              "Matériel",
+              "C12200 (CuDHP > 99,90 %)"
+            ],
+            [
+              "Caractère",
+              "Caractère doux"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ],
+        [
+          "Isolation",
+          [
+            [
+              "Matériel",
+              "PE (Polyéthylène)"
+            ],
+            [
+              "Densité apparente",
+              "30 kg/m³"
+            ],
+            [
+              "Épaisseur de paroi",
+              "8 à 12 mm"
+            ],
+            [
+              "Conductivité thermique",
+              "0,0402 W/m·K"
+            ],
+            [
+              "Résistance à la traction",
+              "0,36 MPa"
+            ],
+            [
+              "Résistance à la déchirure",
+              "0,19 N/mm"
+            ],
+            [
+              "Absorption d'eau",
+              "33.28%"
+            ],
+            [
+              "Couleur",
+              "Blanc"
+            ],
+            [
+              "Résistance à la chaleur",
+              "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃"
+            ],
+            [
+              "Allongement à la rupture",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Ø extérieur (pouces)",
+            "Ø extérieur (mm)",
+            "Épaisseur de paroi (mm)",
+            "Longueur du tube (m)",
+            "Type d'isolation",
+            "Fin"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6,35 × 9,52",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "1/4 × 1/2",
+              "6,35 × 12,7",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "1/4 × 5/8",
+              "6,35 × 15,88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "3/8 × 5/8",
+              "9,52 × 15,88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "3/8 × 3/4",
+              "9,52 × 19,05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "1/2 × 3/4",
+              "12,7 × 19,05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ]
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "tag": "طقم التدفئة والتهوية وتكييف الهواء",
+      "title": "أنابيب نحاسية معزولة مزدوجة",
+      "short": "يتكون هذا الأنبوب النحاسي المعزول من النحاس الملدن المزدوج غير الملحوم مع عزل PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ أنابيب نحاسية معزولة",
+      "intro": "تمثل خطوط التوصيل النحاسية المعزولة من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أجهزة التدفئة والتهوية وتكييف الهواء (HVAC). تم تصنيع هذه المنتجات عالية القيمة وفقًا للمعيار EN 12735-1 (C12200 النحاس)، وتتكون من أنابيب نحاسية ملدنة مزدوجة غير ملحومة مع عزل PE، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+      "benefits": [
+        [
+          "أقصى قدر من كفاءة الطاقة",
+          "يتم تحقيق توفير الطاقة المستمر من خلال عزل PE عالي الأداء، والذي يحد بشكل فعال من نقل الطاقة ويحافظ على قيم التبريد الفرعي المناسبة. الموصلية الحرارية 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم."
+        ],
+        [
+          "تعزيز السلامة التشغيلية",
+          "يضمن التشغيل الآمن والموثوق لنظام تكييف الهواء المنفصل."
+        ],
+        [
+          "تقليل وقت التثبيت والتكاليف",
+          "تسمح الأنابيب المزدوجة المرتبطة بشكل خفيف بالفصل السهل أثناء التثبيت، مما يؤدي إلى تبسيط العملية وخفض تكاليف العمالة."
+        ],
+        [
+          "متانة استثنائية",
+          "توفر الأنابيب النحاسية C12200 (CuDHP > 99.90%، مزاج ناعم) مقاومة عالية للضغط الميكانيكي، بينما يحمي عزل PE من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%."
+        ],
+        [
+          "تطبيق مرن",
+          "مناسب لتوصيل وحدات التكييف السبلت المختلفة (9000، 12000، 18000، 24000، 48000 وحدة حرارية بريطانية)."
+        ],
+        [
+          "مقاومة الطقس",
+          "العزل القوي يتحمل الظروف الجوية القاسية."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "أنابيب النحاس",
+          [
+            [
+              "سبيكة",
+              "غير سبيكة"
+            ],
+            [
+              "مادة",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "حِدّة",
+              "مزاج ناعم"
+            ],
+            [
+              "معيار",
+              "إن 12735-1"
+            ]
+          ]
+        ],
+        [
+          "العزل",
+          [
+            [
+              "مادة",
+              "بي (البولي ايثيلين)"
+            ],
+            [
+              "الكثافة الظاهرية",
+              "30 كجم/م3"
+            ],
+            [
+              "سمك الجدار",
+              "8 - 12 ملم"
+            ],
+            [
+              "الموصلية الحرارية",
+              "0.0402 واط/م·ك"
+            ],
+            [
+              "قوة الشد",
+              "0.36 ميجا باسكال"
+            ],
+            [
+              "قوة المسيل للدموع",
+              "0.19 ن/مم"
+            ],
+            [
+              "امتصاص الماء",
+              "33.28%"
+            ],
+            [
+              "لون",
+              "أبيض"
+            ],
+            [
+              "مقاومة الحرارة",
+              "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية"
+            ],
+            [
+              "استطالة عند الاستراحة",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "أبعاد",
+          "headers": [
+            "خارج Ø (بوصة)",
+            "خارج Ø (مم)",
+            "سمك الجدار (مم)",
+            "طول الأنبوب (م)",
+            "نوع العزل",
+            "إنهاء"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6.35 × 9.52",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "1/4 × 1/2",
+              "6.35 × 12.7",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "1/4 × 5/8",
+              "6.35 × 15.88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "3/8 × 5/8",
+              "9.52 × 15.88",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "3/8 × 3/4",
+              "9.52 × 19.05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "1/2 × 3/4",
+              "12.7 × 19.05",
+              "0.6 – 1.25",
+              "2 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "single-insulated-copper": {
+    "en": {
+      "tag": "HVAC Kit",
+      "title": "Single Insulated Copper Tubes",
+      "short": "This insulated copper tube consists of single seamless annealed copper with PE insulation.",
+      "intro_heading": "BENRO INDUSTRIES®️ Single Insulated Copper Tubes",
+      "intro": "BENRO INDUSTRIES Insulated copper connection lines represent a significant advancement in HVAC connectivity. Manufactured according to EN 12735-1 (C12200 copper), these high-value products consist of single seamless annealed copper tubes with PE/NBR insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).",
+      "benefits": [
+        [
+          "Maximized Energy Efficiency",
+          "High-performance PE insulation effectively limits energy transfer and maintains proper sub-cooling values. Thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm."
+        ],
+        [
+          "Enhanced Operational Safety",
+          "Ensures safe and reliable split air conditioner system operation."
+        ],
+        [
+          "Reduced Installation Time & Costs",
+          "Sold per length or custom-cut for installers — simpler logistics, faster commissioning."
+        ],
+        [
+          "Exceptional Durability",
+          "C12200 copper (CuDHP > 99.90%, soft temper) with PE insulation that resists chemicals and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%."
+        ],
+        [
+          "Flexible Application",
+          "Suitable for 9000 / 12000 / 18000 / 24000 / 48000 BTU split AC units."
+        ],
+        [
+          "Weather Resistance",
+          "Robust insulation withstands extreme atmospheric conditions."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Copper Tubing",
+          [
+            [
+              "Alloy",
+              "Non-alloy"
+            ],
+            [
+              "Material",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "Temper",
+              "Soft temper"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ],
+        [
+          "Insulation",
+          [
+            [
+              "Material",
+              "PE (Polyethylene)"
+            ],
+            [
+              "Apparent Density",
+              "30 kg/m³"
+            ],
+            [
+              "Wall Thickness",
+              "8 – 12 mm"
+            ],
+            [
+              "Thermal Conductivity",
+              "0.0402 W/m·K"
+            ],
+            [
+              "Tensile Strength",
+              "0.36 MPa"
+            ],
+            [
+              "Tear Strength",
+              "0.19 N/mm"
+            ],
+            [
+              "Water Absorption",
+              "33.28%"
+            ],
+            [
+              "Color",
+              "White / Gray"
+            ],
+            [
+              "Heat Resistance",
+              "No obvious color change or cracking after 6 h at 70 ℃"
+            ],
+            [
+              "Elongation at Break",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Outside Ø (inch)",
+            "Outside Ø (mm)",
+            "Wall Thickness (mm)",
+            "Tube Length (m)",
+            "Type of insulation",
+            "Ending"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE Covered / Single layer",
+              "Brass nut or cap"
+            ]
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "tag": "Kit CVC",
+      "title": "Tubes de cuivre isolés simples",
+      "short": "Ce tube de cuivre isolé est constitué d'un seul cuivre recuit sans soudure avec une isolation PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ Tubes en cuivre à isolation unique",
+      "intro": "BENRO INDUSTRIES Les lignes de connexion en cuivre isolées représentent une avancée significative dans la connectivité CVC. Fabriqués conformément à la norme EN 12735-1 (cuivre C12200), ces produits de grande valeur sont constitués de tubes simples en cuivre recuit sans soudure avec isolation PE/NBR, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+      "benefits": [
+        [
+          "Efficacité énergétique maximisée",
+          "L'isolation PE haute performance limite efficacement le transfert d'énergie et maintient des valeurs de sous-refroidissement appropriées. Conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm."
+        ],
+        [
+          "Sécurité opérationnelle améliorée",
+          "Assure un fonctionnement sûr et fiable du système de climatisation split."
+        ],
+        [
+          "Temps et coûts d'installation réduits",
+          "Vendu à la longueur ou découpé sur mesure pour les installateurs : une logistique plus simple, une mise en service plus rapide."
+        ],
+        [
+          "Durabilité exceptionnelle",
+          "Cuivre C12200 (CuDHP > 99,90%, trempe douce) avec isolation PE résistant aux produits chimiques et aux rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %."
+        ],
+        [
+          "Application flexible",
+          "Convient aux unités AC divisées de 9 000/12 000/18 000/24 ​​000/48 000 BTU."
+        ],
+        [
+          "Résistance aux intempéries",
+          "Une isolation robuste résiste aux conditions atmosphériques extrêmes."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Tubes en cuivre",
+          [
+            [
+              "Alliage",
+              "Sans alliage"
+            ],
+            [
+              "Matériel",
+              "C12200 (CuDHP > 99,90 %)"
+            ],
+            [
+              "Caractère",
+              "Caractère doux"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ],
+        [
+          "Isolation",
+          [
+            [
+              "Matériel",
+              "PE (Polyéthylène)"
+            ],
+            [
+              "Densité apparente",
+              "30 kg/m³"
+            ],
+            [
+              "Épaisseur de paroi",
+              "8 à 12 mm"
+            ],
+            [
+              "Conductivité thermique",
+              "0,0402 W/m·K"
+            ],
+            [
+              "Résistance à la traction",
+              "0,36 MPa"
+            ],
+            [
+              "Résistance à la déchirure",
+              "0,19 N/mm"
+            ],
+            [
+              "Absorption d'eau",
+              "33.28%"
+            ],
+            [
+              "Couleur",
+              "Blanc / Gris"
+            ],
+            [
+              "Résistance à la chaleur",
+              "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃"
+            ],
+            [
+              "Allongement à la rupture",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Ø extérieur (pouces)",
+            "Ø extérieur (mm)",
+            "Épaisseur de paroi (mm)",
+            "Longueur du tube (m)",
+            "Type d'isolation",
+            "Fin"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE couvert / monocouche",
+              "Écrou ou capuchon en laiton"
+            ]
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "tag": "طقم التدفئة والتهوية وتكييف الهواء",
+      "title": "أنابيب نحاسية معزولة واحدة",
+      "short": "يتكون هذا الأنبوب النحاسي المعزول من نحاس ملدن غير ملحوم مع عزل PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ أنابيب نحاسية مفردة معزولة",
+      "intro": "تمثل خطوط التوصيل النحاسية المعزولة من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أجهزة التدفئة والتهوية وتكييف الهواء (HVAC). تم تصنيع هذه المنتجات عالية القيمة وفقًا للمعيار EN 12735-1 (C12200 النحاس)، وتتكون من أنابيب نحاسية ملدنة مفردة غير ملحومة مع عزل PE/NBR، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+      "benefits": [
+        [
+          "أقصى قدر من كفاءة الطاقة",
+          "يحد عزل PE عالي الأداء بشكل فعال من نقل الطاقة ويحافظ على قيم التبريد الفرعي المناسبة. الموصلية الحرارية 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم."
+        ],
+        [
+          "تعزيز السلامة التشغيلية",
+          "يضمن التشغيل الآمن والموثوق لنظام تكييف الهواء المنفصل."
+        ],
+        [
+          "تقليل وقت التثبيت والتكاليف",
+          "يتم بيعها حسب الطول أو القطع المخصص للقائمين بالتركيب - خدمات لوجستية أبسط وتشغيل أسرع."
+        ],
+        [
+          "متانة استثنائية",
+          "نحاس C12200 (CuDHP > 99.90%، مزاج ناعم) مع عزل PE الذي يقاوم المواد الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%."
+        ],
+        [
+          "تطبيق مرن",
+          "مناسب لوحدات تكييف سبليت بقدرة 9000 / 12000 / 18000 / 24000 / 48000 وحدة حرارية بريطانية."
+        ],
+        [
+          "مقاومة الطقس",
+          "عزل قوي يتحمل الظروف الجوية القاسية."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "أنابيب النحاس",
+          [
+            [
+              "سبيكة",
+              "غير سبيكة"
+            ],
+            [
+              "مادة",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "حِدّة",
+              "مزاج ناعم"
+            ],
+            [
+              "معيار",
+              "إن 12735-1"
+            ]
+          ]
+        ],
+        [
+          "العزل",
+          [
+            [
+              "مادة",
+              "بي (البولي ايثيلين)"
+            ],
+            [
+              "الكثافة الظاهرية",
+              "30 كجم/م3"
+            ],
+            [
+              "سمك الجدار",
+              "8 - 12 ملم"
+            ],
+            [
+              "الموصلية الحرارية",
+              "0.0402 واط/م·ك"
+            ],
+            [
+              "قوة الشد",
+              "0.36 ميجا باسكال"
+            ],
+            [
+              "قوة المسيل للدموع",
+              "0.19 ن/مم"
+            ],
+            [
+              "امتصاص الماء",
+              "33.28%"
+            ],
+            [
+              "لون",
+              "أبيض / رمادي"
+            ],
+            [
+              "مقاومة الحرارة",
+              "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية"
+            ],
+            [
+              "استطالة عند الاستراحة",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "أبعاد",
+          "headers": [
+            "خارج Ø (بوصة)",
+            "خارج Ø (مم)",
+            "سمك الجدار (مم)",
+            "طول الأنبوب (م)",
+            "نوع العزل",
+            "إنهاء"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "1 – 50",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي أو الغطاء"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "twin-insulated-aluminium": {
+    "en": {
+      "tag": "Lightweight",
+      "title": "Twin Insulated Aluminium Tubes",
+      "short": "This insulated Aluminium tube consists of twin seamless annealed Aluminium with PE insulation.",
+      "intro_heading": "BENRO INDUSTRIES®️ Aluminium Tubes",
+      "intro": "BENRO INDUSTRIES Insulated Aluminium connection lines represent a significant advancement in HVAC connectivity. These high-value products consist of twin seamless annealed Aluminium tubes with PE insulation, offering superior performance compared to traditional insulation methods for split air conditioner installations (9000 BTU to 48000 BTU).",
+      "benefits": [
+        [
+          "Maximized Energy Efficiency",
+          "High-performance PE insulation, thermal conductivity 0.0402 W/m·K, tensile strength 0.36 MPa, tear strength 0.19 N/mm."
+        ],
+        [
+          "Enhanced Operational Safety",
+          "Safe and reliable split AC system operation."
+        ],
+        [
+          "Reduced Installation Time & Costs",
+          "Lightly linked twin tubes allow for easy separation during installation."
+        ],
+        [
+          "Exceptional Durability",
+          "PE insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%."
+        ],
+        [
+          "Flexible Application",
+          "Suitable for 9000 / 12000 / 18000 / 24000 / 48000 BTU split AC units."
+        ],
+        [
+          "Weather Resistance",
+          "Withstands extreme atmospheric conditions."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Aluminium Tubing",
+          [
+            [
+              "Alloy",
+              "Non-alloy"
+            ],
+            [
+              "Material",
+              "1070 series"
+            ],
+            [
+              "Temper",
+              "Soft temper"
+            ]
+          ]
+        ],
+        [
+          "Insulation",
+          [
+            [
+              "Material",
+              "PE (Polyethylene)"
+            ],
+            [
+              "Apparent Density",
+              "30 kg/m³"
+            ],
+            [
+              "Wall Thickness",
+              "8 – 12 mm"
+            ],
+            [
+              "Thermal Conductivity",
+              "0.0402 W/m·K"
+            ],
+            [
+              "Tensile Strength",
+              "0.36 MPa"
+            ],
+            [
+              "Tear Strength",
+              "0.19 N/mm"
+            ],
+            [
+              "Water Absorption",
+              "33.28%"
+            ],
+            [
+              "Color",
+              "White"
+            ],
+            [
+              "Heat Resistance",
+              "No obvious color change or cracking after 6 h at 70 ℃"
+            ],
+            [
+              "Elongation at Break",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Outside Ø (inch)",
+            "Outside Ø (mm)",
+            "Wall Thickness (mm)",
+            "Tube Length (m)",
+            "Type of insulation",
+            "Ending"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6.35 × 9.52",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ],
+            [
+              "1/4 × 1/2",
+              "6.35 × 12.7",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ],
+            [
+              "1/4 × 5/8",
+              "6.35 × 15.88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ],
+            [
+              "3/8 × 5/8",
+              "9.52 × 15.88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ],
+            [
+              "3/8 × 3/4",
+              "9.52 × 19.05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ],
+            [
+              "1/2 × 3/4",
+              "12.7 × 19.05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE Covered / Single layer",
+              "Brass nut"
+            ]
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "tag": "Léger",
+      "title": "Tubes en aluminium isolés jumelés",
+      "short": "Ce tube en aluminium isolé est constitué d'un double aluminium recuit sans soudure avec une isolation PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ Tubes en aluminium",
+      "intro": "Les lignes de connexion isolées en aluminium de BENRO INDUSTRIES représentent une avancée significative dans la connectivité CVC. Ces produits de grande valeur sont constitués de tubes jumeaux en aluminium recuit sans soudure avec isolation PE, offrant des performances supérieures par rapport aux méthodes d'isolation traditionnelles pour les installations de climatiseurs split (9 000 BTU à 48 000 BTU).",
+      "benefits": [
+        [
+          "Efficacité énergétique maximisée",
+          "Isolation PE haute performance, conductivité thermique 0,0402 W/m·K, résistance à la traction 0,36 MPa, résistance à la déchirure 0,19 N/mm."
+        ],
+        [
+          "Sécurité opérationnelle améliorée",
+          "Fonctionnement sûr et fiable du système AC divisé."
+        ],
+        [
+          "Temps et coûts d'installation réduits",
+          "Les tubes jumeaux légèrement liés permettent une séparation facile lors de l'installation."
+        ],
+        [
+          "Durabilité exceptionnelle",
+          "L'isolation PE protège contre les agents chimiques et les rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %."
+        ],
+        [
+          "Application flexible",
+          "Convient aux unités AC divisées de 9 000/12 000/18 000/24 ​​000/48 000 BTU."
+        ],
+        [
+          "Résistance aux intempéries",
+          "Résiste aux conditions atmosphériques extrêmes."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Tubes en aluminium",
+          [
+            [
+              "Alliage",
+              "Sans alliage"
+            ],
+            [
+              "Matériel",
+              "série 1070"
+            ],
+            [
+              "Caractère",
+              "Caractère doux"
+            ]
+          ]
+        ],
+        [
+          "Isolation",
+          [
+            [
+              "Matériel",
+              "PE (Polyéthylène)"
+            ],
+            [
+              "Densité apparente",
+              "30 kg/m³"
+            ],
+            [
+              "Épaisseur de paroi",
+              "8 à 12 mm"
+            ],
+            [
+              "Conductivité thermique",
+              "0,0402 W/m·K"
+            ],
+            [
+              "Résistance à la traction",
+              "0,36 MPa"
+            ],
+            [
+              "Résistance à la déchirure",
+              "0,19 N/mm"
+            ],
+            [
+              "Absorption d'eau",
+              "33.28%"
+            ],
+            [
+              "Couleur",
+              "Blanc"
+            ],
+            [
+              "Résistance à la chaleur",
+              "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃"
+            ],
+            [
+              "Allongement à la rupture",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Ø extérieur (pouces)",
+            "Ø extérieur (mm)",
+            "Épaisseur de paroi (mm)",
+            "Longueur du tube (m)",
+            "Type d'isolation",
+            "Fin"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6,35 × 9,52",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ],
+            [
+              "1/4 × 1/2",
+              "6,35 × 12,7",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ],
+            [
+              "1/4 × 5/8",
+              "6,35 × 15,88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ],
+            [
+              "3/8 × 5/8",
+              "9,52 × 15,88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ],
+            [
+              "3/8 × 3/4",
+              "9,52 × 19,05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ],
+            [
+              "1/2 × 3/4",
+              "12,7 × 19,05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE couvert / monocouche",
+              "Écrou en laiton"
+            ]
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "tag": "خفيف الوزن",
+      "title": "أنابيب ألومنيوم معزولة مزدوجة",
+      "short": "يتكون أنبوب الألومنيوم المعزول من الألومنيوم الملدن المزدوج غير الملحوم مع عزل PE.",
+      "intro_heading": "BENRO INDUSTRIES®️ أنابيب الألومنيوم",
+      "intro": "تمثل خطوط التوصيل المصنوعة من الألومنيوم المعزول من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل أنظمة التدفئة والتهوية وتكييف الهواء (HVAC). تتكون هذه المنتجات عالية القيمة من أنابيب ألمنيوم ملدنة مزدوجة غير ملحومة مع عزل PE، مما يوفر أداءً فائقًا مقارنة بطرق العزل التقليدية لتركيبات مكيفات الهواء المنفصلة (9000 وحدة حرارية بريطانية إلى 48000 وحدة حرارية بريطانية).",
+      "benefits": [
+        [
+          "أقصى قدر من كفاءة الطاقة",
+          "عزل PE عالي الأداء، التوصيل الحراري 0.0402 واط/م·ك، قوة الشد 0.36 ميجاباسكال، قوة التمزق 0.19 نيوتن/مم."
+        ],
+        [
+          "تعزيز السلامة التشغيلية",
+          "تشغيل آمن وموثوق لنظام تكييف الهواء المنفصل."
+        ],
+        [
+          "تقليل وقت التثبيت والتكاليف",
+          "تسمح الأنابيب المزدوجة المرتبطة بشكل خفيف بالفصل السهل أثناء التثبيت."
+        ],
+        [
+          "متانة استثنائية",
+          "عزل PE يحمي من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%."
+        ],
+        [
+          "تطبيق مرن",
+          "مناسب لوحدات تكييف سبليت بقدرة 9000 / 12000 / 18000 / 24000 / 48000 وحدة حرارية بريطانية."
+        ],
+        [
+          "مقاومة الطقس",
+          "يتحمل الظروف الجوية القاسية."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "أنابيب الألومنيوم",
+          [
+            [
+              "سبيكة",
+              "غير سبيكة"
+            ],
+            [
+              "مادة",
+              "سلسلة 1070"
+            ],
+            [
+              "حِدّة",
+              "مزاج ناعم"
+            ]
+          ]
+        ],
+        [
+          "العزل",
+          [
+            [
+              "مادة",
+              "بي (البولي ايثيلين)"
+            ],
+            [
+              "الكثافة الظاهرية",
+              "30 كجم/م3"
+            ],
+            [
+              "سمك الجدار",
+              "8 - 12 ملم"
+            ],
+            [
+              "الموصلية الحرارية",
+              "0.0402 واط/م·ك"
+            ],
+            [
+              "قوة الشد",
+              "0.36 ميجا باسكال"
+            ],
+            [
+              "قوة المسيل للدموع",
+              "0.19 ن/مم"
+            ],
+            [
+              "امتصاص الماء",
+              "33.28%"
+            ],
+            [
+              "لون",
+              "أبيض"
+            ],
+            [
+              "مقاومة الحرارة",
+              "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية"
+            ],
+            [
+              "استطالة عند الاستراحة",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "أبعاد",
+          "headers": [
+            "خارج Ø (بوصة)",
+            "خارج Ø (مم)",
+            "سمك الجدار (مم)",
+            "طول الأنبوب (م)",
+            "نوع العزل",
+            "إنهاء"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "6.35 × 9.52",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ],
+            [
+              "1/4 × 1/2",
+              "6.35 × 12.7",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ],
+            [
+              "1/4 × 5/8",
+              "6.35 × 15.88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ],
+            [
+              "3/8 × 5/8",
+              "9.52 × 15.88",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ],
+            [
+              "3/8 × 3/4",
+              "9.52 × 19.05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ],
+            [
+              "1/2 × 3/4",
+              "12.7 × 19.05",
+              "0.8 – 1.25",
+              "3 – 5",
+              "IXPE مغطى / طبقة واحدة",
+              "الجوز النحاسي"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "insulation-polyethylene": {
+    "en": {
+      "tag": "Insulation",
+      "title": "Insulation Polyethylene Tubes",
+      "short": "BENRO INDUSTRIES offers its range of refrigeration insulation for ACR tubes.",
+      "intro_heading": "Twin Insulation Polyethylene Tubes",
+      "intro": "BENRO INDUSTRIES specializes in the manufacturing of polyethylene foam tubes for the insulation of ACR (Air Conditioning and Refrigeration) tubes and other industrial applications. Polyethylene foam has a straight-bond structure and is produced through an extrusion method with chemical and inflator-gas addition. PE foam features low thermal conductivity and a closed-cell structure, giving it high water-vapor diffusion resistance.",
+      "benefits": [
+        [
+          "Ease and Speed of Application",
+          "Highly flexible material allows for quick and easy installation, reducing labor time and costs."
+        ],
+        [
+          "Water and Moisture Resistance",
+          "Closed-cell structure prevents water and moisture absorption — long-term performance, no corrosion or mold."
+        ],
+        [
+          "Chemical and Environmental Resistance",
+          "Unaffected by chemicals and environmental conditions — durability and longevity across applications."
+        ],
+        [
+          "Eco-Friendly & Hygienic Solution",
+          "Manufactured from recyclable PE, without HCFCs or harmful chemicals. Prevents fungi, bacteria and mold; odorless."
+        ],
+        [
+          "Superior Thermal Insulation",
+          "Low thermal conductivity provides excellent insulation — minimizes energy loss and maximizes efficiency."
+        ],
+        [
+          "Impact Resistance & Condensation Prevention",
+          "Recovers after impact, preventing damage and condensation buildup."
+        ],
+        [
+          "Sound and Heat Insulation",
+          "Provides both thermal and acoustic insulation."
+        ],
+        [
+          "Oil Resistance",
+          "Good resistance to oils, suitable where oil exposure is a concern."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Insulation",
+          [
+            [
+              "Material",
+              "PE (Polyethylene)"
+            ],
+            [
+              "Apparent Density",
+              "30 kg/m³"
+            ],
+            [
+              "Wall Thickness",
+              "8 – 12 mm"
+            ],
+            [
+              "Thermal Conductivity",
+              "0.0402 W/m·K"
+            ],
+            [
+              "Tensile Strength",
+              "0.36 MPa"
+            ],
+            [
+              "Tear Strength",
+              "0.19 N/mm"
+            ],
+            [
+              "Water Absorption",
+              "33.28%"
+            ],
+            [
+              "Color",
+              "White / Gray"
+            ],
+            [
+              "Heat Resistance",
+              "No obvious color change or cracking after 6 h at 70 ℃"
+            ],
+            [
+              "Elongation at Break",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions — Twin Insulation Polyethylene Tubes",
+          "headers": [
+            "Size",
+            "Inside Ø (mm)",
+            "Thickness (mm)",
+            "Tube Length (m)",
+            "Type of insulation",
+            "Packaging"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "8 × 12",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ],
+            [
+              "1/4 × 1/2",
+              "8 × 15",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ],
+            [
+              "1/4 × 5/8",
+              "8 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ],
+            [
+              "3/8 × 5/8",
+              "12 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ],
+            [
+              "3/8 × 3/4",
+              "12 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ],
+            [
+              "1/2 × 3/4",
+              "15 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE Covered / Single layer",
+              "Plastic Bag"
+            ]
+          ]
+        },
+        {
+          "title": "Dimensions — BENRO-FLEX",
+          "headers": [
+            "Size",
+            "Inside Ø (mm)",
+            "Thickness (mm)",
+            "Tube Length (m)",
+            "Packaging"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "8",
+              "8 – 19",
+              "50",
+              "Carton"
+            ],
+            [
+              "3/8",
+              "12",
+              "8 – 19",
+              "45",
+              "Carton"
+            ],
+            [
+              "1/2",
+              "15",
+              "8 – 19",
+              "40",
+              "Carton"
+            ],
+            [
+              "5/8",
+              "18",
+              "8 – 19",
+              "30",
+              "Carton"
+            ],
+            [
+              "3/4",
+              "22",
+              "8 – 19",
+              "26",
+              "Carton"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "BENRO-FLEX Insulation",
+      "secondary": "While the well-known Arma-flex brand primarily uses elastomeric nitrile rubber foam, polyethylene (PE) foam is a versatile and widely used material in pipe insulation, particularly for cooling systems. Our BENRO-FLEX product line is proudly produced using high-quality PE foam, offering a cost-effective and environmentally responsible solution for cooling insulation. BENRO-FLEX PE foam provides excellent thermal performance, minimizing energy loss in refrigerant lines and maximizing efficiency. Its closed-cell structure ensures resistance to moisture and water vapor, preventing condensation and corrosion."
+    },
+    "fr": {
+      "tag": "Isolation",
+      "title": "Tubes en polyéthylène isolants",
+      "short": "BENRO INDUSTRIES vous propose sa gamme d'isolation réfrigérante pour tubes ACR.",
+      "intro_heading": "Tubes en polyéthylène à double isolation",
+      "intro": "BENRO INDUSTRIES se spécialise dans la fabrication de tubes en mousse de polyéthylène pour l'isolation des tubes ACR (Climatisation et Réfrigération) et autres applications industrielles. La mousse de polyéthylène a une structure à liaison droite et est produite par une méthode d'extrusion avec ajout de produits chimiques et de gaz de gonflage. La mousse PE présente une faible conductivité thermique et une structure à cellules fermées, ce qui lui confère une résistance élevée à la diffusion de la vapeur d'eau.",
+      "benefits": [
+        [
+          "Facilité et rapidité d'application",
+          "Le matériau hautement flexible permet une installation rapide et facile, réduisant ainsi le temps et les coûts de main-d'œuvre."
+        ],
+        [
+          "Résistance à l'eau et à l'humidité",
+          "La structure à cellules fermées empêche l'absorption d'eau et d'humidité — performance à long terme, pas de corrosion ni de moisissure."
+        ],
+        [
+          "Résistance chimique et environnementale",
+          "Insensible aux produits chimiques et aux conditions environnementales — durabilité et longévité dans toutes les applications."
+        ],
+        [
+          "Solution écologique et hygiénique",
+          "Fabriqué à partir de PE recyclable, sans HCFC ni produits chimiques nocifs. Empêche les champignons, les bactéries et les moisissures ; inodore."
+        ],
+        [
+          "Isolation thermique supérieure",
+          "La faible conductivité thermique offre une excellente isolation, minimise les pertes d'énergie et maximise l'efficacité."
+        ],
+        [
+          "Résistance aux chocs et prévention de la condensation",
+          "Récupère après l'impact, évitant ainsi les dommages et l'accumulation de condensation."
+        ],
+        [
+          "Isolation phonique et thermique",
+          "Fournit une isolation thermique et acoustique."
+        ],
+        [
+          "Résistance à l'huile",
+          "Bonne résistance aux huiles, convient là où l’exposition aux huiles est préoccupante."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Isolation",
+          [
+            [
+              "Matériel",
+              "PE (Polyéthylène)"
+            ],
+            [
+              "Densité apparente",
+              "30 kg/m³"
+            ],
+            [
+              "Épaisseur de paroi",
+              "8 à 12 mm"
+            ],
+            [
+              "Conductivité thermique",
+              "0,0402 W/m·K"
+            ],
+            [
+              "Résistance à la traction",
+              "0,36 MPa"
+            ],
+            [
+              "Résistance à la déchirure",
+              "0,19 N/mm"
+            ],
+            [
+              "Absorption d'eau",
+              "33.28%"
+            ],
+            [
+              "Couleur",
+              "Blanc / Gris"
+            ],
+            [
+              "Résistance à la chaleur",
+              "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃"
+            ],
+            [
+              "Allongement à la rupture",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions — Tubes en polyéthylène à double isolation",
+          "headers": [
+            "Taille",
+            "Ø intérieur (mm)",
+            "Épaisseur (mm)",
+            "Longueur du tube (m)",
+            "Type d'isolation",
+            "Conditionnement"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "8 × 12",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ],
+            [
+              "1/4 × 1/2",
+              "8 × 15",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ],
+            [
+              "1/4 × 5/8",
+              "8 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ],
+            [
+              "3/8 × 5/8",
+              "12 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ],
+            [
+              "3/8 × 3/4",
+              "12 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ],
+            [
+              "1/2 × 3/4",
+              "15 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE couvert / monocouche",
+              "Sac en plastique"
+            ]
+          ]
+        },
+        {
+          "title": "Dimensions — BENRO-FLEX",
+          "headers": [
+            "Taille",
+            "Ø intérieur (mm)",
+            "Épaisseur (mm)",
+            "Longueur du tube (m)",
+            "Conditionnement"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "8",
+              "8 – 19",
+              "50",
+              "Carton"
+            ],
+            [
+              "3/8",
+              "12",
+              "8 – 19",
+              "45",
+              "Carton"
+            ],
+            [
+              "1/2",
+              "15",
+              "8 – 19",
+              "40",
+              "Carton"
+            ],
+            [
+              "5/8",
+              "18",
+              "8 – 19",
+              "30",
+              "Carton"
+            ],
+            [
+              "3/4",
+              "22",
+              "8 – 19",
+              "26",
+              "Carton"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "Isolation BENRO-FLEX",
+      "secondary": "Alors que la célèbre marque Arma-flex utilise principalement de la mousse de caoutchouc nitrile élastomère, la mousse de polyéthylène (PE) est un matériau polyvalent et largement utilisé dans l'isolation des canalisations, en particulier pour les systèmes de refroidissement. Notre gamme de produits BENRO-FLEX est fièrement fabriquée à partir de mousse PE de haute qualité, offrant une solution rentable et respectueuse de l'environnement pour l'isolation de refroidissement. La mousse BENRO-FLEX PE offre d'excellentes performances thermiques, minimisant les pertes d'énergie dans les conduites de réfrigérant et maximisant l'efficacité. Sa structure à cellules fermées assure une résistance à l'humidité et à la vapeur d'eau, empêchant ainsi la condensation et la corrosion."
+    },
+    "ar": {
+      "tag": "العزل",
+      "title": "أنابيب البولي إيثيلين العازلة",
+      "short": "تقدم BENRO INDUSTRIES مجموعتها من عزل التبريد لأنابيب ACR.",
+      "intro_heading": "أنابيب البولي إيثيلين العازلة المزدوجة",
+      "intro": "شركة BENRO INDUSTRIES متخصصة في تصنيع أنابيب رغوة البولي إيثيلين لعزل أنابيب ACR (تكييف الهواء والتبريد) والتطبيقات الصناعية الأخرى. تتميز رغوة البولي إيثيلين ببنية رابطة مستقيمة ويتم إنتاجها من خلال طريقة البثق مع إضافة المواد الكيميائية وغاز النفخ. تتميز رغوة البولي إيثيلين بموصلية حرارية منخفضة وبنية خلية مغلقة، مما يمنحها مقاومة عالية لانتشار بخار الماء.",
+      "benefits": [
+        [
+          "سهولة وسرعة التطبيق",
+          "تسمح المادة المرنة للغاية بالتركيب السريع والسهل، مما يقلل من وقت العمل والتكاليف."
+        ],
+        [
+          "مقاومة الماء والرطوبة",
+          "هيكل الخلية المغلقة يمنع امتصاص الماء والرطوبة - أداء طويل الأمد، لا يسبب التآكل أو العفن."
+        ],
+        [
+          "المقاومة الكيميائية والبيئية",
+          "لا يتأثر بالمواد الكيميائية والظروف البيئية - المتانة وطول العمر عبر التطبيقات."
+        ],
+        [
+          "حل صديق للبيئة وصحي",
+          "مصنوع من مادة البولي إيثيلين القابلة لإعادة التدوير، بدون مركبات الكربون الهيدروكلورية فلورية أو المواد الكيميائية الضارة. يمنع الفطريات والبكتيريا والعفن. عديم الرائحة."
+        ],
+        [
+          "عزل حراري فائق",
+          "توفر الموصلية الحرارية المنخفضة عزلًا ممتازًا — مما يقلل من فقدان الطاقة ويزيد من الكفاءة."
+        ],
+        [
+          "مقاومة التأثير ومنع التكثيف",
+          "يتعافى بعد الاصطدام، ويمنع الضرر وتراكم التكثيف."
+        ],
+        [
+          "عزل الصوت والحرارة",
+          "يوفر العزل الحراري والصوتي."
+        ],
+        [
+          "مقاومة النفط",
+          "مقاومة جيدة للزيوت، ومناسبة حيث يكون التعرض للزيت أمرًا مثيرًا للقلق."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "العزل",
+          [
+            [
+              "مادة",
+              "بي (البولي ايثيلين)"
+            ],
+            [
+              "الكثافة الظاهرية",
+              "30 كجم/م3"
+            ],
+            [
+              "سمك الجدار",
+              "8 - 12 ملم"
+            ],
+            [
+              "الموصلية الحرارية",
+              "0.0402 واط/م·ك"
+            ],
+            [
+              "قوة الشد",
+              "0.36 ميجا باسكال"
+            ],
+            [
+              "قوة المسيل للدموع",
+              "0.19 ن/مم"
+            ],
+            [
+              "امتصاص الماء",
+              "33.28%"
+            ],
+            [
+              "لون",
+              "أبيض / رمادي"
+            ],
+            [
+              "مقاومة الحرارة",
+              "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية"
+            ],
+            [
+              "استطالة عند الاستراحة",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "الأبعاد – أنابيب البولي إيثيلين العازلة المزدوجة",
+          "headers": [
+            "مقاس",
+            "داخل Ø (مم)",
+            "سمك (مم)",
+            "طول الأنبوب (م)",
+            "نوع العزل",
+            "التعبئة والتغليف"
+          ],
+          "rows": [
+            [
+              "1/4 × 3/8",
+              "8 × 12",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ],
+            [
+              "1/4 × 1/2",
+              "8 × 15",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ],
+            [
+              "1/4 × 5/8",
+              "8 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ],
+            [
+              "3/8 × 5/8",
+              "12 × 18",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ],
+            [
+              "3/8 × 3/4",
+              "12 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ],
+            [
+              "1/2 × 3/4",
+              "15 × 22",
+              "8 – 19",
+              "1 – 200",
+              "IXPE مغطى / طبقة واحدة",
+              "كيس من البلاستيك"
+            ]
+          ]
+        },
+        {
+          "title": "الأبعاد — بينرو-فليكس",
+          "headers": [
+            "مقاس",
+            "داخل Ø (مم)",
+            "سمك (مم)",
+            "طول الأنبوب (م)",
+            "التعبئة والتغليف"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "8",
+              "8 – 19",
+              "50",
+              "كرتون"
+            ],
+            [
+              "3/8",
+              "12",
+              "8 – 19",
+              "45",
+              "كرتون"
+            ],
+            [
+              "1/2",
+              "15",
+              "8 – 19",
+              "40",
+              "كرتون"
+            ],
+            [
+              "5/8",
+              "18",
+              "8 – 19",
+              "30",
+              "كرتون"
+            ],
+            [
+              "3/4",
+              "22",
+              "8 – 19",
+              "26",
+              "كرتون"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "عزل بينرو-فليكس",
+      "secondary": "في حين أن العلامة التجارية Arma-flex المعروفة تستخدم في المقام الأول رغوة مطاط النتريل المرنة، فإن رغوة البولي إيثيلين (PE) هي مادة متعددة الاستخدامات وتستخدم على نطاق واسع في عزل الأنابيب، خاصة لأنظمة التبريد. يتم إنتاج خط إنتاج BENRO-FLEX الخاص بنا بكل فخر باستخدام رغوة PE عالية الجودة، مما يوفر حلاً فعالاً من حيث التكلفة ومسؤولًا بيئيًا لعزل التبريد. توفر رغوة BENRO-FLEX PE أداءً حراريًا ممتازًا، مما يقلل من فقدان الطاقة في خطوط التبريد ويزيد من الكفاءة. يضمن هيكل الخلية المغلقة مقاومة الرطوبة وبخار الماء، مما يمنع التكثيف والتآكل."
+    }
+  },
+  "copper-tubes": {
+    "en": {
+      "tag": "Raw material",
+      "title": "Copper Tubes (Pancake)",
+      "short": "This seamless drawn copper tube is commonly used in ACR installations.",
+      "intro_heading": "BENRO INDUSTRIES®️ Copper Tubes",
+      "intro": "BENRO INDUSTRIES copper connection lines represent a significant advancement in HVAC connectivity, manufactured according to EN 12735-1 (C12200 copper). This seamless drawn copper tube is commonly used in ACR installations. Coiled in helical form and protected with caps at the ends, it is available in different sizes, thicknesses and lengths.",
+      "benefits": [
+        [
+          "Enhanced Operational Safety",
+          "Ensures safe and reliable split air conditioner system operation."
+        ],
+        [
+          "Exceptional Durability",
+          "C12200 copper tubing (CuDHP > 99.90%, soft temper) offers high resistance to mechanical stress; PE/NBR insulation protects against chemical agents and UV rays. Heat resistance: no obvious color change or cracking after 6 h at 70 ℃, elongation at break ≥ 60%."
+        ],
+        [
+          "Flexible Application",
+          "Suitable for 9000 / 12000 / 18000 / 24000 / 48000 BTU split AC units."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Copper Tubing",
+          [
+            [
+              "Alloy",
+              "Non-alloy"
+            ],
+            [
+              "Material",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "Temper",
+              "Soft temper"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Outside Ø (inch)",
+            "Outside Ø (mm)",
+            "Wall Thickness (mm)",
+            "Tube Length (m)",
+            "Ending"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Cap"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Cap"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Cap"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Cap"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Cap"
+            ]
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "tag": "Matière première",
+      "title": "Tubes de cuivre (crêpe)",
+      "short": "Ce tube en cuivre étiré sans soudure est couramment utilisé dans les installations ACR.",
+      "intro_heading": "BENRO INDUSTRIES®️ Tubes en cuivre",
+      "intro": "Les lignes de connexion en cuivre de BENRO INDUSTRIES représentent une avancée significative dans la connectivité CVC, fabriquées conformément à la norme EN 12735-1 (cuivre C12200). Ce tube en cuivre étiré sans soudure est couramment utilisé dans les installations ACR. Enroulé sous forme hélicoïdale et protégé par des capuchons aux extrémités, il est disponible en différentes tailles, épaisseurs et longueurs.",
+      "benefits": [
+        [
+          "Sécurité opérationnelle améliorée",
+          "Assure un fonctionnement sûr et fiable du système de climatisation split."
+        ],
+        [
+          "Durabilité exceptionnelle",
+          "Les tubes en cuivre C12200 (CuDHP > 99,90 %, trempe douce) offrent une haute résistance aux contraintes mécaniques ; L'isolation PE/NBR protège des agents chimiques et des rayons UV. Résistance à la chaleur : pas de changement de couleur évident ni de fissuration après 6 h à 70 ℃, allongement à la rupture ≥ 60 %."
+        ],
+        [
+          "Application flexible",
+          "Convient aux unités AC divisées de 9 000/12 000/18 000/24 ​​000/48 000 BTU."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Tubes en cuivre",
+          [
+            [
+              "Alliage",
+              "Sans alliage"
+            ],
+            [
+              "Matériel",
+              "C12200 (CuDHP > 99,90 %)"
+            ],
+            [
+              "Caractère",
+              "Caractère doux"
+            ],
+            [
+              "Standard",
+              "EN 12735-1"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions",
+          "headers": [
+            "Ø extérieur (pouces)",
+            "Ø extérieur (mm)",
+            "Épaisseur de paroi (mm)",
+            "Longueur du tube (m)",
+            "Fin"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Capuchon"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Capuchon"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Capuchon"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Capuchon"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "10 – 50",
+              "Capuchon"
+            ]
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "tag": "مادة خام",
+      "title": "أنابيب النحاس (فطيرة)",
+      "short": "يُستخدم هذا الأنبوب النحاسي المسحوب بشكل غير ملحوم بشكل شائع في تركيبات ACR.",
+      "intro_heading": "BENRO INDUSTRIES®️ أنابيب النحاس",
+      "intro": "تمثل خطوط التوصيل النحاسية من BENRO INDUSTRIES تقدمًا كبيرًا في توصيل HVAC، حيث تم تصنيعها وفقًا للمعيار EN 12735-1 (C12200 copper). يُستخدم هذا الأنبوب النحاسي المسحوب بشكل غير ملحوم بشكل شائع في تركيبات ACR. وهي ملفوفة بشكل حلزوني ومحمية بأغطية في الأطراف، وهي متوفرة بأحجام وسماكات وأطوال مختلفة.",
+      "benefits": [
+        [
+          "تعزيز السلامة التشغيلية",
+          "يضمن التشغيل الآمن والموثوق لنظام تكييف الهواء المنفصل."
+        ],
+        [
+          "متانة استثنائية",
+          "توفر الأنابيب النحاسية C12200 (CuDHP > 99.90%، مزاج ناعم) مقاومة عالية للضغط الميكانيكي؛ عزل PE/NBR يحمي من العوامل الكيميائية والأشعة فوق البنفسجية. مقاومة الحرارة: لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية، الاستطالة عند الكسر ≥ 60%."
+        ],
+        [
+          "تطبيق مرن",
+          "مناسب لوحدات تكييف سبليت بقدرة 9000 / 12000 / 18000 / 24000 / 48000 وحدة حرارية بريطانية."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "أنابيب النحاس",
+          [
+            [
+              "سبيكة",
+              "غير سبيكة"
+            ],
+            [
+              "مادة",
+              "C12200 (CuDHP > 99.90%)"
+            ],
+            [
+              "حِدّة",
+              "مزاج ناعم"
+            ],
+            [
+              "معيار",
+              "إن 12735-1"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "أبعاد",
+          "headers": [
+            "خارج Ø (بوصة)",
+            "خارج Ø (مم)",
+            "سمك الجدار (مم)",
+            "طول الأنبوب (م)",
+            "إنهاء"
+          ],
+          "rows": [
+            [
+              "1/4",
+              "6.35",
+              "0.6 – 1.25",
+              "10 – 50",
+              "كاب"
+            ],
+            [
+              "3/8",
+              "9.52",
+              "0.6 – 1.25",
+              "10 – 50",
+              "كاب"
+            ],
+            [
+              "1/2",
+              "12.7",
+              "0.6 – 1.25",
+              "10 – 50",
+              "كاب"
+            ],
+            [
+              "5/8",
+              "15.88",
+              "0.6 – 1.25",
+              "10 – 50",
+              "كاب"
+            ],
+            [
+              "3/4",
+              "19.05",
+              "0.6 – 1.25",
+              "10 – 50",
+              "كاب"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "polyethylene-tubes": {
+    "en": {
+      "tag": "PE Foam",
+      "title": "Polyethylene Tubes (PE Foam)",
+      "short": "BENRO INDUSTRIES offers its range of insulation PE tubes.",
+      "intro_heading": "BENRO INDUSTRIES®️ Polyethylene Rod Tubes",
+      "intro": "BENRO INDUSTRIES manufactures extruded polyethylene tubes — commonly known as backer rods — used in construction to fill expansion and sealant joints. They provide support for sealants, ensuring uniform application and optimal joint performance.",
+      "benefits": [
+        [
+          "Ease and Speed of Application",
+          "Highly flexible material allows for quick and easy installation, reducing labor time and costs."
+        ],
+        [
+          "Water and Moisture Resistance",
+          "Closed-cell structure prevents water and moisture absorption — long-term performance, no corrosion or mold."
+        ],
+        [
+          "Chemical and Environmental Resistance",
+          "Unaffected by chemicals and environmental conditions."
+        ],
+        [
+          "Eco-Friendly & Hygienic Solution",
+          "Recyclable PE, manufactured without HCFCs or harmful chemicals; prevents fungi, bacteria and mold; odorless."
+        ],
+        [
+          "Superior Thermal Insulation",
+          "Low thermal conductivity — minimizes energy loss and maximizes efficiency."
+        ],
+        [
+          "Impact Resistance & Condensation Prevention",
+          "Recovers after impact, preventing damage and condensation buildup."
+        ],
+        [
+          "Sound and Heat Insulation",
+          "Provides both thermal and acoustic insulation."
+        ],
+        [
+          "Oil Resistance",
+          "Good resistance to oils."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Insulation",
+          [
+            [
+              "Material",
+              "PE (Polyethylene)"
+            ],
+            [
+              "Apparent Density",
+              "30 kg/m³"
+            ],
+            [
+              "Wall Thickness",
+              "8 – 12 mm"
+            ],
+            [
+              "Thermal Conductivity",
+              "0.0402 W/m·K"
+            ],
+            [
+              "Tensile Strength",
+              "0.36 MPa"
+            ],
+            [
+              "Tear Strength",
+              "0.19 N/mm"
+            ],
+            [
+              "Water Absorption",
+              "33.28%"
+            ],
+            [
+              "Color",
+              "White / Gray"
+            ],
+            [
+              "Heat Resistance",
+              "No obvious color change or cracking after 6 h at 70 ℃"
+            ],
+            [
+              "Elongation at Break",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions — Polyethylene Tubes",
+          "headers": [
+            "Type",
+            "Outside Ø (mm)",
+            "Inside Ø (mm)",
+            "Length (m)",
+            "Packaging"
+          ],
+          "rows": [
+            [
+              "PE Pipe",
+              "10 – 100",
+              "0 – 80",
+              "1 – 200",
+              "Plastic Bag"
+            ],
+            [
+              "PE Rod",
+              "10 – 80",
+              "/",
+              "1 – 200",
+              "Plastic Bag"
+            ],
+            [
+              "PE Neon",
+              "33",
+              "28",
+              "/",
+              "Plastic Bag"
+            ],
+            [
+              "PE Net",
+              "47",
+              "/",
+              "1 – 200",
+              "Plastic Bag"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "BENRO INDUSTRIES®️ Polyethylene Net",
+      "secondary": "Extruded from polyethylene resin, BENRO INDUSTRIES' PE net tubes are manufactured using a continuous extrusion process that creates a seamless tubular mesh. This structure provides cushioning, ventilation and visibility for packaged products. The netting's flexibility lets it conform to the shape of the product, providing a secure and protective fit."
+    },
+    "fr": {
+      "tag": "Mousse PE",
+      "title": "Tubes en polyéthylène (mousse PE)",
+      "short": "BENRO INDUSTRIES vous propose sa gamme de tubes PE isolants.",
+      "intro_heading": "BENRO INDUSTRIES®️ Tubes à tige en polyéthylène",
+      "intro": "BENRO INDUSTRIES fabrique des tubes en polyéthylène extrudé – communément appelés tiges d'appui – utilisés dans la construction pour remplir les joints de dilatation et de scellement. Ils soutiennent les mastics, garantissant une application uniforme et des performances de joint optimales.",
+      "benefits": [
+        [
+          "Facilité et rapidité d'application",
+          "Le matériau hautement flexible permet une installation rapide et facile, réduisant ainsi le temps et les coûts de main-d'œuvre."
+        ],
+        [
+          "Résistance à l'eau et à l'humidité",
+          "La structure à cellules fermées empêche l'absorption d'eau et d'humidité — performance à long terme, pas de corrosion ni de moisissure."
+        ],
+        [
+          "Résistance chimique et environnementale",
+          "Insensible aux produits chimiques et aux conditions environnementales."
+        ],
+        [
+          "Solution écologique et hygiénique",
+          "PE recyclable, fabriqué sans HCFC ni produits chimiques nocifs ; prévient les champignons, les bactéries et les moisissures ; inodore."
+        ],
+        [
+          "Isolation thermique supérieure",
+          "Faible conductivité thermique : minimise les pertes d'énergie et maximise l'efficacité."
+        ],
+        [
+          "Résistance aux chocs et prévention de la condensation",
+          "Récupère après l'impact, évitant ainsi les dommages et l'accumulation de condensation."
+        ],
+        [
+          "Isolation phonique et thermique",
+          "Fournit une isolation thermique et acoustique."
+        ],
+        [
+          "Résistance à l'huile",
+          "Bonne résistance aux huiles."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Isolation",
+          [
+            [
+              "Matériel",
+              "PE (Polyéthylène)"
+            ],
+            [
+              "Densité apparente",
+              "30 kg/m³"
+            ],
+            [
+              "Épaisseur de paroi",
+              "8 à 12 mm"
+            ],
+            [
+              "Conductivité thermique",
+              "0,0402 W/m·K"
+            ],
+            [
+              "Résistance à la traction",
+              "0,36 MPa"
+            ],
+            [
+              "Résistance à la déchirure",
+              "0,19 N/mm"
+            ],
+            [
+              "Absorption d'eau",
+              "33.28%"
+            ],
+            [
+              "Couleur",
+              "Blanc / Gris"
+            ],
+            [
+              "Résistance à la chaleur",
+              "Aucun changement de couleur évident ni fissuration après 6 h à 70 ℃"
+            ],
+            [
+              "Allongement à la rupture",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "Dimensions — Tubes en polyéthylène",
+          "headers": [
+            "Taper",
+            "Ø extérieur (mm)",
+            "Ø intérieur (mm)",
+            "Longueur (m)",
+            "Conditionnement"
+          ],
+          "rows": [
+            [
+              "Tuyau PE",
+              "10 – 100",
+              "0 – 80",
+              "1 – 200",
+              "Sac en plastique"
+            ],
+            [
+              "Tige PE",
+              "10 – 80",
+              "/",
+              "1 – 200",
+              "Sac en plastique"
+            ],
+            [
+              "Néon PE",
+              "33",
+              "28",
+              "/",
+              "Sac en plastique"
+            ],
+            [
+              "Filet PE",
+              "47",
+              "/",
+              "1 – 200",
+              "Sac en plastique"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "BENRO INDUSTRIES®️ Filet en polyéthylène",
+      "secondary": "Extrudés à partir de résine de polyéthylène, les tubes en filet PE de BENRO INDUSTRIES sont fabriqués à l'aide d'un processus d'extrusion continue qui crée un maillage tubulaire sans couture. Cette structure assure le rembourrage, la ventilation et la visibilité des produits emballés. La flexibilité du filet lui permet de s'adapter à la forme du produit, offrant ainsi un ajustement sûr et protecteur."
+    },
+    "ar": {
+      "tag": "رغوة البولي ايثيلين",
+      "title": "أنابيب البولي إيثيلين (رغوة البولي إيثيلين)",
+      "short": "تقدم BENRO INDUSTRIES مجموعتها من أنابيب PE العازلة.",
+      "intro_heading": "BENRO INDUSTRIES®️ أنابيب قضبان البولي إيثيلين",
+      "intro": "تقوم شركة BENRO INDUSTRIES بتصنيع أنابيب البولي إيثيلين المبثوقة - المعروفة باسم القضبان الداعمة - المستخدمة في البناء لملء وصلات التمدد ومانع التسرب. أنها توفر الدعم للمواد المانعة للتسرب، مما يضمن التطبيق الموحد والأداء الأمثل للمفاصل.",
+      "benefits": [
+        [
+          "سهولة وسرعة التطبيق",
+          "تسمح المادة المرنة للغاية بالتركيب السريع والسهل، مما يقلل من وقت العمل والتكاليف."
+        ],
+        [
+          "مقاومة الماء والرطوبة",
+          "هيكل الخلية المغلقة يمنع امتصاص الماء والرطوبة - أداء طويل الأمد، لا يسبب التآكل أو العفن."
+        ],
+        [
+          "المقاومة الكيميائية والبيئية",
+          "لا يتأثر بالمواد الكيميائية والظروف البيئية."
+        ],
+        [
+          "حل صديق للبيئة وصحي",
+          "البولي إيثيلين القابل لإعادة التدوير، المُصنع بدون مركبات الكربون الهيدروكلورية فلورية أو المواد الكيميائية الضارة؛ يمنع الفطريات والبكتيريا والعفن. عديم الرائحة."
+        ],
+        [
+          "عزل حراري فائق",
+          "الموصلية الحرارية المنخفضة - تقلل من فقدان الطاقة وتزيد من الكفاءة."
+        ],
+        [
+          "مقاومة التأثير ومنع التكثيف",
+          "يتعافى بعد الاصطدام، ويمنع الضرر وتراكم التكثيف."
+        ],
+        [
+          "عزل الصوت والحرارة",
+          "يوفر العزل الحراري والصوتي."
+        ],
+        [
+          "مقاومة النفط",
+          "مقاومة جيدة للزيوت."
+        ]
+      ],
+      "spec_groups": [
+        [
+          "العزل",
+          [
+            [
+              "مادة",
+              "بي (البولي ايثيلين)"
+            ],
+            [
+              "الكثافة الظاهرية",
+              "30 كجم/م3"
+            ],
+            [
+              "سمك الجدار",
+              "8 - 12 ملم"
+            ],
+            [
+              "الموصلية الحرارية",
+              "0.0402 واط/م·ك"
+            ],
+            [
+              "قوة الشد",
+              "0.36 ميجا باسكال"
+            ],
+            [
+              "قوة المسيل للدموع",
+              "0.19 ن/مم"
+            ],
+            [
+              "امتصاص الماء",
+              "33.28%"
+            ],
+            [
+              "لون",
+              "أبيض / رمادي"
+            ],
+            [
+              "مقاومة الحرارة",
+              "لا يوجد تغير واضح في اللون أو تشقق بعد 6 ساعات عند 70 درجة مئوية"
+            ],
+            [
+              "استطالة عند الاستراحة",
+              "≥ 60%"
+            ]
+          ]
+        ]
+      ],
+      "tables": [
+        {
+          "title": "الأبعاد – أنابيب البولي إيثيلين",
+          "headers": [
+            "يكتب",
+            "خارج Ø (مم)",
+            "داخل Ø (مم)",
+            "الطول (م)",
+            "التعبئة والتغليف"
+          ],
+          "rows": [
+            [
+              "أنابيب بي",
+              "10 – 100",
+              "0 – 80",
+              "1 – 200",
+              "كيس من البلاستيك"
+            ],
+            [
+              "قضيب بي",
+              "10 – 80",
+              "/",
+              "1 – 200",
+              "كيس من البلاستيك"
+            ],
+            [
+              "بي اي نيون",
+              "33",
+              "28",
+              "/",
+              "كيس من البلاستيك"
+            ],
+            [
+              "بي نت",
+              "47",
+              "/",
+              "1 – 200",
+              "كيس من البلاستيك"
+            ]
+          ]
+        }
+      ],
+      "secondary_heading": "BENRO INDUSTRIES®️ شبكة من البولي إيثيلين",
+      "secondary": "يتم تصنيع الأنابيب الشبكية PE الخاصة بشركة BENRO INDUSTRIES من راتينج البولي إيثيلين باستخدام عملية البثق المستمرة التي تخلق شبكة أنبوبية غير ملحومة. يوفر هذا الهيكل التوسيد والتهوية والرؤية للمنتجات المعبأة. مرونة الشبكة تسمح لها بالتوافق مع شكل المنتج، مما يوفر ملاءمة آمنة وواقية."
+    }
+  }
+}
