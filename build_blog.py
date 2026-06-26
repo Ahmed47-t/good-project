@@ -120,6 +120,11 @@ def apply_shared_js(page_html, href, marker):
             page_html = page_html[:pos] + '\n' + tag + page_html[pos:]
         else:
             page_html = page_html.replace('</body>', tag + '\n</body>', 1)
+    # Inject the site-wide WhatsApp floating widget (survives rebuilds)
+    widget_href = href.replace('shared.js', 'whatsapp-widget.js')
+    widget_tag = f'<script src="{widget_href}" defer></script>'
+    if widget_tag not in page_html:
+        page_html = page_html.replace('</body>', widget_tag + '\n</body>', 1)
     return page_html
 
 
