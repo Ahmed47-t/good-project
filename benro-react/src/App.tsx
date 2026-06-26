@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HtmlPage from './components/HtmlPage'
+import Layout from './components/Layout'
+import ContentPage from './components/ContentPage'
 import './App.css'
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="*" element={<HtmlPage />} />
+        <Route element={<Layout />}>
+          <Route path="*" element={<ContentPage />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )
